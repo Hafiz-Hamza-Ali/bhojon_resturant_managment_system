@@ -78,6 +78,15 @@ $route['translate_uri_dashes'] = FALSE;
 //Qr Route
 
 
+/////////////Super-Admin Panel Routes Start//////////////
+
+$route['admin/store'] = '';
+$route['admin/dashboard'] = "admin/superadmin/index";
+$route['admin/login'] = "admin/login/index";
+$route['admin/logout'] = "admin/login/logout";
+
+
+/////////////Super-Admin Panel Routes End//////////////
 
 //set modules/config/routes.php
 $modules_path = APPPATH.'modules/';     
