@@ -53,6 +53,7 @@ class Hungry extends CI_Controller
 
     public function index()
     {
+      
         $data['title'] = $this->settinginfo->title;
         $data['title2'] = "Welcome to Hungry";
         $data['seoterm'] = "home";
@@ -77,6 +78,7 @@ class Hungry extends CI_Controller
         $data['openclosetime'] = $this->hungry_model->read_allorderby('*', 'tbl_openclose', 'stid', 'ASC');
         $data['ourteam'] = $this->hungry_model->ourteam();
         $data['taxinfos'] = $this->taxchecking();
+        //print_r( $this->themeinfo->themename);die();
         if ($this->webinfo->web_onoff == 0) {
             redirect(base_url() . 'login');
             exit;

@@ -49,12 +49,23 @@
 				<li class="treeview">
 					<a href="<?php echo base_url(); ?>#">
 					<i class="fa fa-pie-chart"></i>
-					<span style="font-size:13px;">Subscription Management</span>
+					<span style="font-size:13px;">Subscriptions Management</span>
 					<i class="fa fa-angle-left pull-right"></i>
 					</a>
 					<ul class="treeview-menu">
 					<li><a href="<?php echo base_url(); ?>#"><i class="fa fa-angle-right"></i>Subscription Authority</a></li>
 					<li><a href="<?php echo base_url(); ?>#"><i class="fa fa-angle-right"></i>Payment Options</a></li>
+					</ul>
+				</li>
+				<li class="treeview">
+					<a href="<?php echo base_url(); ?>#">
+					<i class="fa fa-pie-chart"></i>
+					<span style="font-size:13px;">Products</span>
+					<i class="fa fa-angle-left pull-right"></i>
+					</a>
+					<ul class="treeview-menu">
+					<li><a href="<?php echo base_url(); ?>/admin/products"><i class="fa fa-angle-right"></i>Products</a></li>
+					<!-- //<li><a href="<?php echo base_url(); ?>#"><i class="fa fa-angle-right"></i>Payment Options</a></li> -->
 					</ul>
 				</li>
 				<!-- <li class="treeview">

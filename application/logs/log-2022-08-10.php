@@ -13158,3 +13158,5446 @@ DEBUG - 2022-08-10 12:35:25 --> File loaded: C:\xampp\htdocs\bosca.cendolkampung
 DEBUG - 2022-08-10 12:35:25 --> File loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\views\themes/super-admin/index.php
 INFO - 2022-08-10 12:35:25 --> Final output sent to browser
 DEBUG - 2022-08-10 12:35:25 --> Total execution time: 0.1344
+INFO - 2022-08-10 19:14:42 --> Config Class Initialized
+INFO - 2022-08-10 19:14:43 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:14:43 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:14:43 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:14:43 --> URI Class Initialized
+INFO - 2022-08-10 19:14:43 --> Router Class Initialized
+INFO - 2022-08-10 19:14:43 --> Output Class Initialized
+INFO - 2022-08-10 19:14:43 --> Security Class Initialized
+DEBUG - 2022-08-10 19:14:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:14:43 --> CSRF cookie sent
+INFO - 2022-08-10 19:14:43 --> Input Class Initialized
+INFO - 2022-08-10 19:14:43 --> Language Class Initialized
+INFO - 2022-08-10 19:14:43 --> Language Class Initialized
+INFO - 2022-08-10 19:14:43 --> Config Class Initialized
+INFO - 2022-08-10 19:14:43 --> Loader Class Initialized
+INFO - 2022-08-10 19:14:43 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:14:43 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:14:43 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:14:43 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:14:43 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:14:43 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:14:43 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:14:43 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:14:43 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:14:43 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:14:44 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:14:44 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:14:44 --> Email Class Initialized
+INFO - 2022-08-10 19:14:44 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:14:44 --> Cart Class Initialized
+INFO - 2022-08-10 19:14:44 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:14:44 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:14:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:14:44 --> Pagination Class Initialized
+INFO - 2022-08-10 19:14:45 --> Config Class Initialized
+INFO - 2022-08-10 19:14:45 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:14:45 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:14:45 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:14:45 --> URI Class Initialized
+INFO - 2022-08-10 19:14:45 --> Router Class Initialized
+INFO - 2022-08-10 19:14:45 --> Output Class Initialized
+INFO - 2022-08-10 19:14:45 --> Security Class Initialized
+DEBUG - 2022-08-10 19:14:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:14:45 --> CSRF cookie sent
+INFO - 2022-08-10 19:14:45 --> Input Class Initialized
+INFO - 2022-08-10 19:14:45 --> Language Class Initialized
+ERROR - 2022-08-10 19:14:45 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:15:31 --> Config Class Initialized
+INFO - 2022-08-10 19:15:31 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:31 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:31 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:31 --> URI Class Initialized
+INFO - 2022-08-10 19:15:31 --> Router Class Initialized
+INFO - 2022-08-10 19:15:31 --> Output Class Initialized
+INFO - 2022-08-10 19:15:31 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:31 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:31 --> Input Class Initialized
+INFO - 2022-08-10 19:15:31 --> Language Class Initialized
+INFO - 2022-08-10 19:15:31 --> Language Class Initialized
+INFO - 2022-08-10 19:15:31 --> Config Class Initialized
+INFO - 2022-08-10 19:15:31 --> Loader Class Initialized
+INFO - 2022-08-10 19:15:31 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:15:31 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:15:31 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:15:31 --> Email Class Initialized
+INFO - 2022-08-10 19:15:31 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:15:31 --> Cart Class Initialized
+INFO - 2022-08-10 19:15:31 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:15:31 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:15:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:15:31 --> Pagination Class Initialized
+INFO - 2022-08-10 19:15:31 --> Config Class Initialized
+INFO - 2022-08-10 19:15:31 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:31 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:31 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:31 --> URI Class Initialized
+INFO - 2022-08-10 19:15:31 --> Router Class Initialized
+INFO - 2022-08-10 19:15:31 --> Output Class Initialized
+INFO - 2022-08-10 19:15:31 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:31 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:31 --> Input Class Initialized
+INFO - 2022-08-10 19:15:31 --> Language Class Initialized
+INFO - 2022-08-10 19:15:31 --> Language Class Initialized
+INFO - 2022-08-10 19:15:31 --> Config Class Initialized
+INFO - 2022-08-10 19:15:31 --> Loader Class Initialized
+INFO - 2022-08-10 19:15:31 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:15:31 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:15:31 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:15:31 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:15:31 --> Email Class Initialized
+INFO - 2022-08-10 19:15:31 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:15:31 --> Cart Class Initialized
+INFO - 2022-08-10 19:15:31 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:15:31 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:15:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:15:31 --> Pagination Class Initialized
+INFO - 2022-08-10 19:15:31 --> Config Class Initialized
+INFO - 2022-08-10 19:15:31 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:31 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:31 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:31 --> URI Class Initialized
+INFO - 2022-08-10 19:15:31 --> Router Class Initialized
+INFO - 2022-08-10 19:15:31 --> Output Class Initialized
+INFO - 2022-08-10 19:15:31 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:31 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:31 --> Input Class Initialized
+INFO - 2022-08-10 19:15:31 --> Language Class Initialized
+ERROR - 2022-08-10 19:15:31 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:15:43 --> Config Class Initialized
+INFO - 2022-08-10 19:15:43 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:43 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:43 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:43 --> URI Class Initialized
+INFO - 2022-08-10 19:15:43 --> Router Class Initialized
+INFO - 2022-08-10 19:15:43 --> Output Class Initialized
+INFO - 2022-08-10 19:15:43 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:43 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:43 --> CSRF token verified
+INFO - 2022-08-10 19:15:43 --> Input Class Initialized
+INFO - 2022-08-10 19:15:43 --> Language Class Initialized
+INFO - 2022-08-10 19:15:43 --> Language Class Initialized
+INFO - 2022-08-10 19:15:43 --> Config Class Initialized
+INFO - 2022-08-10 19:15:43 --> Loader Class Initialized
+INFO - 2022-08-10 19:15:43 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:15:43 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:15:43 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:15:43 --> Email Class Initialized
+INFO - 2022-08-10 19:15:43 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:15:43 --> Cart Class Initialized
+INFO - 2022-08-10 19:15:43 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:15:43 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:15:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:15:43 --> Pagination Class Initialized
+INFO - 2022-08-10 19:15:43 --> Config Class Initialized
+INFO - 2022-08-10 19:15:43 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:43 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:43 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:43 --> URI Class Initialized
+INFO - 2022-08-10 19:15:43 --> Router Class Initialized
+INFO - 2022-08-10 19:15:43 --> Output Class Initialized
+INFO - 2022-08-10 19:15:43 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:43 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:43 --> Input Class Initialized
+INFO - 2022-08-10 19:15:43 --> Language Class Initialized
+INFO - 2022-08-10 19:15:43 --> Language Class Initialized
+INFO - 2022-08-10 19:15:43 --> Config Class Initialized
+INFO - 2022-08-10 19:15:43 --> Loader Class Initialized
+INFO - 2022-08-10 19:15:43 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:15:43 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:15:43 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:15:43 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:15:43 --> Email Class Initialized
+INFO - 2022-08-10 19:15:43 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:15:43 --> Cart Class Initialized
+INFO - 2022-08-10 19:15:43 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:15:43 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:15:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:15:43 --> Pagination Class Initialized
+INFO - 2022-08-10 19:15:43 --> Config Class Initialized
+INFO - 2022-08-10 19:15:43 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:43 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:43 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:43 --> URI Class Initialized
+INFO - 2022-08-10 19:15:43 --> Router Class Initialized
+INFO - 2022-08-10 19:15:43 --> Output Class Initialized
+INFO - 2022-08-10 19:15:43 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:43 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:43 --> Input Class Initialized
+INFO - 2022-08-10 19:15:43 --> Language Class Initialized
+ERROR - 2022-08-10 19:15:43 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:15:43 --> Config Class Initialized
+INFO - 2022-08-10 19:15:43 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:43 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:43 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:43 --> URI Class Initialized
+INFO - 2022-08-10 19:15:43 --> Router Class Initialized
+INFO - 2022-08-10 19:15:43 --> Output Class Initialized
+INFO - 2022-08-10 19:15:43 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:43 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:43 --> Input Class Initialized
+INFO - 2022-08-10 19:15:43 --> Config Class Initialized
+INFO - 2022-08-10 19:15:43 --> Hooks Class Initialized
+INFO - 2022-08-10 19:15:43 --> Language Class Initialized
+ERROR - 2022-08-10 19:15:43 --> 404 Page Not Found: /index
+DEBUG - 2022-08-10 19:15:44 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:44 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:44 --> URI Class Initialized
+INFO - 2022-08-10 19:15:44 --> Config Class Initialized
+INFO - 2022-08-10 19:15:44 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:44 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:44 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:44 --> URI Class Initialized
+INFO - 2022-08-10 19:15:44 --> Router Class Initialized
+INFO - 2022-08-10 19:15:44 --> Config Class Initialized
+INFO - 2022-08-10 19:15:44 --> Hooks Class Initialized
+INFO - 2022-08-10 19:15:44 --> Output Class Initialized
+INFO - 2022-08-10 19:15:44 --> Router Class Initialized
+DEBUG - 2022-08-10 19:15:44 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:44 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:44 --> Output Class Initialized
+INFO - 2022-08-10 19:15:44 --> URI Class Initialized
+INFO - 2022-08-10 19:15:44 --> Security Class Initialized
+INFO - 2022-08-10 19:15:44 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2022-08-10 19:15:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:44 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:44 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:44 --> Input Class Initialized
+INFO - 2022-08-10 19:15:44 --> Input Class Initialized
+INFO - 2022-08-10 19:15:44 --> Language Class Initialized
+INFO - 2022-08-10 19:15:44 --> Language Class Initialized
+ERROR - 2022-08-10 19:15:44 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:15:44 --> Router Class Initialized
+ERROR - 2022-08-10 19:15:44 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:15:44 --> Config Class Initialized
+INFO - 2022-08-10 19:15:44 --> Output Class Initialized
+INFO - 2022-08-10 19:15:44 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:44 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:44 --> Input Class Initialized
+INFO - 2022-08-10 19:15:44 --> Language Class Initialized
+ERROR - 2022-08-10 19:15:44 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:15:44 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:44 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:44 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:44 --> URI Class Initialized
+INFO - 2022-08-10 19:15:44 --> Router Class Initialized
+INFO - 2022-08-10 19:15:44 --> Output Class Initialized
+INFO - 2022-08-10 19:15:44 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:44 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:44 --> Input Class Initialized
+INFO - 2022-08-10 19:15:44 --> Language Class Initialized
+ERROR - 2022-08-10 19:15:44 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:15:48 --> Config Class Initialized
+INFO - 2022-08-10 19:15:48 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:48 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:48 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:48 --> URI Class Initialized
+INFO - 2022-08-10 19:15:48 --> Router Class Initialized
+INFO - 2022-08-10 19:15:48 --> Output Class Initialized
+INFO - 2022-08-10 19:15:48 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:48 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:48 --> Input Class Initialized
+INFO - 2022-08-10 19:15:48 --> Language Class Initialized
+INFO - 2022-08-10 19:15:48 --> Language Class Initialized
+INFO - 2022-08-10 19:15:48 --> Config Class Initialized
+INFO - 2022-08-10 19:15:48 --> Loader Class Initialized
+INFO - 2022-08-10 19:15:48 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:15:48 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:15:48 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:15:48 --> Email Class Initialized
+INFO - 2022-08-10 19:15:48 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:15:48 --> Cart Class Initialized
+INFO - 2022-08-10 19:15:48 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:15:48 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:15:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:15:48 --> Pagination Class Initialized
+INFO - 2022-08-10 19:15:48 --> Config Class Initialized
+INFO - 2022-08-10 19:15:48 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:48 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:48 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:48 --> URI Class Initialized
+INFO - 2022-08-10 19:15:48 --> Router Class Initialized
+INFO - 2022-08-10 19:15:48 --> Output Class Initialized
+INFO - 2022-08-10 19:15:48 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:48 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:48 --> Input Class Initialized
+INFO - 2022-08-10 19:15:48 --> Language Class Initialized
+INFO - 2022-08-10 19:15:48 --> Language Class Initialized
+INFO - 2022-08-10 19:15:48 --> Config Class Initialized
+INFO - 2022-08-10 19:15:48 --> Loader Class Initialized
+INFO - 2022-08-10 19:15:48 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:15:48 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:15:48 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:15:48 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:15:48 --> Email Class Initialized
+INFO - 2022-08-10 19:15:48 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:15:48 --> Cart Class Initialized
+INFO - 2022-08-10 19:15:48 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:15:48 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:15:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:15:48 --> Pagination Class Initialized
+INFO - 2022-08-10 19:15:59 --> Config Class Initialized
+INFO - 2022-08-10 19:15:59 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:59 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:59 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:59 --> URI Class Initialized
+INFO - 2022-08-10 19:15:59 --> Router Class Initialized
+INFO - 2022-08-10 19:15:59 --> Output Class Initialized
+INFO - 2022-08-10 19:15:59 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:59 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:59 --> Input Class Initialized
+INFO - 2022-08-10 19:15:59 --> Language Class Initialized
+INFO - 2022-08-10 19:15:59 --> Language Class Initialized
+INFO - 2022-08-10 19:15:59 --> Config Class Initialized
+INFO - 2022-08-10 19:15:59 --> Loader Class Initialized
+INFO - 2022-08-10 19:15:59 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:15:59 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:15:59 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:15:59 --> Email Class Initialized
+INFO - 2022-08-10 19:15:59 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:15:59 --> Cart Class Initialized
+INFO - 2022-08-10 19:15:59 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:15:59 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:15:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:15:59 --> Pagination Class Initialized
+INFO - 2022-08-10 19:15:59 --> Config Class Initialized
+INFO - 2022-08-10 19:15:59 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:59 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:59 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:59 --> URI Class Initialized
+INFO - 2022-08-10 19:15:59 --> Router Class Initialized
+INFO - 2022-08-10 19:15:59 --> Output Class Initialized
+INFO - 2022-08-10 19:15:59 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:59 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:59 --> Input Class Initialized
+INFO - 2022-08-10 19:15:59 --> Language Class Initialized
+INFO - 2022-08-10 19:15:59 --> Language Class Initialized
+INFO - 2022-08-10 19:15:59 --> Config Class Initialized
+INFO - 2022-08-10 19:15:59 --> Loader Class Initialized
+INFO - 2022-08-10 19:15:59 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:15:59 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:15:59 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:15:59 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:15:59 --> Email Class Initialized
+INFO - 2022-08-10 19:15:59 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:15:59 --> Cart Class Initialized
+INFO - 2022-08-10 19:15:59 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:15:59 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:15:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:15:59 --> Pagination Class Initialized
+INFO - 2022-08-10 19:15:59 --> Config Class Initialized
+INFO - 2022-08-10 19:15:59 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:15:59 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:15:59 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:15:59 --> URI Class Initialized
+INFO - 2022-08-10 19:15:59 --> Router Class Initialized
+INFO - 2022-08-10 19:15:59 --> Output Class Initialized
+INFO - 2022-08-10 19:15:59 --> Security Class Initialized
+DEBUG - 2022-08-10 19:15:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:15:59 --> CSRF cookie sent
+INFO - 2022-08-10 19:15:59 --> Input Class Initialized
+INFO - 2022-08-10 19:15:59 --> Language Class Initialized
+ERROR - 2022-08-10 19:15:59 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:16:03 --> Config Class Initialized
+INFO - 2022-08-10 19:16:03 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:16:03 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:16:03 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:16:03 --> URI Class Initialized
+INFO - 2022-08-10 19:16:03 --> Router Class Initialized
+INFO - 2022-08-10 19:16:03 --> Output Class Initialized
+INFO - 2022-08-10 19:16:03 --> Security Class Initialized
+DEBUG - 2022-08-10 19:16:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:16:03 --> CSRF cookie sent
+INFO - 2022-08-10 19:16:03 --> CSRF token verified
+INFO - 2022-08-10 19:16:03 --> Input Class Initialized
+INFO - 2022-08-10 19:16:03 --> Language Class Initialized
+INFO - 2022-08-10 19:16:03 --> Language Class Initialized
+INFO - 2022-08-10 19:16:03 --> Config Class Initialized
+INFO - 2022-08-10 19:16:03 --> Loader Class Initialized
+INFO - 2022-08-10 19:16:04 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:16:04 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:16:04 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:16:04 --> Email Class Initialized
+INFO - 2022-08-10 19:16:04 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:16:04 --> Cart Class Initialized
+INFO - 2022-08-10 19:16:04 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:16:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:16:04 --> Pagination Class Initialized
+INFO - 2022-08-10 19:16:04 --> Config Class Initialized
+INFO - 2022-08-10 19:16:04 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:16:04 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:16:04 --> URI Class Initialized
+INFO - 2022-08-10 19:16:04 --> Router Class Initialized
+INFO - 2022-08-10 19:16:04 --> Output Class Initialized
+INFO - 2022-08-10 19:16:04 --> Security Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:16:04 --> CSRF cookie sent
+INFO - 2022-08-10 19:16:04 --> Input Class Initialized
+INFO - 2022-08-10 19:16:04 --> Language Class Initialized
+INFO - 2022-08-10 19:16:04 --> Language Class Initialized
+INFO - 2022-08-10 19:16:04 --> Config Class Initialized
+INFO - 2022-08-10 19:16:04 --> Loader Class Initialized
+INFO - 2022-08-10 19:16:04 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:16:04 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:16:04 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:16:04 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:16:04 --> Email Class Initialized
+INFO - 2022-08-10 19:16:04 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:16:04 --> Cart Class Initialized
+INFO - 2022-08-10 19:16:04 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:16:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:16:04 --> Pagination Class Initialized
+INFO - 2022-08-10 19:16:04 --> Config Class Initialized
+INFO - 2022-08-10 19:16:04 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:16:04 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:16:04 --> URI Class Initialized
+INFO - 2022-08-10 19:16:04 --> Router Class Initialized
+INFO - 2022-08-10 19:16:04 --> Output Class Initialized
+INFO - 2022-08-10 19:16:04 --> Security Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:16:04 --> CSRF cookie sent
+INFO - 2022-08-10 19:16:04 --> Input Class Initialized
+INFO - 2022-08-10 19:16:04 --> Language Class Initialized
+ERROR - 2022-08-10 19:16:04 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:16:04 --> Config Class Initialized
+INFO - 2022-08-10 19:16:04 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:16:04 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:16:04 --> Config Class Initialized
+INFO - 2022-08-10 19:16:04 --> Hooks Class Initialized
+INFO - 2022-08-10 19:16:04 --> URI Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:16:04 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:16:04 --> URI Class Initialized
+INFO - 2022-08-10 19:16:04 --> Router Class Initialized
+INFO - 2022-08-10 19:16:04 --> Output Class Initialized
+INFO - 2022-08-10 19:16:04 --> Security Class Initialized
+INFO - 2022-08-10 19:16:04 --> Config Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:16:04 --> CSRF cookie sent
+INFO - 2022-08-10 19:16:04 --> Hooks Class Initialized
+INFO - 2022-08-10 19:16:04 --> Input Class Initialized
+INFO - 2022-08-10 19:16:04 --> Language Class Initialized
+ERROR - 2022-08-10 19:16:04 --> 404 Page Not Found: /index
+DEBUG - 2022-08-10 19:16:04 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:16:04 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:16:04 --> URI Class Initialized
+INFO - 2022-08-10 19:16:04 --> Router Class Initialized
+INFO - 2022-08-10 19:16:04 --> Output Class Initialized
+INFO - 2022-08-10 19:16:04 --> Security Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:16:04 --> CSRF cookie sent
+INFO - 2022-08-10 19:16:04 --> Input Class Initialized
+INFO - 2022-08-10 19:16:04 --> Language Class Initialized
+ERROR - 2022-08-10 19:16:04 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:16:04 --> Config Class Initialized
+INFO - 2022-08-10 19:16:04 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:16:04 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:16:04 --> URI Class Initialized
+INFO - 2022-08-10 19:16:04 --> Router Class Initialized
+INFO - 2022-08-10 19:16:04 --> Output Class Initialized
+INFO - 2022-08-10 19:16:04 --> Security Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:16:04 --> CSRF cookie sent
+INFO - 2022-08-10 19:16:04 --> Input Class Initialized
+INFO - 2022-08-10 19:16:04 --> Language Class Initialized
+ERROR - 2022-08-10 19:16:04 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:16:04 --> Router Class Initialized
+INFO - 2022-08-10 19:16:04 --> Output Class Initialized
+INFO - 2022-08-10 19:16:04 --> Security Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:16:04 --> CSRF cookie sent
+INFO - 2022-08-10 19:16:04 --> Input Class Initialized
+INFO - 2022-08-10 19:16:04 --> Language Class Initialized
+ERROR - 2022-08-10 19:16:04 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:16:04 --> Config Class Initialized
+INFO - 2022-08-10 19:16:04 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:16:04 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:16:04 --> URI Class Initialized
+INFO - 2022-08-10 19:16:04 --> Router Class Initialized
+INFO - 2022-08-10 19:16:04 --> Output Class Initialized
+INFO - 2022-08-10 19:16:04 --> Security Class Initialized
+DEBUG - 2022-08-10 19:16:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:16:04 --> CSRF cookie sent
+INFO - 2022-08-10 19:16:04 --> Input Class Initialized
+INFO - 2022-08-10 19:16:04 --> Language Class Initialized
+ERROR - 2022-08-10 19:16:04 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:16:10 --> Config Class Initialized
+INFO - 2022-08-10 19:16:10 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:16:10 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:16:10 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:16:10 --> URI Class Initialized
+INFO - 2022-08-10 19:16:10 --> Router Class Initialized
+INFO - 2022-08-10 19:16:10 --> Output Class Initialized
+INFO - 2022-08-10 19:16:10 --> Security Class Initialized
+DEBUG - 2022-08-10 19:16:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:16:10 --> CSRF cookie sent
+INFO - 2022-08-10 19:16:10 --> Input Class Initialized
+INFO - 2022-08-10 19:16:10 --> Language Class Initialized
+ERROR - 2022-08-10 19:16:10 --> 404 Page Not Found: admin/View/users
+INFO - 2022-08-10 19:16:14 --> Config Class Initialized
+INFO - 2022-08-10 19:16:14 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:16:14 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:16:14 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:16:14 --> URI Class Initialized
+INFO - 2022-08-10 19:16:14 --> Router Class Initialized
+INFO - 2022-08-10 19:16:14 --> Output Class Initialized
+INFO - 2022-08-10 19:16:14 --> Security Class Initialized
+DEBUG - 2022-08-10 19:16:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:16:14 --> CSRF cookie sent
+INFO - 2022-08-10 19:16:14 --> Input Class Initialized
+INFO - 2022-08-10 19:16:14 --> Language Class Initialized
+INFO - 2022-08-10 19:16:14 --> Language Class Initialized
+INFO - 2022-08-10 19:16:14 --> Config Class Initialized
+INFO - 2022-08-10 19:16:14 --> Loader Class Initialized
+INFO - 2022-08-10 19:16:14 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:16:14 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:16:14 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:16:14 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:16:14 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:16:14 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:16:14 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:16:14 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:16:14 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:16:14 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:16:14 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:16:14 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:16:14 --> Email Class Initialized
+INFO - 2022-08-10 19:16:14 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:16:14 --> Cart Class Initialized
+INFO - 2022-08-10 19:16:14 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:16:14 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:16:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:16:14 --> Pagination Class Initialized
+INFO - 2022-08-10 19:20:50 --> Config Class Initialized
+INFO - 2022-08-10 19:20:50 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:20:50 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:20:50 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:20:50 --> URI Class Initialized
+DEBUG - 2022-08-10 19:20:50 --> No URI present. Default controller set.
+INFO - 2022-08-10 19:20:50 --> Router Class Initialized
+INFO - 2022-08-10 19:20:50 --> Output Class Initialized
+INFO - 2022-08-10 19:20:50 --> Security Class Initialized
+DEBUG - 2022-08-10 19:20:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:20:50 --> CSRF cookie sent
+INFO - 2022-08-10 19:20:50 --> Input Class Initialized
+INFO - 2022-08-10 19:20:50 --> Language Class Initialized
+INFO - 2022-08-10 19:20:51 --> Language Class Initialized
+INFO - 2022-08-10 19:20:51 --> Config Class Initialized
+INFO - 2022-08-10 19:20:51 --> Loader Class Initialized
+INFO - 2022-08-10 19:20:51 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:20:51 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:20:51 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:20:51 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:20:51 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:20:51 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:20:51 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:20:51 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:20:51 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:20:51 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:20:51 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:20:51 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:20:51 --> Email Class Initialized
+INFO - 2022-08-10 19:20:51 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:20:51 --> Cart Class Initialized
+INFO - 2022-08-10 19:20:51 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:20:51 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:20:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:20:51 --> Pagination Class Initialized
+INFO - 2022-08-10 19:20:51 --> Config Class Initialized
+INFO - 2022-08-10 19:20:51 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:20:51 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:20:51 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:20:51 --> URI Class Initialized
+INFO - 2022-08-10 19:20:51 --> Router Class Initialized
+INFO - 2022-08-10 19:20:51 --> Output Class Initialized
+INFO - 2022-08-10 19:20:51 --> Security Class Initialized
+DEBUG - 2022-08-10 19:20:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:20:51 --> CSRF cookie sent
+INFO - 2022-08-10 19:20:51 --> Input Class Initialized
+INFO - 2022-08-10 19:20:51 --> Language Class Initialized
+INFO - 2022-08-10 19:20:52 --> Config Class Initialized
+INFO - 2022-08-10 19:20:52 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:20:52 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:20:52 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:20:52 --> URI Class Initialized
+INFO - 2022-08-10 19:20:52 --> Router Class Initialized
+INFO - 2022-08-10 19:20:52 --> Output Class Initialized
+INFO - 2022-08-10 19:20:52 --> Security Class Initialized
+DEBUG - 2022-08-10 19:20:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:20:52 --> CSRF cookie sent
+INFO - 2022-08-10 19:20:52 --> Input Class Initialized
+INFO - 2022-08-10 19:20:52 --> Language Class Initialized
+INFO - 2022-08-10 19:20:52 --> Language Class Initialized
+INFO - 2022-08-10 19:20:52 --> Language Class Initialized
+INFO - 2022-08-10 19:20:52 --> Config Class Initialized
+INFO - 2022-08-10 19:20:52 --> Config Class Initialized
+INFO - 2022-08-10 19:20:52 --> Loader Class Initialized
+INFO - 2022-08-10 19:20:52 --> Loader Class Initialized
+INFO - 2022-08-10 19:20:52 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:20:52 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:20:52 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:20:52 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:20:52 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:20:52 --> Email Class Initialized
+INFO - 2022-08-10 19:20:52 --> Email Class Initialized
+INFO - 2022-08-10 19:20:52 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:20:52 --> Cart Class Initialized
+INFO - 2022-08-10 19:20:52 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:20:52 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:20:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:20:52 --> Pagination Class Initialized
+INFO - 2022-08-10 19:20:52 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:20:52 --> Cart Class Initialized
+INFO - 2022-08-10 19:20:52 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:20:52 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:20:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:20:52 --> Pagination Class Initialized
+INFO - 2022-08-10 19:20:52 --> Config Class Initialized
+INFO - 2022-08-10 19:20:52 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:20:52 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:20:52 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:20:52 --> URI Class Initialized
+INFO - 2022-08-10 19:20:52 --> Router Class Initialized
+INFO - 2022-08-10 19:20:52 --> Output Class Initialized
+INFO - 2022-08-10 19:20:52 --> Security Class Initialized
+DEBUG - 2022-08-10 19:20:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:20:52 --> CSRF cookie sent
+INFO - 2022-08-10 19:20:52 --> Input Class Initialized
+INFO - 2022-08-10 19:20:52 --> Language Class Initialized
+ERROR - 2022-08-10 19:20:52 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:20:53 --> Config Class Initialized
+INFO - 2022-08-10 19:20:53 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:20:53 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:20:53 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:20:53 --> URI Class Initialized
+INFO - 2022-08-10 19:20:53 --> Router Class Initialized
+INFO - 2022-08-10 19:20:53 --> Output Class Initialized
+INFO - 2022-08-10 19:20:53 --> Security Class Initialized
+DEBUG - 2022-08-10 19:20:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:20:53 --> Input Class Initialized
+INFO - 2022-08-10 19:20:53 --> Language Class Initialized
+INFO - 2022-08-10 19:20:54 --> Language Class Initialized
+INFO - 2022-08-10 19:20:54 --> Config Class Initialized
+INFO - 2022-08-10 19:20:54 --> Loader Class Initialized
+INFO - 2022-08-10 19:20:54 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:20:54 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:20:54 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:20:54 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:20:54 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:20:54 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:20:54 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:20:54 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:20:54 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:20:54 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:20:54 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:20:54 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:20:54 --> Email Class Initialized
+INFO - 2022-08-10 19:20:54 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:20:54 --> Cart Class Initialized
+INFO - 2022-08-10 19:20:54 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:20:54 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:20:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:20:54 --> Pagination Class Initialized
+INFO - 2022-08-10 19:20:55 --> Config Class Initialized
+INFO - 2022-08-10 19:20:55 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:20:55 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:20:55 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:20:55 --> URI Class Initialized
+INFO - 2022-08-10 19:20:55 --> Router Class Initialized
+INFO - 2022-08-10 19:20:55 --> Output Class Initialized
+INFO - 2022-08-10 19:20:55 --> Security Class Initialized
+DEBUG - 2022-08-10 19:20:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:20:55 --> CSRF cookie sent
+INFO - 2022-08-10 19:20:55 --> Input Class Initialized
+INFO - 2022-08-10 19:20:55 --> Language Class Initialized
+INFO - 2022-08-10 19:20:55 --> Language Class Initialized
+INFO - 2022-08-10 19:20:55 --> Config Class Initialized
+INFO - 2022-08-10 19:20:55 --> Loader Class Initialized
+INFO - 2022-08-10 19:20:55 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:20:55 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:20:55 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:20:55 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:20:55 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:20:55 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:20:55 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:20:55 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:20:55 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:20:55 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:20:55 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:20:55 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:20:55 --> Email Class Initialized
+INFO - 2022-08-10 19:20:55 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:20:55 --> Cart Class Initialized
+INFO - 2022-08-10 19:20:55 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:20:55 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:20:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:20:55 --> Pagination Class Initialized
+INFO - 2022-08-10 19:23:59 --> Config Class Initialized
+INFO - 2022-08-10 19:23:59 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:23:59 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:23:59 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:24:00 --> URI Class Initialized
+INFO - 2022-08-10 19:24:00 --> Router Class Initialized
+INFO - 2022-08-10 19:24:00 --> Output Class Initialized
+INFO - 2022-08-10 19:24:00 --> Security Class Initialized
+DEBUG - 2022-08-10 19:24:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:24:00 --> CSRF cookie sent
+INFO - 2022-08-10 19:24:00 --> Input Class Initialized
+INFO - 2022-08-10 19:24:00 --> Language Class Initialized
+ERROR - 2022-08-10 19:24:00 --> 404 Page Not Found: admin/Store/create
+INFO - 2022-08-10 19:24:02 --> Config Class Initialized
+INFO - 2022-08-10 19:24:02 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:24:02 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:24:02 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:24:02 --> URI Class Initialized
+INFO - 2022-08-10 19:24:02 --> Router Class Initialized
+INFO - 2022-08-10 19:24:02 --> Output Class Initialized
+INFO - 2022-08-10 19:24:02 --> Security Class Initialized
+DEBUG - 2022-08-10 19:24:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:24:02 --> CSRF cookie sent
+INFO - 2022-08-10 19:24:02 --> Input Class Initialized
+INFO - 2022-08-10 19:24:02 --> Language Class Initialized
+INFO - 2022-08-10 19:24:02 --> Language Class Initialized
+INFO - 2022-08-10 19:24:02 --> Config Class Initialized
+INFO - 2022-08-10 19:24:02 --> Loader Class Initialized
+INFO - 2022-08-10 19:24:02 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:24:02 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:24:02 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:24:02 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:24:02 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:24:02 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:24:02 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:24:02 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:24:02 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:24:02 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:24:02 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:24:02 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:24:02 --> Email Class Initialized
+INFO - 2022-08-10 19:24:02 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:24:02 --> Cart Class Initialized
+INFO - 2022-08-10 19:24:02 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:24:02 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:24:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:24:02 --> Pagination Class Initialized
+INFO - 2022-08-10 19:26:50 --> Config Class Initialized
+INFO - 2022-08-10 19:26:50 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:26:50 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:26:50 --> URI Class Initialized
+INFO - 2022-08-10 19:26:50 --> Router Class Initialized
+INFO - 2022-08-10 19:26:50 --> Output Class Initialized
+INFO - 2022-08-10 19:26:50 --> Security Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:26:50 --> CSRF cookie sent
+INFO - 2022-08-10 19:26:50 --> Input Class Initialized
+INFO - 2022-08-10 19:26:50 --> Language Class Initialized
+INFO - 2022-08-10 19:26:50 --> Language Class Initialized
+INFO - 2022-08-10 19:26:50 --> Config Class Initialized
+INFO - 2022-08-10 19:26:50 --> Loader Class Initialized
+INFO - 2022-08-10 19:26:50 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:26:50 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:26:50 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:26:50 --> Email Class Initialized
+INFO - 2022-08-10 19:26:50 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:26:50 --> Cart Class Initialized
+INFO - 2022-08-10 19:26:50 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:26:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:26:50 --> Pagination Class Initialized
+INFO - 2022-08-10 19:26:50 --> Config Class Initialized
+INFO - 2022-08-10 19:26:50 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:26:50 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:26:50 --> URI Class Initialized
+INFO - 2022-08-10 19:26:50 --> Router Class Initialized
+INFO - 2022-08-10 19:26:50 --> Output Class Initialized
+INFO - 2022-08-10 19:26:50 --> Security Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:26:50 --> CSRF cookie sent
+INFO - 2022-08-10 19:26:50 --> Input Class Initialized
+INFO - 2022-08-10 19:26:50 --> Language Class Initialized
+INFO - 2022-08-10 19:26:50 --> Language Class Initialized
+INFO - 2022-08-10 19:26:50 --> Config Class Initialized
+INFO - 2022-08-10 19:26:50 --> Loader Class Initialized
+INFO - 2022-08-10 19:26:50 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:26:50 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:26:50 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:26:50 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:26:50 --> Email Class Initialized
+INFO - 2022-08-10 19:26:50 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:26:50 --> Cart Class Initialized
+INFO - 2022-08-10 19:26:50 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:26:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:26:50 --> Pagination Class Initialized
+INFO - 2022-08-10 19:26:50 --> Config Class Initialized
+INFO - 2022-08-10 19:26:50 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:26:50 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:26:50 --> URI Class Initialized
+INFO - 2022-08-10 19:26:50 --> Router Class Initialized
+INFO - 2022-08-10 19:26:50 --> Output Class Initialized
+INFO - 2022-08-10 19:26:50 --> Security Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:26:50 --> CSRF cookie sent
+INFO - 2022-08-10 19:26:50 --> Input Class Initialized
+INFO - 2022-08-10 19:26:50 --> Language Class Initialized
+ERROR - 2022-08-10 19:26:50 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:26:50 --> Config Class Initialized
+INFO - 2022-08-10 19:26:50 --> Hooks Class Initialized
+INFO - 2022-08-10 19:26:50 --> Config Class Initialized
+INFO - 2022-08-10 19:26:50 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:26:50 --> Utf8 Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:26:50 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:26:50 --> URI Class Initialized
+INFO - 2022-08-10 19:26:50 --> Config Class Initialized
+INFO - 2022-08-10 19:26:50 --> Hooks Class Initialized
+INFO - 2022-08-10 19:26:50 --> Router Class Initialized
+INFO - 2022-08-10 19:26:50 --> Config Class Initialized
+INFO - 2022-08-10 19:26:50 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:26:50 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:26:50 --> Output Class Initialized
+INFO - 2022-08-10 19:26:50 --> URI Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:26:50 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:26:50 --> Security Class Initialized
+INFO - 2022-08-10 19:26:50 --> URI Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:26:50 --> CSRF cookie sent
+INFO - 2022-08-10 19:26:50 --> Input Class Initialized
+INFO - 2022-08-10 19:26:50 --> Language Class Initialized
+INFO - 2022-08-10 19:26:50 --> Router Class Initialized
+INFO - 2022-08-10 19:26:50 --> Router Class Initialized
+ERROR - 2022-08-10 19:26:50 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:26:50 --> Output Class Initialized
+INFO - 2022-08-10 19:26:50 --> Output Class Initialized
+INFO - 2022-08-10 19:26:50 --> Security Class Initialized
+INFO - 2022-08-10 19:26:50 --> Security Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:26:50 --> CSRF cookie sent
+DEBUG - 2022-08-10 19:26:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:26:50 --> Input Class Initialized
+INFO - 2022-08-10 19:26:50 --> CSRF cookie sent
+INFO - 2022-08-10 19:26:50 --> Input Class Initialized
+INFO - 2022-08-10 19:26:50 --> Language Class Initialized
+INFO - 2022-08-10 19:26:50 --> Language Class Initialized
+ERROR - 2022-08-10 19:26:50 --> 404 Page Not Found: /index
+ERROR - 2022-08-10 19:26:50 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:26:50 --> URI Class Initialized
+INFO - 2022-08-10 19:26:50 --> Router Class Initialized
+INFO - 2022-08-10 19:26:50 --> Output Class Initialized
+INFO - 2022-08-10 19:26:50 --> Config Class Initialized
+INFO - 2022-08-10 19:26:50 --> Security Class Initialized
+INFO - 2022-08-10 19:26:50 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:26:50 --> CSRF cookie sent
+INFO - 2022-08-10 19:26:50 --> Input Class Initialized
+INFO - 2022-08-10 19:26:50 --> Language Class Initialized
+DEBUG - 2022-08-10 19:26:50 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:26:50 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:26:50 --> URI Class Initialized
+ERROR - 2022-08-10 19:26:51 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:26:51 --> Router Class Initialized
+INFO - 2022-08-10 19:26:51 --> Output Class Initialized
+INFO - 2022-08-10 19:26:51 --> Security Class Initialized
+DEBUG - 2022-08-10 19:26:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:26:51 --> CSRF cookie sent
+INFO - 2022-08-10 19:26:51 --> Input Class Initialized
+INFO - 2022-08-10 19:26:51 --> Language Class Initialized
+ERROR - 2022-08-10 19:26:51 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:27:00 --> Config Class Initialized
+INFO - 2022-08-10 19:27:00 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:00 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:00 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:00 --> URI Class Initialized
+INFO - 2022-08-10 19:27:00 --> Router Class Initialized
+INFO - 2022-08-10 19:27:00 --> Output Class Initialized
+INFO - 2022-08-10 19:27:00 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:00 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:00 --> Input Class Initialized
+INFO - 2022-08-10 19:27:00 --> Language Class Initialized
+INFO - 2022-08-10 19:27:00 --> Language Class Initialized
+INFO - 2022-08-10 19:27:00 --> Config Class Initialized
+INFO - 2022-08-10 19:27:00 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:00 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:00 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:00 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:00 --> Email Class Initialized
+INFO - 2022-08-10 19:27:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:00 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:00 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:00 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:00 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:00 --> Config Class Initialized
+INFO - 2022-08-10 19:27:00 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:00 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:00 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:00 --> URI Class Initialized
+INFO - 2022-08-10 19:27:00 --> Router Class Initialized
+INFO - 2022-08-10 19:27:00 --> Output Class Initialized
+INFO - 2022-08-10 19:27:00 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:00 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:00 --> Input Class Initialized
+INFO - 2022-08-10 19:27:00 --> Language Class Initialized
+INFO - 2022-08-10 19:27:00 --> Language Class Initialized
+INFO - 2022-08-10 19:27:00 --> Config Class Initialized
+INFO - 2022-08-10 19:27:00 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:00 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:00 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:00 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:00 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:00 --> Email Class Initialized
+INFO - 2022-08-10 19:27:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:00 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:00 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:00 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:00 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:07 --> Config Class Initialized
+INFO - 2022-08-10 19:27:07 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:07 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:07 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:07 --> URI Class Initialized
+INFO - 2022-08-10 19:27:07 --> Router Class Initialized
+INFO - 2022-08-10 19:27:07 --> Output Class Initialized
+INFO - 2022-08-10 19:27:07 --> Security Class Initialized
+INFO - 2022-08-10 19:27:07 --> Config Class Initialized
+INFO - 2022-08-10 19:27:07 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:07 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:07 --> Input Class Initialized
+INFO - 2022-08-10 19:27:07 --> Language Class Initialized
+DEBUG - 2022-08-10 19:27:07 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:07 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:07 --> URI Class Initialized
+INFO - 2022-08-10 19:27:07 --> Language Class Initialized
+INFO - 2022-08-10 19:27:07 --> Config Class Initialized
+INFO - 2022-08-10 19:27:07 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:07 --> Router Class Initialized
+INFO - 2022-08-10 19:27:07 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:07 --> Output Class Initialized
+INFO - 2022-08-10 19:27:07 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:07 --> Security Class Initialized
+INFO - 2022-08-10 19:27:07 --> Helper loaded: html_helper
+DEBUG - 2022-08-10 19:27:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:07 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:07 --> Input Class Initialized
+INFO - 2022-08-10 19:27:07 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:07 --> Language Class Initialized
+INFO - 2022-08-10 19:27:07 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:07 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:07 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:07 --> Email Class Initialized
+INFO - 2022-08-10 19:27:07 --> Language Class Initialized
+INFO - 2022-08-10 19:27:07 --> Config Class Initialized
+INFO - 2022-08-10 19:27:07 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:07 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:07 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:07 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:07 --> Form Validation Class Initialized
+INFO - 2022-08-10 19:27:07 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: directory_helper
+DEBUG - 2022-08-10 19:27:07 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:07 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:07 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:07 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:07 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:07 --> Email Class Initialized
+INFO - 2022-08-10 19:27:07 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:07 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:07 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:07 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:07 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:07 --> Config Class Initialized
+INFO - 2022-08-10 19:27:07 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:07 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:07 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:07 --> URI Class Initialized
+INFO - 2022-08-10 19:27:07 --> Router Class Initialized
+INFO - 2022-08-10 19:27:07 --> Output Class Initialized
+INFO - 2022-08-10 19:27:07 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:07 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:07 --> Input Class Initialized
+INFO - 2022-08-10 19:27:07 --> Language Class Initialized
+INFO - 2022-08-10 19:27:07 --> Language Class Initialized
+INFO - 2022-08-10 19:27:07 --> Config Class Initialized
+INFO - 2022-08-10 19:27:07 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:07 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:07 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:07 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:07 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:07 --> Email Class Initialized
+INFO - 2022-08-10 19:27:07 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:07 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:07 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:07 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:07 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:08 --> Config Class Initialized
+INFO - 2022-08-10 19:27:08 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:08 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:08 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:08 --> URI Class Initialized
+INFO - 2022-08-10 19:27:08 --> Router Class Initialized
+INFO - 2022-08-10 19:27:08 --> Output Class Initialized
+INFO - 2022-08-10 19:27:08 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:08 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:08 --> CSRF token verified
+INFO - 2022-08-10 19:27:08 --> Input Class Initialized
+INFO - 2022-08-10 19:27:08 --> Language Class Initialized
+INFO - 2022-08-10 19:27:08 --> Language Class Initialized
+INFO - 2022-08-10 19:27:08 --> Config Class Initialized
+INFO - 2022-08-10 19:27:08 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:08 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:08 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:08 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:08 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:08 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:08 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:08 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:08 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:08 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:08 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:08 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:08 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:08 --> Email Class Initialized
+INFO - 2022-08-10 19:27:08 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:08 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:08 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:08 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:08 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:10 --> Config Class Initialized
+INFO - 2022-08-10 19:27:10 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:10 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:10 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:10 --> URI Class Initialized
+INFO - 2022-08-10 19:27:10 --> Router Class Initialized
+INFO - 2022-08-10 19:27:10 --> Output Class Initialized
+INFO - 2022-08-10 19:27:10 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:10 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:10 --> CSRF token verified
+INFO - 2022-08-10 19:27:10 --> Input Class Initialized
+INFO - 2022-08-10 19:27:10 --> Language Class Initialized
+INFO - 2022-08-10 19:27:10 --> Language Class Initialized
+INFO - 2022-08-10 19:27:10 --> Config Class Initialized
+INFO - 2022-08-10 19:27:10 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:10 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:10 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:10 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:10 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:10 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:10 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:10 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:10 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:10 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:10 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:10 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:10 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:10 --> Email Class Initialized
+INFO - 2022-08-10 19:27:10 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:10 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:10 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:10 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:10 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:11 --> Config Class Initialized
+INFO - 2022-08-10 19:27:11 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:11 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:11 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:11 --> URI Class Initialized
+INFO - 2022-08-10 19:27:11 --> Router Class Initialized
+INFO - 2022-08-10 19:27:11 --> Output Class Initialized
+INFO - 2022-08-10 19:27:11 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:11 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:11 --> CSRF token verified
+INFO - 2022-08-10 19:27:11 --> Input Class Initialized
+INFO - 2022-08-10 19:27:11 --> Language Class Initialized
+INFO - 2022-08-10 19:27:11 --> Language Class Initialized
+INFO - 2022-08-10 19:27:11 --> Config Class Initialized
+INFO - 2022-08-10 19:27:11 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:11 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:11 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:11 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:11 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:11 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:11 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:11 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:11 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:11 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:11 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:11 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:11 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:11 --> Email Class Initialized
+INFO - 2022-08-10 19:27:11 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:11 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:11 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:11 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:11 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:11 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:12 --> Config Class Initialized
+INFO - 2022-08-10 19:27:12 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:12 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:12 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:12 --> URI Class Initialized
+INFO - 2022-08-10 19:27:12 --> Router Class Initialized
+INFO - 2022-08-10 19:27:12 --> Output Class Initialized
+INFO - 2022-08-10 19:27:12 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:12 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:12 --> CSRF token verified
+INFO - 2022-08-10 19:27:12 --> Input Class Initialized
+INFO - 2022-08-10 19:27:12 --> Language Class Initialized
+INFO - 2022-08-10 19:27:12 --> Language Class Initialized
+INFO - 2022-08-10 19:27:12 --> Config Class Initialized
+INFO - 2022-08-10 19:27:12 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:12 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:12 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:12 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:12 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:12 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:12 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:12 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:12 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:12 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:12 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:12 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:12 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:12 --> Email Class Initialized
+INFO - 2022-08-10 19:27:12 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:12 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:12 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:12 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:12 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:13 --> Config Class Initialized
+INFO - 2022-08-10 19:27:13 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:13 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:13 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:13 --> URI Class Initialized
+INFO - 2022-08-10 19:27:13 --> Router Class Initialized
+INFO - 2022-08-10 19:27:13 --> Output Class Initialized
+INFO - 2022-08-10 19:27:13 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:13 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:13 --> CSRF token verified
+INFO - 2022-08-10 19:27:13 --> Input Class Initialized
+INFO - 2022-08-10 19:27:13 --> Language Class Initialized
+INFO - 2022-08-10 19:27:13 --> Language Class Initialized
+INFO - 2022-08-10 19:27:13 --> Config Class Initialized
+INFO - 2022-08-10 19:27:13 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:13 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:13 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:13 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:13 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:13 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:13 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:13 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:13 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:13 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:13 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:13 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:13 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:13 --> Email Class Initialized
+INFO - 2022-08-10 19:27:13 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:13 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:13 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:13 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:13 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:13 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:14 --> Config Class Initialized
+INFO - 2022-08-10 19:27:14 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:14 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:14 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:14 --> URI Class Initialized
+INFO - 2022-08-10 19:27:14 --> Router Class Initialized
+INFO - 2022-08-10 19:27:14 --> Output Class Initialized
+INFO - 2022-08-10 19:27:14 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:14 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:14 --> CSRF token verified
+INFO - 2022-08-10 19:27:14 --> Input Class Initialized
+INFO - 2022-08-10 19:27:14 --> Language Class Initialized
+INFO - 2022-08-10 19:27:14 --> Language Class Initialized
+INFO - 2022-08-10 19:27:14 --> Config Class Initialized
+INFO - 2022-08-10 19:27:14 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:14 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:14 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:14 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:14 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:14 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:14 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:14 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:14 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:14 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:14 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:14 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:14 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:14 --> Email Class Initialized
+INFO - 2022-08-10 19:27:14 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:14 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:14 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:14 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:14 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:15 --> Config Class Initialized
+INFO - 2022-08-10 19:27:15 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:15 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:15 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:15 --> URI Class Initialized
+INFO - 2022-08-10 19:27:15 --> Router Class Initialized
+INFO - 2022-08-10 19:27:15 --> Output Class Initialized
+INFO - 2022-08-10 19:27:15 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:15 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:15 --> CSRF token verified
+INFO - 2022-08-10 19:27:15 --> Input Class Initialized
+INFO - 2022-08-10 19:27:15 --> Language Class Initialized
+INFO - 2022-08-10 19:27:15 --> Language Class Initialized
+INFO - 2022-08-10 19:27:15 --> Config Class Initialized
+INFO - 2022-08-10 19:27:15 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:15 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:15 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:15 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:15 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:15 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:15 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:15 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:15 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:15 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:15 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:15 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:15 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:15 --> Email Class Initialized
+INFO - 2022-08-10 19:27:15 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:15 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:15 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:15 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:15 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:15 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:16 --> Config Class Initialized
+INFO - 2022-08-10 19:27:16 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:16 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:16 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:16 --> URI Class Initialized
+INFO - 2022-08-10 19:27:16 --> Router Class Initialized
+INFO - 2022-08-10 19:27:16 --> Output Class Initialized
+INFO - 2022-08-10 19:27:16 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:16 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:16 --> CSRF token verified
+INFO - 2022-08-10 19:27:16 --> Input Class Initialized
+INFO - 2022-08-10 19:27:16 --> Language Class Initialized
+INFO - 2022-08-10 19:27:16 --> Language Class Initialized
+INFO - 2022-08-10 19:27:16 --> Config Class Initialized
+INFO - 2022-08-10 19:27:16 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:16 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:16 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:16 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:16 --> Email Class Initialized
+INFO - 2022-08-10 19:27:16 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:16 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:16 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:16 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:16 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:16 --> Config Class Initialized
+INFO - 2022-08-10 19:27:16 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:16 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:16 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:16 --> URI Class Initialized
+INFO - 2022-08-10 19:27:16 --> Router Class Initialized
+INFO - 2022-08-10 19:27:16 --> Output Class Initialized
+INFO - 2022-08-10 19:27:16 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:16 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:16 --> CSRF token verified
+INFO - 2022-08-10 19:27:16 --> Input Class Initialized
+INFO - 2022-08-10 19:27:16 --> Language Class Initialized
+INFO - 2022-08-10 19:27:16 --> Language Class Initialized
+INFO - 2022-08-10 19:27:16 --> Config Class Initialized
+INFO - 2022-08-10 19:27:16 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:16 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:16 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:17 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:17 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:17 --> Email Class Initialized
+INFO - 2022-08-10 19:27:17 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:17 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:17 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:17 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:17 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:17 --> Config Class Initialized
+INFO - 2022-08-10 19:27:17 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:17 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:17 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:17 --> URI Class Initialized
+INFO - 2022-08-10 19:27:17 --> Router Class Initialized
+INFO - 2022-08-10 19:27:17 --> Output Class Initialized
+INFO - 2022-08-10 19:27:17 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:17 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:17 --> CSRF token verified
+INFO - 2022-08-10 19:27:17 --> Input Class Initialized
+INFO - 2022-08-10 19:27:17 --> Language Class Initialized
+INFO - 2022-08-10 19:27:17 --> Language Class Initialized
+INFO - 2022-08-10 19:27:17 --> Config Class Initialized
+INFO - 2022-08-10 19:27:17 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:17 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:17 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:17 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:17 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:17 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:17 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:17 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:17 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:17 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:17 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:18 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:18 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:18 --> Email Class Initialized
+INFO - 2022-08-10 19:27:18 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:18 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:18 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:18 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:18 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:18 --> Config Class Initialized
+INFO - 2022-08-10 19:27:18 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:18 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:18 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:18 --> URI Class Initialized
+INFO - 2022-08-10 19:27:18 --> Router Class Initialized
+INFO - 2022-08-10 19:27:18 --> Output Class Initialized
+INFO - 2022-08-10 19:27:18 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:18 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:18 --> CSRF token verified
+INFO - 2022-08-10 19:27:18 --> Input Class Initialized
+INFO - 2022-08-10 19:27:18 --> Language Class Initialized
+INFO - 2022-08-10 19:27:18 --> Language Class Initialized
+INFO - 2022-08-10 19:27:18 --> Config Class Initialized
+INFO - 2022-08-10 19:27:18 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:18 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:18 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:18 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:18 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:18 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:18 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:18 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:18 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:18 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:18 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:18 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:18 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:18 --> Email Class Initialized
+INFO - 2022-08-10 19:27:18 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:18 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:18 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:18 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:18 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:19 --> Config Class Initialized
+INFO - 2022-08-10 19:27:19 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:19 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:19 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:19 --> URI Class Initialized
+INFO - 2022-08-10 19:27:19 --> Router Class Initialized
+INFO - 2022-08-10 19:27:19 --> Output Class Initialized
+INFO - 2022-08-10 19:27:19 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:19 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:19 --> CSRF token verified
+INFO - 2022-08-10 19:27:19 --> Input Class Initialized
+INFO - 2022-08-10 19:27:19 --> Language Class Initialized
+INFO - 2022-08-10 19:27:19 --> Language Class Initialized
+INFO - 2022-08-10 19:27:19 --> Config Class Initialized
+INFO - 2022-08-10 19:27:19 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:19 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:19 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:19 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:19 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:19 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:19 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:19 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:19 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:19 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:19 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:19 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:19 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:19 --> Email Class Initialized
+INFO - 2022-08-10 19:27:19 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:19 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:19 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:19 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:19 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:20 --> Config Class Initialized
+INFO - 2022-08-10 19:27:20 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:20 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:20 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:20 --> URI Class Initialized
+INFO - 2022-08-10 19:27:20 --> Router Class Initialized
+INFO - 2022-08-10 19:27:20 --> Output Class Initialized
+INFO - 2022-08-10 19:27:20 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:20 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:20 --> CSRF token verified
+INFO - 2022-08-10 19:27:20 --> Input Class Initialized
+INFO - 2022-08-10 19:27:20 --> Language Class Initialized
+INFO - 2022-08-10 19:27:20 --> Language Class Initialized
+INFO - 2022-08-10 19:27:20 --> Config Class Initialized
+INFO - 2022-08-10 19:27:20 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:20 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:20 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:20 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:20 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:20 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:20 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:20 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:20 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:20 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:20 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:20 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:20 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:20 --> Email Class Initialized
+INFO - 2022-08-10 19:27:20 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:20 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:20 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:20 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:20 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:21 --> Config Class Initialized
+INFO - 2022-08-10 19:27:21 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:21 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:21 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:21 --> URI Class Initialized
+INFO - 2022-08-10 19:27:21 --> Router Class Initialized
+INFO - 2022-08-10 19:27:21 --> Output Class Initialized
+INFO - 2022-08-10 19:27:21 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:21 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:21 --> CSRF token verified
+INFO - 2022-08-10 19:27:21 --> Input Class Initialized
+INFO - 2022-08-10 19:27:21 --> Language Class Initialized
+INFO - 2022-08-10 19:27:21 --> Language Class Initialized
+INFO - 2022-08-10 19:27:21 --> Config Class Initialized
+INFO - 2022-08-10 19:27:21 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:21 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:21 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:21 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:21 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:21 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:21 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:21 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:21 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:21 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:21 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:21 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:21 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:21 --> Email Class Initialized
+INFO - 2022-08-10 19:27:21 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:21 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:21 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:21 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:21 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:22 --> Config Class Initialized
+INFO - 2022-08-10 19:27:22 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:22 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:22 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:22 --> URI Class Initialized
+INFO - 2022-08-10 19:27:22 --> Router Class Initialized
+INFO - 2022-08-10 19:27:22 --> Output Class Initialized
+INFO - 2022-08-10 19:27:22 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:22 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:22 --> CSRF token verified
+INFO - 2022-08-10 19:27:22 --> Input Class Initialized
+INFO - 2022-08-10 19:27:22 --> Language Class Initialized
+INFO - 2022-08-10 19:27:22 --> Language Class Initialized
+INFO - 2022-08-10 19:27:22 --> Config Class Initialized
+INFO - 2022-08-10 19:27:22 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:22 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:22 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:22 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:22 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:22 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:22 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:22 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:22 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:22 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:22 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:22 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:22 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:22 --> Email Class Initialized
+INFO - 2022-08-10 19:27:22 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:22 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:22 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:22 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:22 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:23 --> Config Class Initialized
+INFO - 2022-08-10 19:27:23 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:23 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:23 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:23 --> URI Class Initialized
+INFO - 2022-08-10 19:27:23 --> Router Class Initialized
+INFO - 2022-08-10 19:27:23 --> Output Class Initialized
+INFO - 2022-08-10 19:27:23 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:23 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:23 --> CSRF token verified
+INFO - 2022-08-10 19:27:23 --> Input Class Initialized
+INFO - 2022-08-10 19:27:23 --> Language Class Initialized
+INFO - 2022-08-10 19:27:23 --> Language Class Initialized
+INFO - 2022-08-10 19:27:23 --> Config Class Initialized
+INFO - 2022-08-10 19:27:23 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:23 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:23 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:23 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:23 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:23 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:23 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:23 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:23 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:23 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:23 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:23 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:23 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:23 --> Email Class Initialized
+INFO - 2022-08-10 19:27:23 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:23 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:23 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:23 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:23 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:24 --> Config Class Initialized
+INFO - 2022-08-10 19:27:24 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:24 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:24 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:24 --> URI Class Initialized
+INFO - 2022-08-10 19:27:24 --> Router Class Initialized
+INFO - 2022-08-10 19:27:24 --> Output Class Initialized
+INFO - 2022-08-10 19:27:24 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:24 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:24 --> CSRF token verified
+INFO - 2022-08-10 19:27:24 --> Input Class Initialized
+INFO - 2022-08-10 19:27:24 --> Language Class Initialized
+INFO - 2022-08-10 19:27:24 --> Language Class Initialized
+INFO - 2022-08-10 19:27:24 --> Config Class Initialized
+INFO - 2022-08-10 19:27:24 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:24 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:24 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:24 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:24 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:24 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:24 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:24 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:24 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:24 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:24 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:24 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:24 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:24 --> Email Class Initialized
+INFO - 2022-08-10 19:27:24 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:24 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:24 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:24 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:24 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:26 --> Config Class Initialized
+INFO - 2022-08-10 19:27:26 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:26 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:26 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:26 --> URI Class Initialized
+INFO - 2022-08-10 19:27:26 --> Router Class Initialized
+INFO - 2022-08-10 19:27:26 --> Output Class Initialized
+INFO - 2022-08-10 19:27:26 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:26 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:26 --> CSRF token verified
+INFO - 2022-08-10 19:27:26 --> Input Class Initialized
+INFO - 2022-08-10 19:27:26 --> Language Class Initialized
+INFO - 2022-08-10 19:27:26 --> Language Class Initialized
+INFO - 2022-08-10 19:27:26 --> Config Class Initialized
+INFO - 2022-08-10 19:27:26 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:26 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:26 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:26 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:26 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:26 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:26 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:26 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:26 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:26 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:26 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:26 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:26 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:26 --> Email Class Initialized
+INFO - 2022-08-10 19:27:26 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:26 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:26 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:26 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:26 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:27 --> Config Class Initialized
+INFO - 2022-08-10 19:27:27 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:27 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:27 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:27 --> URI Class Initialized
+INFO - 2022-08-10 19:27:27 --> Router Class Initialized
+INFO - 2022-08-10 19:27:27 --> Output Class Initialized
+INFO - 2022-08-10 19:27:27 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:27 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:27 --> CSRF token verified
+INFO - 2022-08-10 19:27:27 --> Input Class Initialized
+INFO - 2022-08-10 19:27:27 --> Language Class Initialized
+INFO - 2022-08-10 19:27:27 --> Language Class Initialized
+INFO - 2022-08-10 19:27:27 --> Config Class Initialized
+INFO - 2022-08-10 19:27:27 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:27 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:27 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:27 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:27 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:27 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:27 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:27 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:27 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:27 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:27 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:27 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:27 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:27 --> Email Class Initialized
+INFO - 2022-08-10 19:27:27 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:27 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:27 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:27 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:27 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:28 --> Config Class Initialized
+INFO - 2022-08-10 19:27:28 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:28 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:28 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:28 --> URI Class Initialized
+INFO - 2022-08-10 19:27:28 --> Router Class Initialized
+INFO - 2022-08-10 19:27:28 --> Output Class Initialized
+INFO - 2022-08-10 19:27:28 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:28 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:28 --> CSRF token verified
+INFO - 2022-08-10 19:27:28 --> Input Class Initialized
+INFO - 2022-08-10 19:27:28 --> Language Class Initialized
+INFO - 2022-08-10 19:27:28 --> Language Class Initialized
+INFO - 2022-08-10 19:27:28 --> Config Class Initialized
+INFO - 2022-08-10 19:27:28 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:28 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:28 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:28 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:28 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:28 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:28 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:28 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:28 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:28 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:28 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:28 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:28 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:28 --> Email Class Initialized
+INFO - 2022-08-10 19:27:28 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:28 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:28 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:28 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:28 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:29 --> Config Class Initialized
+INFO - 2022-08-10 19:27:29 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:29 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:29 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:29 --> URI Class Initialized
+INFO - 2022-08-10 19:27:29 --> Router Class Initialized
+INFO - 2022-08-10 19:27:29 --> Output Class Initialized
+INFO - 2022-08-10 19:27:29 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:29 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:29 --> CSRF token verified
+INFO - 2022-08-10 19:27:29 --> Input Class Initialized
+INFO - 2022-08-10 19:27:29 --> Language Class Initialized
+INFO - 2022-08-10 19:27:29 --> Language Class Initialized
+INFO - 2022-08-10 19:27:29 --> Config Class Initialized
+INFO - 2022-08-10 19:27:29 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:29 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:29 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:29 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:29 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:29 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:29 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:29 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:29 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:29 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:29 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:29 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:29 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:29 --> Email Class Initialized
+INFO - 2022-08-10 19:27:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:29 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:29 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:29 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:29 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:30 --> Config Class Initialized
+INFO - 2022-08-10 19:27:30 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:30 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:30 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:30 --> URI Class Initialized
+INFO - 2022-08-10 19:27:30 --> Router Class Initialized
+INFO - 2022-08-10 19:27:30 --> Output Class Initialized
+INFO - 2022-08-10 19:27:30 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:30 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:30 --> CSRF token verified
+INFO - 2022-08-10 19:27:30 --> Input Class Initialized
+INFO - 2022-08-10 19:27:30 --> Language Class Initialized
+INFO - 2022-08-10 19:27:30 --> Language Class Initialized
+INFO - 2022-08-10 19:27:30 --> Config Class Initialized
+INFO - 2022-08-10 19:27:30 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:30 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:30 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:30 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:30 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:30 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:30 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:30 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:30 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:30 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:30 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:30 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:30 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:30 --> Email Class Initialized
+INFO - 2022-08-10 19:27:30 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:30 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:30 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:30 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:30 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:30 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:31 --> Config Class Initialized
+INFO - 2022-08-10 19:27:31 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:31 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:31 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:31 --> URI Class Initialized
+INFO - 2022-08-10 19:27:31 --> Router Class Initialized
+INFO - 2022-08-10 19:27:31 --> Output Class Initialized
+INFO - 2022-08-10 19:27:31 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:31 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:31 --> CSRF token verified
+INFO - 2022-08-10 19:27:31 --> Input Class Initialized
+INFO - 2022-08-10 19:27:31 --> Language Class Initialized
+INFO - 2022-08-10 19:27:31 --> Language Class Initialized
+INFO - 2022-08-10 19:27:31 --> Config Class Initialized
+INFO - 2022-08-10 19:27:31 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:31 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:31 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:31 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:31 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:31 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:31 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:31 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:31 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:31 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:31 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:31 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:31 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:31 --> Email Class Initialized
+INFO - 2022-08-10 19:27:31 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:31 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:31 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:31 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:31 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:32 --> Config Class Initialized
+INFO - 2022-08-10 19:27:32 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:32 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:32 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:32 --> URI Class Initialized
+INFO - 2022-08-10 19:27:32 --> Router Class Initialized
+INFO - 2022-08-10 19:27:32 --> Output Class Initialized
+INFO - 2022-08-10 19:27:32 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:32 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:32 --> CSRF token verified
+INFO - 2022-08-10 19:27:32 --> Input Class Initialized
+INFO - 2022-08-10 19:27:32 --> Language Class Initialized
+INFO - 2022-08-10 19:27:32 --> Language Class Initialized
+INFO - 2022-08-10 19:27:32 --> Config Class Initialized
+INFO - 2022-08-10 19:27:32 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:32 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:32 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:32 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:32 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:32 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:32 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:32 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:32 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:32 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:32 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:32 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:32 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:32 --> Email Class Initialized
+INFO - 2022-08-10 19:27:32 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:32 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:32 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:32 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:32 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:32 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:33 --> Config Class Initialized
+INFO - 2022-08-10 19:27:33 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:33 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:33 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:33 --> URI Class Initialized
+INFO - 2022-08-10 19:27:33 --> Router Class Initialized
+INFO - 2022-08-10 19:27:33 --> Output Class Initialized
+INFO - 2022-08-10 19:27:33 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:33 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:33 --> CSRF token verified
+INFO - 2022-08-10 19:27:33 --> Input Class Initialized
+INFO - 2022-08-10 19:27:33 --> Language Class Initialized
+INFO - 2022-08-10 19:27:33 --> Language Class Initialized
+INFO - 2022-08-10 19:27:33 --> Config Class Initialized
+INFO - 2022-08-10 19:27:33 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:33 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:33 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:33 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:33 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:33 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:33 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:33 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:33 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:33 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:33 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:33 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:33 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:33 --> Email Class Initialized
+INFO - 2022-08-10 19:27:33 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:33 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:33 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:33 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:33 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:34 --> Config Class Initialized
+INFO - 2022-08-10 19:27:34 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:34 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:34 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:34 --> URI Class Initialized
+INFO - 2022-08-10 19:27:34 --> Router Class Initialized
+INFO - 2022-08-10 19:27:34 --> Output Class Initialized
+INFO - 2022-08-10 19:27:34 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:34 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:34 --> CSRF token verified
+INFO - 2022-08-10 19:27:34 --> Input Class Initialized
+INFO - 2022-08-10 19:27:34 --> Language Class Initialized
+INFO - 2022-08-10 19:27:34 --> Language Class Initialized
+INFO - 2022-08-10 19:27:34 --> Config Class Initialized
+INFO - 2022-08-10 19:27:34 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:34 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:34 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:34 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:34 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:34 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:34 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:34 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:34 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:34 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:34 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:34 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:34 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:34 --> Email Class Initialized
+INFO - 2022-08-10 19:27:34 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:34 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:34 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:34 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:34 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:35 --> Config Class Initialized
+INFO - 2022-08-10 19:27:35 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:35 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:35 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:35 --> URI Class Initialized
+INFO - 2022-08-10 19:27:35 --> Router Class Initialized
+INFO - 2022-08-10 19:27:35 --> Output Class Initialized
+INFO - 2022-08-10 19:27:35 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:35 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:35 --> CSRF token verified
+INFO - 2022-08-10 19:27:35 --> Input Class Initialized
+INFO - 2022-08-10 19:27:35 --> Language Class Initialized
+INFO - 2022-08-10 19:27:35 --> Language Class Initialized
+INFO - 2022-08-10 19:27:35 --> Config Class Initialized
+INFO - 2022-08-10 19:27:35 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:35 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:35 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:35 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:35 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:35 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:35 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:35 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:35 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:35 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:35 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:35 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:35 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:35 --> Email Class Initialized
+INFO - 2022-08-10 19:27:35 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:35 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:35 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:35 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:35 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:36 --> Config Class Initialized
+INFO - 2022-08-10 19:27:36 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:36 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:36 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:36 --> URI Class Initialized
+INFO - 2022-08-10 19:27:36 --> Router Class Initialized
+INFO - 2022-08-10 19:27:36 --> Output Class Initialized
+INFO - 2022-08-10 19:27:36 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:36 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:36 --> CSRF token verified
+INFO - 2022-08-10 19:27:36 --> Input Class Initialized
+INFO - 2022-08-10 19:27:36 --> Language Class Initialized
+INFO - 2022-08-10 19:27:36 --> Language Class Initialized
+INFO - 2022-08-10 19:27:36 --> Config Class Initialized
+INFO - 2022-08-10 19:27:36 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:36 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:36 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:36 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:36 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:36 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:36 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:36 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:36 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:36 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:36 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:36 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:36 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:36 --> Email Class Initialized
+INFO - 2022-08-10 19:27:36 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:36 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:36 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:36 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:36 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:36 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:37 --> Config Class Initialized
+INFO - 2022-08-10 19:27:37 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:37 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:37 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:37 --> URI Class Initialized
+INFO - 2022-08-10 19:27:37 --> Router Class Initialized
+INFO - 2022-08-10 19:27:37 --> Output Class Initialized
+INFO - 2022-08-10 19:27:37 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:37 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:37 --> CSRF token verified
+INFO - 2022-08-10 19:27:37 --> Input Class Initialized
+INFO - 2022-08-10 19:27:37 --> Language Class Initialized
+INFO - 2022-08-10 19:27:37 --> Language Class Initialized
+INFO - 2022-08-10 19:27:37 --> Config Class Initialized
+INFO - 2022-08-10 19:27:37 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:37 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:37 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:37 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:37 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:37 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:37 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:37 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:37 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:37 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:37 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:37 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:37 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:37 --> Email Class Initialized
+INFO - 2022-08-10 19:27:37 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:37 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:37 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:37 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:37 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:37 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:38 --> Config Class Initialized
+INFO - 2022-08-10 19:27:38 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:38 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:38 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:38 --> URI Class Initialized
+INFO - 2022-08-10 19:27:38 --> Router Class Initialized
+INFO - 2022-08-10 19:27:38 --> Output Class Initialized
+INFO - 2022-08-10 19:27:38 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:38 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:38 --> CSRF token verified
+INFO - 2022-08-10 19:27:38 --> Input Class Initialized
+INFO - 2022-08-10 19:27:38 --> Language Class Initialized
+INFO - 2022-08-10 19:27:38 --> Language Class Initialized
+INFO - 2022-08-10 19:27:38 --> Config Class Initialized
+INFO - 2022-08-10 19:27:38 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:38 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:38 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:38 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:38 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:38 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:38 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:38 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:38 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:38 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:38 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:38 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:38 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:38 --> Email Class Initialized
+INFO - 2022-08-10 19:27:38 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:38 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:38 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:38 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:38 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:39 --> Config Class Initialized
+INFO - 2022-08-10 19:27:39 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:39 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:39 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:39 --> URI Class Initialized
+INFO - 2022-08-10 19:27:39 --> Router Class Initialized
+INFO - 2022-08-10 19:27:39 --> Output Class Initialized
+INFO - 2022-08-10 19:27:39 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:39 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:39 --> CSRF token verified
+INFO - 2022-08-10 19:27:39 --> Input Class Initialized
+INFO - 2022-08-10 19:27:39 --> Language Class Initialized
+INFO - 2022-08-10 19:27:39 --> Language Class Initialized
+INFO - 2022-08-10 19:27:39 --> Config Class Initialized
+INFO - 2022-08-10 19:27:39 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:39 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:39 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:39 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:39 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:39 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:39 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:39 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:39 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:39 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:39 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:39 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:39 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:39 --> Email Class Initialized
+INFO - 2022-08-10 19:27:39 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:39 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:39 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:39 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:39 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:39 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:40 --> Config Class Initialized
+INFO - 2022-08-10 19:27:40 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:40 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:40 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:40 --> URI Class Initialized
+INFO - 2022-08-10 19:27:40 --> Router Class Initialized
+INFO - 2022-08-10 19:27:40 --> Output Class Initialized
+INFO - 2022-08-10 19:27:40 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:40 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:40 --> CSRF token verified
+INFO - 2022-08-10 19:27:40 --> Input Class Initialized
+INFO - 2022-08-10 19:27:40 --> Language Class Initialized
+INFO - 2022-08-10 19:27:40 --> Language Class Initialized
+INFO - 2022-08-10 19:27:40 --> Config Class Initialized
+INFO - 2022-08-10 19:27:40 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:40 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:40 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:40 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:40 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:40 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:40 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:40 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:40 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:40 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:40 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:40 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:40 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:40 --> Email Class Initialized
+INFO - 2022-08-10 19:27:40 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:40 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:40 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:40 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:40 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:41 --> Config Class Initialized
+INFO - 2022-08-10 19:27:41 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:41 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:41 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:41 --> URI Class Initialized
+INFO - 2022-08-10 19:27:41 --> Router Class Initialized
+INFO - 2022-08-10 19:27:41 --> Output Class Initialized
+INFO - 2022-08-10 19:27:41 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:41 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:41 --> CSRF token verified
+INFO - 2022-08-10 19:27:41 --> Input Class Initialized
+INFO - 2022-08-10 19:27:41 --> Language Class Initialized
+INFO - 2022-08-10 19:27:41 --> Language Class Initialized
+INFO - 2022-08-10 19:27:41 --> Config Class Initialized
+INFO - 2022-08-10 19:27:41 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:41 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:41 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:41 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:41 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:41 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:41 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:41 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:41 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:41 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:41 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:41 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:41 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:41 --> Email Class Initialized
+INFO - 2022-08-10 19:27:41 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:41 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:41 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:41 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:41 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:42 --> Config Class Initialized
+INFO - 2022-08-10 19:27:42 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:42 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:42 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:42 --> URI Class Initialized
+INFO - 2022-08-10 19:27:42 --> Router Class Initialized
+INFO - 2022-08-10 19:27:42 --> Output Class Initialized
+INFO - 2022-08-10 19:27:42 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:42 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:42 --> CSRF token verified
+INFO - 2022-08-10 19:27:42 --> Input Class Initialized
+INFO - 2022-08-10 19:27:42 --> Language Class Initialized
+INFO - 2022-08-10 19:27:42 --> Language Class Initialized
+INFO - 2022-08-10 19:27:42 --> Config Class Initialized
+INFO - 2022-08-10 19:27:42 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:42 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:42 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:42 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:42 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:42 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:42 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:42 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:42 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:42 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:42 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:42 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:42 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:42 --> Email Class Initialized
+INFO - 2022-08-10 19:27:42 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:42 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:42 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:42 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:42 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:43 --> Config Class Initialized
+INFO - 2022-08-10 19:27:43 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:43 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:43 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:43 --> URI Class Initialized
+INFO - 2022-08-10 19:27:43 --> Router Class Initialized
+INFO - 2022-08-10 19:27:43 --> Output Class Initialized
+INFO - 2022-08-10 19:27:43 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:43 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:43 --> CSRF token verified
+INFO - 2022-08-10 19:27:43 --> Input Class Initialized
+INFO - 2022-08-10 19:27:43 --> Language Class Initialized
+INFO - 2022-08-10 19:27:43 --> Language Class Initialized
+INFO - 2022-08-10 19:27:43 --> Config Class Initialized
+INFO - 2022-08-10 19:27:43 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:43 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:43 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:43 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:43 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:43 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:43 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:43 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:43 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:43 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:43 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:43 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:43 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:43 --> Email Class Initialized
+INFO - 2022-08-10 19:27:43 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:43 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:43 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:43 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:43 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:44 --> Config Class Initialized
+INFO - 2022-08-10 19:27:44 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:44 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:44 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:44 --> URI Class Initialized
+INFO - 2022-08-10 19:27:44 --> Router Class Initialized
+INFO - 2022-08-10 19:27:44 --> Output Class Initialized
+INFO - 2022-08-10 19:27:44 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:44 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:44 --> CSRF token verified
+INFO - 2022-08-10 19:27:44 --> Input Class Initialized
+INFO - 2022-08-10 19:27:44 --> Language Class Initialized
+INFO - 2022-08-10 19:27:44 --> Language Class Initialized
+INFO - 2022-08-10 19:27:44 --> Config Class Initialized
+INFO - 2022-08-10 19:27:44 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:44 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:44 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:44 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:44 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:44 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:44 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:44 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:44 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:44 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:44 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:44 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:44 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:44 --> Email Class Initialized
+INFO - 2022-08-10 19:27:44 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:44 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:44 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:44 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:44 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:45 --> Config Class Initialized
+INFO - 2022-08-10 19:27:45 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:45 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:45 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:45 --> URI Class Initialized
+INFO - 2022-08-10 19:27:45 --> Router Class Initialized
+INFO - 2022-08-10 19:27:45 --> Output Class Initialized
+INFO - 2022-08-10 19:27:45 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:45 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:45 --> CSRF token verified
+INFO - 2022-08-10 19:27:45 --> Input Class Initialized
+INFO - 2022-08-10 19:27:45 --> Language Class Initialized
+INFO - 2022-08-10 19:27:45 --> Language Class Initialized
+INFO - 2022-08-10 19:27:45 --> Config Class Initialized
+INFO - 2022-08-10 19:27:45 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:45 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:45 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:45 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:45 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:45 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:45 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:45 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:45 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:45 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:45 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:45 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:45 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:45 --> Email Class Initialized
+INFO - 2022-08-10 19:27:45 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:45 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:45 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:45 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:45 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:45 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:46 --> Config Class Initialized
+INFO - 2022-08-10 19:27:46 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:46 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:46 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:46 --> URI Class Initialized
+INFO - 2022-08-10 19:27:46 --> Router Class Initialized
+INFO - 2022-08-10 19:27:46 --> Output Class Initialized
+INFO - 2022-08-10 19:27:46 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:46 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:46 --> CSRF token verified
+INFO - 2022-08-10 19:27:46 --> Input Class Initialized
+INFO - 2022-08-10 19:27:46 --> Language Class Initialized
+INFO - 2022-08-10 19:27:46 --> Language Class Initialized
+INFO - 2022-08-10 19:27:46 --> Config Class Initialized
+INFO - 2022-08-10 19:27:46 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:46 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:46 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:46 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:46 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:46 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:46 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:46 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:46 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:46 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:46 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:46 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:46 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:46 --> Email Class Initialized
+INFO - 2022-08-10 19:27:46 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:46 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:46 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:46 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:46 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:47 --> Config Class Initialized
+INFO - 2022-08-10 19:27:47 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:47 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:47 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:47 --> URI Class Initialized
+INFO - 2022-08-10 19:27:47 --> Router Class Initialized
+INFO - 2022-08-10 19:27:47 --> Output Class Initialized
+INFO - 2022-08-10 19:27:47 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:47 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:47 --> CSRF token verified
+INFO - 2022-08-10 19:27:47 --> Input Class Initialized
+INFO - 2022-08-10 19:27:47 --> Language Class Initialized
+INFO - 2022-08-10 19:27:47 --> Language Class Initialized
+INFO - 2022-08-10 19:27:47 --> Config Class Initialized
+INFO - 2022-08-10 19:27:47 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:47 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:47 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:47 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:47 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:47 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:47 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:47 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:47 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:47 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:47 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:47 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:47 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:47 --> Email Class Initialized
+INFO - 2022-08-10 19:27:47 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:47 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:47 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:47 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:47 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:48 --> Config Class Initialized
+INFO - 2022-08-10 19:27:48 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:48 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:48 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:48 --> URI Class Initialized
+INFO - 2022-08-10 19:27:48 --> Router Class Initialized
+INFO - 2022-08-10 19:27:48 --> Output Class Initialized
+INFO - 2022-08-10 19:27:48 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:48 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:48 --> CSRF token verified
+INFO - 2022-08-10 19:27:48 --> Input Class Initialized
+INFO - 2022-08-10 19:27:48 --> Language Class Initialized
+INFO - 2022-08-10 19:27:48 --> Language Class Initialized
+INFO - 2022-08-10 19:27:48 --> Config Class Initialized
+INFO - 2022-08-10 19:27:48 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:48 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:48 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:48 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:48 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:48 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:48 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:48 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:48 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:48 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:48 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:48 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:48 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:48 --> Email Class Initialized
+INFO - 2022-08-10 19:27:48 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:48 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:48 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:48 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:48 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:49 --> Config Class Initialized
+INFO - 2022-08-10 19:27:49 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:49 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:49 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:49 --> URI Class Initialized
+INFO - 2022-08-10 19:27:49 --> Router Class Initialized
+INFO - 2022-08-10 19:27:49 --> Output Class Initialized
+INFO - 2022-08-10 19:27:49 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:49 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:49 --> CSRF token verified
+INFO - 2022-08-10 19:27:49 --> Input Class Initialized
+INFO - 2022-08-10 19:27:49 --> Language Class Initialized
+INFO - 2022-08-10 19:27:49 --> Language Class Initialized
+INFO - 2022-08-10 19:27:49 --> Config Class Initialized
+INFO - 2022-08-10 19:27:49 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:49 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:49 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:49 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:49 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:49 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:49 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:49 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:49 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:49 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:49 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:49 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:49 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:49 --> Email Class Initialized
+INFO - 2022-08-10 19:27:49 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:49 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:49 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:49 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:49 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:49 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:50 --> Config Class Initialized
+INFO - 2022-08-10 19:27:50 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:50 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:50 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:50 --> URI Class Initialized
+INFO - 2022-08-10 19:27:50 --> Router Class Initialized
+INFO - 2022-08-10 19:27:50 --> Output Class Initialized
+INFO - 2022-08-10 19:27:50 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:50 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:50 --> CSRF token verified
+INFO - 2022-08-10 19:27:50 --> Input Class Initialized
+INFO - 2022-08-10 19:27:50 --> Language Class Initialized
+INFO - 2022-08-10 19:27:50 --> Language Class Initialized
+INFO - 2022-08-10 19:27:50 --> Config Class Initialized
+INFO - 2022-08-10 19:27:50 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:50 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:50 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:50 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:50 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:50 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:50 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:50 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:50 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:50 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:50 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:50 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:50 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:50 --> Email Class Initialized
+INFO - 2022-08-10 19:27:50 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:50 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:50 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:50 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:50 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:51 --> Config Class Initialized
+INFO - 2022-08-10 19:27:51 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:51 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:51 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:51 --> URI Class Initialized
+INFO - 2022-08-10 19:27:51 --> Router Class Initialized
+INFO - 2022-08-10 19:27:51 --> Output Class Initialized
+INFO - 2022-08-10 19:27:51 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:51 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:51 --> CSRF token verified
+INFO - 2022-08-10 19:27:51 --> Input Class Initialized
+INFO - 2022-08-10 19:27:51 --> Language Class Initialized
+INFO - 2022-08-10 19:27:51 --> Language Class Initialized
+INFO - 2022-08-10 19:27:51 --> Config Class Initialized
+INFO - 2022-08-10 19:27:51 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:51 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:51 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:51 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:51 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:51 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:51 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:51 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:51 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:51 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:51 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:51 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:51 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:51 --> Email Class Initialized
+INFO - 2022-08-10 19:27:51 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:51 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:51 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:51 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:51 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:52 --> Config Class Initialized
+INFO - 2022-08-10 19:27:52 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:52 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:52 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:52 --> URI Class Initialized
+INFO - 2022-08-10 19:27:52 --> Router Class Initialized
+INFO - 2022-08-10 19:27:52 --> Output Class Initialized
+INFO - 2022-08-10 19:27:52 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:52 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:52 --> CSRF token verified
+INFO - 2022-08-10 19:27:52 --> Input Class Initialized
+INFO - 2022-08-10 19:27:52 --> Language Class Initialized
+INFO - 2022-08-10 19:27:52 --> Language Class Initialized
+INFO - 2022-08-10 19:27:52 --> Config Class Initialized
+INFO - 2022-08-10 19:27:52 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:52 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:52 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:52 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:52 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:52 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:52 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:52 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:52 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:52 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:52 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:52 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:52 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:52 --> Email Class Initialized
+INFO - 2022-08-10 19:27:52 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:52 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:52 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:52 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:52 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:53 --> Config Class Initialized
+INFO - 2022-08-10 19:27:53 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:53 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:53 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:53 --> URI Class Initialized
+INFO - 2022-08-10 19:27:53 --> Router Class Initialized
+INFO - 2022-08-10 19:27:53 --> Output Class Initialized
+INFO - 2022-08-10 19:27:53 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:53 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:53 --> CSRF token verified
+INFO - 2022-08-10 19:27:53 --> Input Class Initialized
+INFO - 2022-08-10 19:27:53 --> Language Class Initialized
+INFO - 2022-08-10 19:27:53 --> Language Class Initialized
+INFO - 2022-08-10 19:27:53 --> Config Class Initialized
+INFO - 2022-08-10 19:27:53 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:53 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:53 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:53 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:53 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:53 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:53 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:53 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:53 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:53 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:53 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:53 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:53 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:53 --> Email Class Initialized
+INFO - 2022-08-10 19:27:53 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:53 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:53 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:53 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:53 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:54 --> Config Class Initialized
+INFO - 2022-08-10 19:27:54 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:54 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:54 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:54 --> URI Class Initialized
+INFO - 2022-08-10 19:27:54 --> Router Class Initialized
+INFO - 2022-08-10 19:27:54 --> Output Class Initialized
+INFO - 2022-08-10 19:27:54 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:54 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:54 --> CSRF token verified
+INFO - 2022-08-10 19:27:54 --> Input Class Initialized
+INFO - 2022-08-10 19:27:54 --> Language Class Initialized
+INFO - 2022-08-10 19:27:54 --> Language Class Initialized
+INFO - 2022-08-10 19:27:54 --> Config Class Initialized
+INFO - 2022-08-10 19:27:54 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:54 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:54 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:54 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:54 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:54 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:54 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:54 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:54 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:54 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:54 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:54 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:54 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:54 --> Email Class Initialized
+INFO - 2022-08-10 19:27:54 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:54 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:54 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:54 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:54 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:55 --> Config Class Initialized
+INFO - 2022-08-10 19:27:55 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:55 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:55 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:55 --> URI Class Initialized
+INFO - 2022-08-10 19:27:55 --> Router Class Initialized
+INFO - 2022-08-10 19:27:55 --> Output Class Initialized
+INFO - 2022-08-10 19:27:55 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:55 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:55 --> CSRF token verified
+INFO - 2022-08-10 19:27:55 --> Input Class Initialized
+INFO - 2022-08-10 19:27:55 --> Language Class Initialized
+INFO - 2022-08-10 19:27:55 --> Language Class Initialized
+INFO - 2022-08-10 19:27:55 --> Config Class Initialized
+INFO - 2022-08-10 19:27:55 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:55 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:55 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:55 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:55 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:55 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:55 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:55 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:55 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:55 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:55 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:55 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:55 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:55 --> Email Class Initialized
+INFO - 2022-08-10 19:27:55 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:55 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:55 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:55 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:55 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:56 --> Config Class Initialized
+INFO - 2022-08-10 19:27:56 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:56 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:56 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:56 --> URI Class Initialized
+INFO - 2022-08-10 19:27:56 --> Router Class Initialized
+INFO - 2022-08-10 19:27:56 --> Output Class Initialized
+INFO - 2022-08-10 19:27:56 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:56 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:56 --> CSRF token verified
+INFO - 2022-08-10 19:27:56 --> Input Class Initialized
+INFO - 2022-08-10 19:27:56 --> Language Class Initialized
+INFO - 2022-08-10 19:27:56 --> Language Class Initialized
+INFO - 2022-08-10 19:27:56 --> Config Class Initialized
+INFO - 2022-08-10 19:27:56 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:56 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:56 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:56 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:56 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:56 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:56 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:56 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:56 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:56 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:56 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:56 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:56 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:56 --> Email Class Initialized
+INFO - 2022-08-10 19:27:56 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:56 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:56 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:56 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:56 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:57 --> Config Class Initialized
+INFO - 2022-08-10 19:27:57 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:57 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:57 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:57 --> URI Class Initialized
+INFO - 2022-08-10 19:27:57 --> Router Class Initialized
+INFO - 2022-08-10 19:27:57 --> Output Class Initialized
+INFO - 2022-08-10 19:27:57 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:57 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:57 --> CSRF token verified
+INFO - 2022-08-10 19:27:57 --> Input Class Initialized
+INFO - 2022-08-10 19:27:57 --> Language Class Initialized
+INFO - 2022-08-10 19:27:57 --> Language Class Initialized
+INFO - 2022-08-10 19:27:57 --> Config Class Initialized
+INFO - 2022-08-10 19:27:57 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:57 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:57 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:57 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:57 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:57 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:57 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:57 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:57 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:57 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:57 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:57 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:57 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:57 --> Email Class Initialized
+INFO - 2022-08-10 19:27:57 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:57 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:57 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:57 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:57 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:58 --> Config Class Initialized
+INFO - 2022-08-10 19:27:58 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:58 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:58 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:58 --> URI Class Initialized
+INFO - 2022-08-10 19:27:58 --> Router Class Initialized
+INFO - 2022-08-10 19:27:58 --> Output Class Initialized
+INFO - 2022-08-10 19:27:58 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:58 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:58 --> CSRF token verified
+INFO - 2022-08-10 19:27:58 --> Input Class Initialized
+INFO - 2022-08-10 19:27:58 --> Language Class Initialized
+INFO - 2022-08-10 19:27:58 --> Language Class Initialized
+INFO - 2022-08-10 19:27:58 --> Config Class Initialized
+INFO - 2022-08-10 19:27:58 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:58 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:58 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:58 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:58 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:58 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:58 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:58 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:58 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:58 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:58 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:58 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:58 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:58 --> Email Class Initialized
+INFO - 2022-08-10 19:27:58 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:58 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:58 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:58 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:58 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:58 --> Pagination Class Initialized
+INFO - 2022-08-10 19:27:59 --> Config Class Initialized
+INFO - 2022-08-10 19:27:59 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:27:59 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:27:59 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:27:59 --> URI Class Initialized
+INFO - 2022-08-10 19:27:59 --> Router Class Initialized
+INFO - 2022-08-10 19:27:59 --> Output Class Initialized
+INFO - 2022-08-10 19:27:59 --> Security Class Initialized
+DEBUG - 2022-08-10 19:27:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:27:59 --> CSRF cookie sent
+INFO - 2022-08-10 19:27:59 --> CSRF token verified
+INFO - 2022-08-10 19:27:59 --> Input Class Initialized
+INFO - 2022-08-10 19:27:59 --> Language Class Initialized
+INFO - 2022-08-10 19:27:59 --> Language Class Initialized
+INFO - 2022-08-10 19:27:59 --> Config Class Initialized
+INFO - 2022-08-10 19:27:59 --> Loader Class Initialized
+INFO - 2022-08-10 19:27:59 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:27:59 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:27:59 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:27:59 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:27:59 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:27:59 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:27:59 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:27:59 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:27:59 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:27:59 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:27:59 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:27:59 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:27:59 --> Email Class Initialized
+INFO - 2022-08-10 19:27:59 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:27:59 --> Cart Class Initialized
+INFO - 2022-08-10 19:27:59 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:27:59 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:27:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:27:59 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:00 --> Config Class Initialized
+INFO - 2022-08-10 19:28:00 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:00 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:00 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:00 --> URI Class Initialized
+INFO - 2022-08-10 19:28:00 --> Router Class Initialized
+INFO - 2022-08-10 19:28:00 --> Output Class Initialized
+INFO - 2022-08-10 19:28:00 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:00 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:00 --> CSRF token verified
+INFO - 2022-08-10 19:28:00 --> Input Class Initialized
+INFO - 2022-08-10 19:28:00 --> Language Class Initialized
+INFO - 2022-08-10 19:28:00 --> Language Class Initialized
+INFO - 2022-08-10 19:28:00 --> Config Class Initialized
+INFO - 2022-08-10 19:28:00 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:00 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:00 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:00 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:00 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:00 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:00 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:00 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:00 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:00 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:00 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:00 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:00 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:00 --> Email Class Initialized
+INFO - 2022-08-10 19:28:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:00 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:00 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:00 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:00 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:01 --> Config Class Initialized
+INFO - 2022-08-10 19:28:01 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:01 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:01 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:01 --> URI Class Initialized
+INFO - 2022-08-10 19:28:01 --> Router Class Initialized
+INFO - 2022-08-10 19:28:01 --> Output Class Initialized
+INFO - 2022-08-10 19:28:01 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:01 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:01 --> CSRF token verified
+INFO - 2022-08-10 19:28:01 --> Input Class Initialized
+INFO - 2022-08-10 19:28:01 --> Language Class Initialized
+INFO - 2022-08-10 19:28:01 --> Language Class Initialized
+INFO - 2022-08-10 19:28:01 --> Config Class Initialized
+INFO - 2022-08-10 19:28:01 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:01 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:01 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:01 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:01 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:01 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:01 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:01 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:01 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:01 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:01 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:01 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:01 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:01 --> Email Class Initialized
+INFO - 2022-08-10 19:28:01 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:01 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:01 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:01 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:01 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:02 --> Config Class Initialized
+INFO - 2022-08-10 19:28:02 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:02 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:02 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:02 --> URI Class Initialized
+INFO - 2022-08-10 19:28:02 --> Router Class Initialized
+INFO - 2022-08-10 19:28:02 --> Output Class Initialized
+INFO - 2022-08-10 19:28:02 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:02 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:02 --> CSRF token verified
+INFO - 2022-08-10 19:28:02 --> Input Class Initialized
+INFO - 2022-08-10 19:28:02 --> Language Class Initialized
+INFO - 2022-08-10 19:28:02 --> Language Class Initialized
+INFO - 2022-08-10 19:28:02 --> Config Class Initialized
+INFO - 2022-08-10 19:28:02 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:02 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:02 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:02 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:02 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:02 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:02 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:02 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:02 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:02 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:02 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:02 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:02 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:02 --> Email Class Initialized
+INFO - 2022-08-10 19:28:02 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:02 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:02 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:02 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:02 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:03 --> Config Class Initialized
+INFO - 2022-08-10 19:28:03 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:03 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:03 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:03 --> URI Class Initialized
+INFO - 2022-08-10 19:28:03 --> Router Class Initialized
+INFO - 2022-08-10 19:28:03 --> Output Class Initialized
+INFO - 2022-08-10 19:28:03 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:03 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:03 --> CSRF token verified
+INFO - 2022-08-10 19:28:03 --> Input Class Initialized
+INFO - 2022-08-10 19:28:03 --> Language Class Initialized
+INFO - 2022-08-10 19:28:03 --> Language Class Initialized
+INFO - 2022-08-10 19:28:03 --> Config Class Initialized
+INFO - 2022-08-10 19:28:03 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:03 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:03 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:03 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:03 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:03 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:03 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:03 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:03 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:03 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:03 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:03 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:03 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:03 --> Email Class Initialized
+INFO - 2022-08-10 19:28:03 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:03 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:03 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:03 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:03 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:04 --> Config Class Initialized
+INFO - 2022-08-10 19:28:04 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:04 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:04 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:04 --> URI Class Initialized
+INFO - 2022-08-10 19:28:04 --> Router Class Initialized
+INFO - 2022-08-10 19:28:04 --> Output Class Initialized
+INFO - 2022-08-10 19:28:04 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:04 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:04 --> CSRF token verified
+INFO - 2022-08-10 19:28:04 --> Input Class Initialized
+INFO - 2022-08-10 19:28:04 --> Language Class Initialized
+INFO - 2022-08-10 19:28:04 --> Language Class Initialized
+INFO - 2022-08-10 19:28:04 --> Config Class Initialized
+INFO - 2022-08-10 19:28:04 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:04 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:04 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:04 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:04 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:04 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:04 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:04 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:04 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:04 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:04 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:04 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:04 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:04 --> Email Class Initialized
+INFO - 2022-08-10 19:28:04 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:04 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:04 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:04 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:04 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:05 --> Config Class Initialized
+INFO - 2022-08-10 19:28:05 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:05 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:05 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:05 --> URI Class Initialized
+INFO - 2022-08-10 19:28:05 --> Router Class Initialized
+INFO - 2022-08-10 19:28:05 --> Output Class Initialized
+INFO - 2022-08-10 19:28:05 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:05 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:05 --> CSRF token verified
+INFO - 2022-08-10 19:28:05 --> Input Class Initialized
+INFO - 2022-08-10 19:28:05 --> Language Class Initialized
+INFO - 2022-08-10 19:28:05 --> Language Class Initialized
+INFO - 2022-08-10 19:28:05 --> Config Class Initialized
+INFO - 2022-08-10 19:28:05 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:05 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:05 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:05 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:05 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:05 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:05 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:05 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:05 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:05 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:05 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:05 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:05 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:05 --> Email Class Initialized
+INFO - 2022-08-10 19:28:05 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:05 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:05 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:05 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:05 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:05 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:06 --> Config Class Initialized
+INFO - 2022-08-10 19:28:06 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:06 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:06 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:06 --> URI Class Initialized
+INFO - 2022-08-10 19:28:06 --> Router Class Initialized
+INFO - 2022-08-10 19:28:06 --> Output Class Initialized
+INFO - 2022-08-10 19:28:06 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:06 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:06 --> CSRF token verified
+INFO - 2022-08-10 19:28:06 --> Input Class Initialized
+INFO - 2022-08-10 19:28:06 --> Language Class Initialized
+INFO - 2022-08-10 19:28:06 --> Language Class Initialized
+INFO - 2022-08-10 19:28:06 --> Config Class Initialized
+INFO - 2022-08-10 19:28:06 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:06 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:06 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:06 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:06 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:06 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:06 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:06 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:06 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:06 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:06 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:06 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:06 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:06 --> Email Class Initialized
+INFO - 2022-08-10 19:28:06 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:06 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:06 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:06 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:06 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:06 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:07 --> Config Class Initialized
+INFO - 2022-08-10 19:28:07 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:07 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:07 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:07 --> URI Class Initialized
+INFO - 2022-08-10 19:28:07 --> Router Class Initialized
+INFO - 2022-08-10 19:28:07 --> Output Class Initialized
+INFO - 2022-08-10 19:28:07 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:07 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:07 --> CSRF token verified
+INFO - 2022-08-10 19:28:07 --> Input Class Initialized
+INFO - 2022-08-10 19:28:07 --> Language Class Initialized
+INFO - 2022-08-10 19:28:07 --> Language Class Initialized
+INFO - 2022-08-10 19:28:07 --> Config Class Initialized
+INFO - 2022-08-10 19:28:07 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:07 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:07 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:07 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:07 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:07 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:07 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:07 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:07 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:07 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:07 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:07 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:07 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:07 --> Email Class Initialized
+INFO - 2022-08-10 19:28:07 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:07 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:07 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:07 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:07 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:08 --> Config Class Initialized
+INFO - 2022-08-10 19:28:08 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:08 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:08 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:08 --> URI Class Initialized
+INFO - 2022-08-10 19:28:08 --> Router Class Initialized
+INFO - 2022-08-10 19:28:08 --> Output Class Initialized
+INFO - 2022-08-10 19:28:08 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:08 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:08 --> CSRF token verified
+INFO - 2022-08-10 19:28:08 --> Input Class Initialized
+INFO - 2022-08-10 19:28:08 --> Language Class Initialized
+INFO - 2022-08-10 19:28:08 --> Language Class Initialized
+INFO - 2022-08-10 19:28:08 --> Config Class Initialized
+INFO - 2022-08-10 19:28:08 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:08 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:08 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:08 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:08 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:08 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:08 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:08 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:08 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:08 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:08 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:08 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:08 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:08 --> Email Class Initialized
+INFO - 2022-08-10 19:28:08 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:08 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:08 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:08 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:08 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:09 --> Config Class Initialized
+INFO - 2022-08-10 19:28:09 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:09 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:09 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:09 --> URI Class Initialized
+INFO - 2022-08-10 19:28:09 --> Router Class Initialized
+INFO - 2022-08-10 19:28:09 --> Output Class Initialized
+INFO - 2022-08-10 19:28:09 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:09 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:09 --> CSRF token verified
+INFO - 2022-08-10 19:28:09 --> Input Class Initialized
+INFO - 2022-08-10 19:28:09 --> Language Class Initialized
+INFO - 2022-08-10 19:28:09 --> Language Class Initialized
+INFO - 2022-08-10 19:28:09 --> Config Class Initialized
+INFO - 2022-08-10 19:28:09 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:09 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:09 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:09 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:09 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:09 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:09 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:09 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:09 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:09 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:09 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:09 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:09 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:09 --> Email Class Initialized
+INFO - 2022-08-10 19:28:09 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:09 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:09 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:09 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:09 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:09 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:10 --> Config Class Initialized
+INFO - 2022-08-10 19:28:10 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:10 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:10 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:10 --> URI Class Initialized
+INFO - 2022-08-10 19:28:10 --> Router Class Initialized
+INFO - 2022-08-10 19:28:10 --> Output Class Initialized
+INFO - 2022-08-10 19:28:10 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:10 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:10 --> CSRF token verified
+INFO - 2022-08-10 19:28:10 --> Input Class Initialized
+INFO - 2022-08-10 19:28:10 --> Language Class Initialized
+INFO - 2022-08-10 19:28:10 --> Language Class Initialized
+INFO - 2022-08-10 19:28:10 --> Config Class Initialized
+INFO - 2022-08-10 19:28:10 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:10 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:10 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:10 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:10 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:10 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:10 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:10 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:10 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:10 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:10 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:10 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:10 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:10 --> Email Class Initialized
+INFO - 2022-08-10 19:28:10 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:10 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:10 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:10 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:10 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:11 --> Config Class Initialized
+INFO - 2022-08-10 19:28:11 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:11 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:11 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:11 --> URI Class Initialized
+INFO - 2022-08-10 19:28:11 --> Router Class Initialized
+INFO - 2022-08-10 19:28:11 --> Output Class Initialized
+INFO - 2022-08-10 19:28:11 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:11 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:11 --> CSRF token verified
+INFO - 2022-08-10 19:28:11 --> Input Class Initialized
+INFO - 2022-08-10 19:28:11 --> Language Class Initialized
+INFO - 2022-08-10 19:28:11 --> Language Class Initialized
+INFO - 2022-08-10 19:28:11 --> Config Class Initialized
+INFO - 2022-08-10 19:28:11 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:11 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:11 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:11 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:11 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:11 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:11 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:11 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:11 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:11 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:11 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:11 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:11 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:11 --> Email Class Initialized
+INFO - 2022-08-10 19:28:11 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:11 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:11 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:11 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:11 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:11 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:12 --> Config Class Initialized
+INFO - 2022-08-10 19:28:12 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:12 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:12 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:12 --> URI Class Initialized
+INFO - 2022-08-10 19:28:12 --> Router Class Initialized
+INFO - 2022-08-10 19:28:12 --> Output Class Initialized
+INFO - 2022-08-10 19:28:12 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:12 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:12 --> CSRF token verified
+INFO - 2022-08-10 19:28:12 --> Input Class Initialized
+INFO - 2022-08-10 19:28:12 --> Language Class Initialized
+INFO - 2022-08-10 19:28:12 --> Language Class Initialized
+INFO - 2022-08-10 19:28:12 --> Config Class Initialized
+INFO - 2022-08-10 19:28:12 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:12 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:12 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:12 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:12 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:12 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:12 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:12 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:12 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:12 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:12 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:12 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:12 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:12 --> Email Class Initialized
+INFO - 2022-08-10 19:28:12 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:12 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:12 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:12 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:12 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:13 --> Config Class Initialized
+INFO - 2022-08-10 19:28:13 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:13 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:13 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:13 --> URI Class Initialized
+INFO - 2022-08-10 19:28:13 --> Router Class Initialized
+INFO - 2022-08-10 19:28:13 --> Output Class Initialized
+INFO - 2022-08-10 19:28:13 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:13 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:13 --> CSRF token verified
+INFO - 2022-08-10 19:28:13 --> Input Class Initialized
+INFO - 2022-08-10 19:28:13 --> Language Class Initialized
+INFO - 2022-08-10 19:28:13 --> Language Class Initialized
+INFO - 2022-08-10 19:28:13 --> Config Class Initialized
+INFO - 2022-08-10 19:28:13 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:13 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:13 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:13 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:13 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:13 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:13 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:13 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:13 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:13 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:13 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:13 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:13 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:13 --> Email Class Initialized
+INFO - 2022-08-10 19:28:13 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:13 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:13 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:13 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:13 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:13 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:14 --> Config Class Initialized
+INFO - 2022-08-10 19:28:14 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:14 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:14 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:14 --> URI Class Initialized
+INFO - 2022-08-10 19:28:14 --> Router Class Initialized
+INFO - 2022-08-10 19:28:14 --> Output Class Initialized
+INFO - 2022-08-10 19:28:14 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:14 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:14 --> CSRF token verified
+INFO - 2022-08-10 19:28:14 --> Input Class Initialized
+INFO - 2022-08-10 19:28:14 --> Language Class Initialized
+INFO - 2022-08-10 19:28:14 --> Language Class Initialized
+INFO - 2022-08-10 19:28:14 --> Config Class Initialized
+INFO - 2022-08-10 19:28:14 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:14 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:14 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:14 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:14 --> Email Class Initialized
+INFO - 2022-08-10 19:28:14 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:14 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:14 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:14 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:14 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:14 --> Config Class Initialized
+INFO - 2022-08-10 19:28:14 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:14 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:14 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:14 --> URI Class Initialized
+INFO - 2022-08-10 19:28:14 --> Router Class Initialized
+INFO - 2022-08-10 19:28:14 --> Output Class Initialized
+INFO - 2022-08-10 19:28:14 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:14 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:14 --> CSRF token verified
+INFO - 2022-08-10 19:28:14 --> Input Class Initialized
+INFO - 2022-08-10 19:28:14 --> Language Class Initialized
+INFO - 2022-08-10 19:28:14 --> Language Class Initialized
+INFO - 2022-08-10 19:28:14 --> Config Class Initialized
+INFO - 2022-08-10 19:28:14 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:14 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:14 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:14 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:14 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:14 --> Email Class Initialized
+INFO - 2022-08-10 19:28:14 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:14 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:14 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:14 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:14 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:15 --> Config Class Initialized
+INFO - 2022-08-10 19:28:15 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:15 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:15 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:15 --> URI Class Initialized
+INFO - 2022-08-10 19:28:15 --> Router Class Initialized
+INFO - 2022-08-10 19:28:15 --> Output Class Initialized
+INFO - 2022-08-10 19:28:15 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:15 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:15 --> CSRF token verified
+INFO - 2022-08-10 19:28:15 --> Input Class Initialized
+INFO - 2022-08-10 19:28:15 --> Language Class Initialized
+INFO - 2022-08-10 19:28:15 --> Language Class Initialized
+INFO - 2022-08-10 19:28:15 --> Config Class Initialized
+INFO - 2022-08-10 19:28:15 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:15 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:15 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:15 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:15 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:15 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:15 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:15 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:15 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:15 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:15 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:15 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:15 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:15 --> Email Class Initialized
+INFO - 2022-08-10 19:28:15 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:15 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:15 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:15 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:15 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:15 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:16 --> Config Class Initialized
+INFO - 2022-08-10 19:28:16 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:16 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:16 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:16 --> URI Class Initialized
+INFO - 2022-08-10 19:28:16 --> Router Class Initialized
+INFO - 2022-08-10 19:28:16 --> Output Class Initialized
+INFO - 2022-08-10 19:28:16 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:16 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:16 --> CSRF token verified
+INFO - 2022-08-10 19:28:16 --> Input Class Initialized
+INFO - 2022-08-10 19:28:16 --> Language Class Initialized
+INFO - 2022-08-10 19:28:16 --> Language Class Initialized
+INFO - 2022-08-10 19:28:16 --> Config Class Initialized
+INFO - 2022-08-10 19:28:16 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:16 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:16 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:16 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:16 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:16 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:16 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:16 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:16 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:16 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:16 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:16 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:16 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:16 --> Email Class Initialized
+INFO - 2022-08-10 19:28:16 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:16 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:16 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:16 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:16 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:17 --> Config Class Initialized
+INFO - 2022-08-10 19:28:17 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:17 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:17 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:17 --> URI Class Initialized
+INFO - 2022-08-10 19:28:17 --> Router Class Initialized
+INFO - 2022-08-10 19:28:17 --> Output Class Initialized
+INFO - 2022-08-10 19:28:17 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:17 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:17 --> CSRF token verified
+INFO - 2022-08-10 19:28:17 --> Input Class Initialized
+INFO - 2022-08-10 19:28:17 --> Language Class Initialized
+INFO - 2022-08-10 19:28:17 --> Language Class Initialized
+INFO - 2022-08-10 19:28:17 --> Config Class Initialized
+INFO - 2022-08-10 19:28:17 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:17 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:17 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:17 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:17 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:17 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:17 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:17 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:17 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:17 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:17 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:17 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:17 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:17 --> Email Class Initialized
+INFO - 2022-08-10 19:28:17 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:17 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:17 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:17 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:17 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:18 --> Config Class Initialized
+INFO - 2022-08-10 19:28:18 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:18 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:18 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:18 --> URI Class Initialized
+INFO - 2022-08-10 19:28:18 --> Router Class Initialized
+INFO - 2022-08-10 19:28:18 --> Output Class Initialized
+INFO - 2022-08-10 19:28:18 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:18 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:18 --> CSRF token verified
+INFO - 2022-08-10 19:28:18 --> Input Class Initialized
+INFO - 2022-08-10 19:28:18 --> Language Class Initialized
+INFO - 2022-08-10 19:28:18 --> Language Class Initialized
+INFO - 2022-08-10 19:28:18 --> Config Class Initialized
+INFO - 2022-08-10 19:28:18 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:18 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:18 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:18 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:18 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:18 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:18 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:18 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:18 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:18 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:18 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:18 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:18 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:18 --> Email Class Initialized
+INFO - 2022-08-10 19:28:18 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:18 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:18 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:18 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:18 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:19 --> Config Class Initialized
+INFO - 2022-08-10 19:28:19 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:19 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:19 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:19 --> URI Class Initialized
+INFO - 2022-08-10 19:28:19 --> Router Class Initialized
+INFO - 2022-08-10 19:28:19 --> Output Class Initialized
+INFO - 2022-08-10 19:28:19 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:19 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:19 --> CSRF token verified
+INFO - 2022-08-10 19:28:19 --> Input Class Initialized
+INFO - 2022-08-10 19:28:19 --> Language Class Initialized
+INFO - 2022-08-10 19:28:19 --> Language Class Initialized
+INFO - 2022-08-10 19:28:19 --> Config Class Initialized
+INFO - 2022-08-10 19:28:19 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:19 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:19 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:19 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:19 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:19 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:19 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:19 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:19 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:19 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:19 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:19 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:19 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:19 --> Email Class Initialized
+INFO - 2022-08-10 19:28:19 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:19 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:19 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:19 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:19 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:20 --> Config Class Initialized
+INFO - 2022-08-10 19:28:20 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:20 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:20 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:20 --> URI Class Initialized
+INFO - 2022-08-10 19:28:20 --> Router Class Initialized
+INFO - 2022-08-10 19:28:20 --> Output Class Initialized
+INFO - 2022-08-10 19:28:20 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:20 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:20 --> CSRF token verified
+INFO - 2022-08-10 19:28:20 --> Input Class Initialized
+INFO - 2022-08-10 19:28:20 --> Language Class Initialized
+INFO - 2022-08-10 19:28:20 --> Language Class Initialized
+INFO - 2022-08-10 19:28:20 --> Config Class Initialized
+INFO - 2022-08-10 19:28:20 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:20 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:20 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:20 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:20 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:20 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:20 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:20 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:20 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:20 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:20 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:20 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:20 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:20 --> Email Class Initialized
+INFO - 2022-08-10 19:28:20 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:20 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:20 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:20 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:20 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:21 --> Config Class Initialized
+INFO - 2022-08-10 19:28:21 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:21 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:21 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:21 --> URI Class Initialized
+INFO - 2022-08-10 19:28:21 --> Router Class Initialized
+INFO - 2022-08-10 19:28:21 --> Output Class Initialized
+INFO - 2022-08-10 19:28:21 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:21 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:21 --> CSRF token verified
+INFO - 2022-08-10 19:28:21 --> Input Class Initialized
+INFO - 2022-08-10 19:28:21 --> Language Class Initialized
+INFO - 2022-08-10 19:28:21 --> Language Class Initialized
+INFO - 2022-08-10 19:28:21 --> Config Class Initialized
+INFO - 2022-08-10 19:28:21 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:21 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:21 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:21 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:21 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:21 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:21 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:21 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:21 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:21 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:21 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:21 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:21 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:21 --> Email Class Initialized
+INFO - 2022-08-10 19:28:21 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:21 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:21 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:21 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:21 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:22 --> Config Class Initialized
+INFO - 2022-08-10 19:28:22 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:22 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:22 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:22 --> URI Class Initialized
+INFO - 2022-08-10 19:28:22 --> Router Class Initialized
+INFO - 2022-08-10 19:28:22 --> Output Class Initialized
+INFO - 2022-08-10 19:28:22 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:22 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:22 --> CSRF token verified
+INFO - 2022-08-10 19:28:22 --> Input Class Initialized
+INFO - 2022-08-10 19:28:22 --> Language Class Initialized
+INFO - 2022-08-10 19:28:22 --> Language Class Initialized
+INFO - 2022-08-10 19:28:22 --> Config Class Initialized
+INFO - 2022-08-10 19:28:22 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:22 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:22 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:22 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:22 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:22 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:22 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:22 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:22 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:22 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:22 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:22 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:22 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:22 --> Email Class Initialized
+INFO - 2022-08-10 19:28:22 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:22 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:22 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:22 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:22 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:23 --> Config Class Initialized
+INFO - 2022-08-10 19:28:23 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:23 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:23 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:23 --> URI Class Initialized
+INFO - 2022-08-10 19:28:23 --> Router Class Initialized
+INFO - 2022-08-10 19:28:23 --> Output Class Initialized
+INFO - 2022-08-10 19:28:23 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:23 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:23 --> CSRF token verified
+INFO - 2022-08-10 19:28:23 --> Input Class Initialized
+INFO - 2022-08-10 19:28:23 --> Language Class Initialized
+INFO - 2022-08-10 19:28:23 --> Language Class Initialized
+INFO - 2022-08-10 19:28:23 --> Config Class Initialized
+INFO - 2022-08-10 19:28:23 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:23 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:23 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:23 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:23 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:23 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:23 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:23 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:23 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:23 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:23 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:23 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:23 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:23 --> Email Class Initialized
+INFO - 2022-08-10 19:28:23 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:23 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:23 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:23 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:23 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:24 --> Config Class Initialized
+INFO - 2022-08-10 19:28:24 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:24 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:24 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:24 --> URI Class Initialized
+INFO - 2022-08-10 19:28:24 --> Router Class Initialized
+INFO - 2022-08-10 19:28:24 --> Output Class Initialized
+INFO - 2022-08-10 19:28:24 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:24 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:24 --> CSRF token verified
+INFO - 2022-08-10 19:28:24 --> Input Class Initialized
+INFO - 2022-08-10 19:28:24 --> Language Class Initialized
+INFO - 2022-08-10 19:28:24 --> Language Class Initialized
+INFO - 2022-08-10 19:28:24 --> Config Class Initialized
+INFO - 2022-08-10 19:28:24 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:24 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:24 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:24 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:24 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:24 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:24 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:24 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:24 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:24 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:24 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:24 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:24 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:24 --> Email Class Initialized
+INFO - 2022-08-10 19:28:24 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:24 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:24 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:24 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:24 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:25 --> Config Class Initialized
+INFO - 2022-08-10 19:28:25 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:25 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:25 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:25 --> URI Class Initialized
+INFO - 2022-08-10 19:28:25 --> Router Class Initialized
+INFO - 2022-08-10 19:28:25 --> Output Class Initialized
+INFO - 2022-08-10 19:28:25 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:25 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:25 --> CSRF token verified
+INFO - 2022-08-10 19:28:25 --> Input Class Initialized
+INFO - 2022-08-10 19:28:25 --> Language Class Initialized
+INFO - 2022-08-10 19:28:25 --> Language Class Initialized
+INFO - 2022-08-10 19:28:25 --> Config Class Initialized
+INFO - 2022-08-10 19:28:25 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:25 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:25 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:25 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:25 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:25 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:25 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:25 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:25 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:25 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:25 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:25 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:25 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:25 --> Email Class Initialized
+INFO - 2022-08-10 19:28:25 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:25 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:25 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:25 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:25 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:26 --> Config Class Initialized
+INFO - 2022-08-10 19:28:26 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:26 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:26 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:26 --> URI Class Initialized
+INFO - 2022-08-10 19:28:26 --> Router Class Initialized
+INFO - 2022-08-10 19:28:26 --> Output Class Initialized
+INFO - 2022-08-10 19:28:26 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:26 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:26 --> CSRF token verified
+INFO - 2022-08-10 19:28:26 --> Input Class Initialized
+INFO - 2022-08-10 19:28:26 --> Language Class Initialized
+INFO - 2022-08-10 19:28:26 --> Language Class Initialized
+INFO - 2022-08-10 19:28:26 --> Config Class Initialized
+INFO - 2022-08-10 19:28:26 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:26 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:26 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:26 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:26 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:26 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:26 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:26 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:26 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:26 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:26 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:26 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:26 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:26 --> Email Class Initialized
+INFO - 2022-08-10 19:28:26 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:26 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:26 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:26 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:26 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:27 --> Config Class Initialized
+INFO - 2022-08-10 19:28:27 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:27 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:27 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:27 --> URI Class Initialized
+INFO - 2022-08-10 19:28:27 --> Router Class Initialized
+INFO - 2022-08-10 19:28:27 --> Output Class Initialized
+INFO - 2022-08-10 19:28:27 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:27 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:27 --> CSRF token verified
+INFO - 2022-08-10 19:28:27 --> Input Class Initialized
+INFO - 2022-08-10 19:28:27 --> Language Class Initialized
+INFO - 2022-08-10 19:28:27 --> Language Class Initialized
+INFO - 2022-08-10 19:28:27 --> Config Class Initialized
+INFO - 2022-08-10 19:28:27 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:27 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:27 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:27 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:27 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:27 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:27 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:27 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:27 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:27 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:27 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:27 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:27 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:27 --> Email Class Initialized
+INFO - 2022-08-10 19:28:27 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:27 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:27 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:27 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:27 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:28 --> Config Class Initialized
+INFO - 2022-08-10 19:28:28 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:28 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:28 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:28 --> URI Class Initialized
+INFO - 2022-08-10 19:28:28 --> Router Class Initialized
+INFO - 2022-08-10 19:28:28 --> Output Class Initialized
+INFO - 2022-08-10 19:28:28 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:28 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:28 --> CSRF token verified
+INFO - 2022-08-10 19:28:28 --> Input Class Initialized
+INFO - 2022-08-10 19:28:28 --> Language Class Initialized
+INFO - 2022-08-10 19:28:28 --> Language Class Initialized
+INFO - 2022-08-10 19:28:28 --> Config Class Initialized
+INFO - 2022-08-10 19:28:28 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:28 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:28 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:28 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:28 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:28 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:28 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:28 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:28 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:28 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:28 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:28 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:28 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:28 --> Email Class Initialized
+INFO - 2022-08-10 19:28:28 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:28 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:28 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:28 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:28 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:29 --> Config Class Initialized
+INFO - 2022-08-10 19:28:29 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:29 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:29 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:29 --> URI Class Initialized
+INFO - 2022-08-10 19:28:29 --> Router Class Initialized
+INFO - 2022-08-10 19:28:29 --> Output Class Initialized
+INFO - 2022-08-10 19:28:29 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:29 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:29 --> CSRF token verified
+INFO - 2022-08-10 19:28:29 --> Input Class Initialized
+INFO - 2022-08-10 19:28:29 --> Language Class Initialized
+INFO - 2022-08-10 19:28:29 --> Language Class Initialized
+INFO - 2022-08-10 19:28:29 --> Config Class Initialized
+INFO - 2022-08-10 19:28:29 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:29 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:29 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:29 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:29 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:29 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:29 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:29 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:29 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:29 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:29 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:29 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:29 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:29 --> Email Class Initialized
+INFO - 2022-08-10 19:28:29 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:29 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:29 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:29 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:29 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:29 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:30 --> Config Class Initialized
+INFO - 2022-08-10 19:28:30 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:30 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:30 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:30 --> URI Class Initialized
+INFO - 2022-08-10 19:28:30 --> Router Class Initialized
+INFO - 2022-08-10 19:28:30 --> Output Class Initialized
+INFO - 2022-08-10 19:28:30 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:30 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:30 --> CSRF token verified
+INFO - 2022-08-10 19:28:30 --> Input Class Initialized
+INFO - 2022-08-10 19:28:30 --> Language Class Initialized
+INFO - 2022-08-10 19:28:30 --> Language Class Initialized
+INFO - 2022-08-10 19:28:30 --> Config Class Initialized
+INFO - 2022-08-10 19:28:30 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:30 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:30 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:30 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:30 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:30 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:30 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:30 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:30 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:30 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:30 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:30 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:30 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:30 --> Email Class Initialized
+INFO - 2022-08-10 19:28:30 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:30 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:30 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:30 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:30 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:30 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:31 --> Config Class Initialized
+INFO - 2022-08-10 19:28:31 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:31 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:31 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:31 --> URI Class Initialized
+INFO - 2022-08-10 19:28:31 --> Router Class Initialized
+INFO - 2022-08-10 19:28:31 --> Output Class Initialized
+INFO - 2022-08-10 19:28:31 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:31 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:31 --> CSRF token verified
+INFO - 2022-08-10 19:28:31 --> Input Class Initialized
+INFO - 2022-08-10 19:28:31 --> Language Class Initialized
+INFO - 2022-08-10 19:28:31 --> Language Class Initialized
+INFO - 2022-08-10 19:28:31 --> Config Class Initialized
+INFO - 2022-08-10 19:28:31 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:31 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:31 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:31 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:31 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:31 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:31 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:31 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:31 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:31 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:31 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:31 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:31 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:31 --> Email Class Initialized
+INFO - 2022-08-10 19:28:31 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:31 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:31 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:31 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:31 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:32 --> Config Class Initialized
+INFO - 2022-08-10 19:28:32 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:32 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:32 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:32 --> URI Class Initialized
+INFO - 2022-08-10 19:28:32 --> Router Class Initialized
+INFO - 2022-08-10 19:28:32 --> Output Class Initialized
+INFO - 2022-08-10 19:28:32 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:32 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:32 --> CSRF token verified
+INFO - 2022-08-10 19:28:32 --> Input Class Initialized
+INFO - 2022-08-10 19:28:32 --> Language Class Initialized
+INFO - 2022-08-10 19:28:32 --> Language Class Initialized
+INFO - 2022-08-10 19:28:32 --> Config Class Initialized
+INFO - 2022-08-10 19:28:32 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:32 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:32 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:32 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:32 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:32 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:32 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:32 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:32 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:32 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:32 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:32 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:32 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:32 --> Email Class Initialized
+INFO - 2022-08-10 19:28:32 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:32 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:32 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:32 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:32 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:32 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:33 --> Config Class Initialized
+INFO - 2022-08-10 19:28:33 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:33 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:33 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:33 --> URI Class Initialized
+INFO - 2022-08-10 19:28:33 --> Router Class Initialized
+INFO - 2022-08-10 19:28:33 --> Output Class Initialized
+INFO - 2022-08-10 19:28:33 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:33 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:33 --> CSRF token verified
+INFO - 2022-08-10 19:28:33 --> Input Class Initialized
+INFO - 2022-08-10 19:28:33 --> Language Class Initialized
+INFO - 2022-08-10 19:28:33 --> Language Class Initialized
+INFO - 2022-08-10 19:28:33 --> Config Class Initialized
+INFO - 2022-08-10 19:28:33 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:33 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:33 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:33 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:33 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:33 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:33 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:33 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:33 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:33 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:33 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:33 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:33 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:33 --> Email Class Initialized
+INFO - 2022-08-10 19:28:33 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:33 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:33 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:33 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:33 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:34 --> Config Class Initialized
+INFO - 2022-08-10 19:28:34 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:34 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:34 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:34 --> URI Class Initialized
+INFO - 2022-08-10 19:28:34 --> Router Class Initialized
+INFO - 2022-08-10 19:28:34 --> Output Class Initialized
+INFO - 2022-08-10 19:28:34 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:34 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:34 --> CSRF token verified
+INFO - 2022-08-10 19:28:34 --> Input Class Initialized
+INFO - 2022-08-10 19:28:34 --> Language Class Initialized
+INFO - 2022-08-10 19:28:34 --> Language Class Initialized
+INFO - 2022-08-10 19:28:34 --> Config Class Initialized
+INFO - 2022-08-10 19:28:34 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:34 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:34 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:34 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:34 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:34 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:34 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:34 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:34 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:34 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:34 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:34 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:34 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:34 --> Email Class Initialized
+INFO - 2022-08-10 19:28:34 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:34 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:34 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:34 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:34 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:35 --> Config Class Initialized
+INFO - 2022-08-10 19:28:35 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:35 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:35 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:35 --> URI Class Initialized
+INFO - 2022-08-10 19:28:35 --> Router Class Initialized
+INFO - 2022-08-10 19:28:35 --> Output Class Initialized
+INFO - 2022-08-10 19:28:35 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:35 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:35 --> CSRF token verified
+INFO - 2022-08-10 19:28:35 --> Input Class Initialized
+INFO - 2022-08-10 19:28:35 --> Language Class Initialized
+INFO - 2022-08-10 19:28:35 --> Language Class Initialized
+INFO - 2022-08-10 19:28:35 --> Config Class Initialized
+INFO - 2022-08-10 19:28:35 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:35 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:35 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:35 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:35 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:35 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:35 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:35 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:35 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:35 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:35 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:35 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:35 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:35 --> Email Class Initialized
+INFO - 2022-08-10 19:28:35 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:35 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:35 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:35 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:35 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:36 --> Config Class Initialized
+INFO - 2022-08-10 19:28:36 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:36 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:36 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:36 --> URI Class Initialized
+INFO - 2022-08-10 19:28:36 --> Router Class Initialized
+INFO - 2022-08-10 19:28:36 --> Output Class Initialized
+INFO - 2022-08-10 19:28:36 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:36 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:36 --> CSRF token verified
+INFO - 2022-08-10 19:28:36 --> Input Class Initialized
+INFO - 2022-08-10 19:28:36 --> Language Class Initialized
+INFO - 2022-08-10 19:28:36 --> Language Class Initialized
+INFO - 2022-08-10 19:28:36 --> Config Class Initialized
+INFO - 2022-08-10 19:28:36 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:36 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:36 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:36 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:36 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:36 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:36 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:36 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:36 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:36 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:36 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:36 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:36 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:36 --> Email Class Initialized
+INFO - 2022-08-10 19:28:36 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:36 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:36 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:36 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:36 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:36 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:37 --> Config Class Initialized
+INFO - 2022-08-10 19:28:37 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:37 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:37 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:37 --> URI Class Initialized
+INFO - 2022-08-10 19:28:37 --> Router Class Initialized
+INFO - 2022-08-10 19:28:37 --> Output Class Initialized
+INFO - 2022-08-10 19:28:37 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:37 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:37 --> CSRF token verified
+INFO - 2022-08-10 19:28:37 --> Input Class Initialized
+INFO - 2022-08-10 19:28:37 --> Language Class Initialized
+INFO - 2022-08-10 19:28:37 --> Language Class Initialized
+INFO - 2022-08-10 19:28:37 --> Config Class Initialized
+INFO - 2022-08-10 19:28:37 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:37 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:37 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:37 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:37 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:37 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:37 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:37 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:37 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:37 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:37 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:37 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:37 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:37 --> Email Class Initialized
+INFO - 2022-08-10 19:28:37 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:37 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:37 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:37 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:37 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:37 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:38 --> Config Class Initialized
+INFO - 2022-08-10 19:28:38 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:38 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:38 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:38 --> URI Class Initialized
+INFO - 2022-08-10 19:28:38 --> Router Class Initialized
+INFO - 2022-08-10 19:28:38 --> Output Class Initialized
+INFO - 2022-08-10 19:28:38 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:38 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:38 --> CSRF token verified
+INFO - 2022-08-10 19:28:38 --> Input Class Initialized
+INFO - 2022-08-10 19:28:38 --> Language Class Initialized
+INFO - 2022-08-10 19:28:38 --> Language Class Initialized
+INFO - 2022-08-10 19:28:38 --> Config Class Initialized
+INFO - 2022-08-10 19:28:38 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:38 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:38 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:38 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:38 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:38 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:38 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:38 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:38 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:38 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:38 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:38 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:38 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:38 --> Email Class Initialized
+INFO - 2022-08-10 19:28:38 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:38 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:38 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:38 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:38 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:39 --> Config Class Initialized
+INFO - 2022-08-10 19:28:39 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:39 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:39 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:39 --> URI Class Initialized
+INFO - 2022-08-10 19:28:39 --> Router Class Initialized
+INFO - 2022-08-10 19:28:39 --> Output Class Initialized
+INFO - 2022-08-10 19:28:39 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:39 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:39 --> CSRF token verified
+INFO - 2022-08-10 19:28:39 --> Input Class Initialized
+INFO - 2022-08-10 19:28:39 --> Language Class Initialized
+INFO - 2022-08-10 19:28:39 --> Language Class Initialized
+INFO - 2022-08-10 19:28:39 --> Config Class Initialized
+INFO - 2022-08-10 19:28:39 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:39 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:39 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:39 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:39 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:39 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:39 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:39 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:39 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:39 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:39 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:39 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:39 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:39 --> Email Class Initialized
+INFO - 2022-08-10 19:28:39 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:39 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:39 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:39 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:39 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:39 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:40 --> Config Class Initialized
+INFO - 2022-08-10 19:28:40 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:40 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:40 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:40 --> URI Class Initialized
+INFO - 2022-08-10 19:28:40 --> Router Class Initialized
+INFO - 2022-08-10 19:28:40 --> Output Class Initialized
+INFO - 2022-08-10 19:28:40 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:40 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:40 --> CSRF token verified
+INFO - 2022-08-10 19:28:40 --> Input Class Initialized
+INFO - 2022-08-10 19:28:40 --> Language Class Initialized
+INFO - 2022-08-10 19:28:40 --> Language Class Initialized
+INFO - 2022-08-10 19:28:40 --> Config Class Initialized
+INFO - 2022-08-10 19:28:40 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:40 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:40 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:40 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:40 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:40 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:40 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:40 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:40 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:40 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:40 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:40 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:40 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:40 --> Email Class Initialized
+INFO - 2022-08-10 19:28:40 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:40 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:40 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:40 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:40 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:42 --> Config Class Initialized
+INFO - 2022-08-10 19:28:42 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:42 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:42 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:42 --> URI Class Initialized
+INFO - 2022-08-10 19:28:42 --> Router Class Initialized
+INFO - 2022-08-10 19:28:42 --> Output Class Initialized
+INFO - 2022-08-10 19:28:42 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:42 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:42 --> CSRF token verified
+INFO - 2022-08-10 19:28:42 --> Input Class Initialized
+INFO - 2022-08-10 19:28:42 --> Language Class Initialized
+INFO - 2022-08-10 19:28:42 --> Language Class Initialized
+INFO - 2022-08-10 19:28:42 --> Config Class Initialized
+INFO - 2022-08-10 19:28:42 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:42 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:42 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:42 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:42 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:42 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:42 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:42 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:42 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:42 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:42 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:42 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:42 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:42 --> Email Class Initialized
+INFO - 2022-08-10 19:28:42 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:42 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:42 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:42 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:42 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:43 --> Config Class Initialized
+INFO - 2022-08-10 19:28:43 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:43 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:43 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:43 --> URI Class Initialized
+INFO - 2022-08-10 19:28:43 --> Router Class Initialized
+INFO - 2022-08-10 19:28:43 --> Output Class Initialized
+INFO - 2022-08-10 19:28:43 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:43 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:43 --> CSRF token verified
+INFO - 2022-08-10 19:28:43 --> Input Class Initialized
+INFO - 2022-08-10 19:28:43 --> Language Class Initialized
+INFO - 2022-08-10 19:28:43 --> Language Class Initialized
+INFO - 2022-08-10 19:28:43 --> Config Class Initialized
+INFO - 2022-08-10 19:28:43 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:43 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:43 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:43 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:43 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:43 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:43 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:43 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:43 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:43 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:43 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:43 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:43 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:43 --> Email Class Initialized
+INFO - 2022-08-10 19:28:43 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:43 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:43 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:43 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:43 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:44 --> Config Class Initialized
+INFO - 2022-08-10 19:28:44 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:44 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:44 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:44 --> URI Class Initialized
+INFO - 2022-08-10 19:28:44 --> Router Class Initialized
+INFO - 2022-08-10 19:28:44 --> Output Class Initialized
+INFO - 2022-08-10 19:28:44 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:44 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:44 --> CSRF token verified
+INFO - 2022-08-10 19:28:44 --> Input Class Initialized
+INFO - 2022-08-10 19:28:44 --> Language Class Initialized
+INFO - 2022-08-10 19:28:44 --> Language Class Initialized
+INFO - 2022-08-10 19:28:44 --> Config Class Initialized
+INFO - 2022-08-10 19:28:44 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:44 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:44 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:44 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:44 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:44 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:44 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:44 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:44 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:44 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:44 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:44 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:44 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:44 --> Email Class Initialized
+INFO - 2022-08-10 19:28:44 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:44 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:44 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:44 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:44 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:45 --> Config Class Initialized
+INFO - 2022-08-10 19:28:45 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:45 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:45 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:45 --> URI Class Initialized
+INFO - 2022-08-10 19:28:45 --> Router Class Initialized
+INFO - 2022-08-10 19:28:45 --> Output Class Initialized
+INFO - 2022-08-10 19:28:45 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:45 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:45 --> CSRF token verified
+INFO - 2022-08-10 19:28:45 --> Input Class Initialized
+INFO - 2022-08-10 19:28:45 --> Language Class Initialized
+INFO - 2022-08-10 19:28:45 --> Language Class Initialized
+INFO - 2022-08-10 19:28:45 --> Config Class Initialized
+INFO - 2022-08-10 19:28:45 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:45 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:45 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:45 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:45 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:45 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:45 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:45 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:45 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:45 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:45 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:45 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:45 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:45 --> Email Class Initialized
+INFO - 2022-08-10 19:28:45 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:45 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:45 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:45 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:45 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:45 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:46 --> Config Class Initialized
+INFO - 2022-08-10 19:28:46 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:46 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:46 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:46 --> URI Class Initialized
+INFO - 2022-08-10 19:28:46 --> Router Class Initialized
+INFO - 2022-08-10 19:28:46 --> Output Class Initialized
+INFO - 2022-08-10 19:28:46 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:46 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:46 --> CSRF token verified
+INFO - 2022-08-10 19:28:46 --> Input Class Initialized
+INFO - 2022-08-10 19:28:46 --> Language Class Initialized
+INFO - 2022-08-10 19:28:46 --> Language Class Initialized
+INFO - 2022-08-10 19:28:46 --> Config Class Initialized
+INFO - 2022-08-10 19:28:46 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:46 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:46 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:46 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:46 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:46 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:46 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:46 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:46 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:46 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:46 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:46 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:46 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:46 --> Email Class Initialized
+INFO - 2022-08-10 19:28:46 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:46 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:46 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:46 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:46 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:47 --> Config Class Initialized
+INFO - 2022-08-10 19:28:47 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:47 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:47 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:47 --> URI Class Initialized
+INFO - 2022-08-10 19:28:47 --> Router Class Initialized
+INFO - 2022-08-10 19:28:47 --> Output Class Initialized
+INFO - 2022-08-10 19:28:47 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:47 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:47 --> CSRF token verified
+INFO - 2022-08-10 19:28:47 --> Input Class Initialized
+INFO - 2022-08-10 19:28:47 --> Language Class Initialized
+INFO - 2022-08-10 19:28:47 --> Language Class Initialized
+INFO - 2022-08-10 19:28:47 --> Config Class Initialized
+INFO - 2022-08-10 19:28:47 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:47 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:47 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:47 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:47 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:47 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:47 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:47 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:47 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:47 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:47 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:47 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:47 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:47 --> Email Class Initialized
+INFO - 2022-08-10 19:28:47 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:47 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:47 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:47 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:47 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:48 --> Config Class Initialized
+INFO - 2022-08-10 19:28:48 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:48 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:48 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:48 --> URI Class Initialized
+INFO - 2022-08-10 19:28:48 --> Router Class Initialized
+INFO - 2022-08-10 19:28:48 --> Output Class Initialized
+INFO - 2022-08-10 19:28:48 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:48 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:48 --> CSRF token verified
+INFO - 2022-08-10 19:28:48 --> Input Class Initialized
+INFO - 2022-08-10 19:28:48 --> Language Class Initialized
+INFO - 2022-08-10 19:28:48 --> Language Class Initialized
+INFO - 2022-08-10 19:28:48 --> Config Class Initialized
+INFO - 2022-08-10 19:28:48 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:48 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:48 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:48 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:48 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:48 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:48 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:48 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:48 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:48 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:48 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:48 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:48 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:48 --> Email Class Initialized
+INFO - 2022-08-10 19:28:48 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:48 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:48 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:48 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:48 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:49 --> Config Class Initialized
+INFO - 2022-08-10 19:28:49 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:49 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:49 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:49 --> URI Class Initialized
+INFO - 2022-08-10 19:28:49 --> Router Class Initialized
+INFO - 2022-08-10 19:28:49 --> Output Class Initialized
+INFO - 2022-08-10 19:28:49 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:49 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:49 --> CSRF token verified
+INFO - 2022-08-10 19:28:49 --> Input Class Initialized
+INFO - 2022-08-10 19:28:49 --> Language Class Initialized
+INFO - 2022-08-10 19:28:49 --> Language Class Initialized
+INFO - 2022-08-10 19:28:49 --> Config Class Initialized
+INFO - 2022-08-10 19:28:49 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:49 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:49 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:49 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:49 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:49 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:49 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:49 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:49 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:49 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:49 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:49 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:49 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:49 --> Email Class Initialized
+INFO - 2022-08-10 19:28:49 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:49 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:49 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:49 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:49 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:49 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:50 --> Config Class Initialized
+INFO - 2022-08-10 19:28:50 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:50 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:50 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:50 --> URI Class Initialized
+INFO - 2022-08-10 19:28:50 --> Router Class Initialized
+INFO - 2022-08-10 19:28:50 --> Output Class Initialized
+INFO - 2022-08-10 19:28:50 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:50 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:50 --> CSRF token verified
+INFO - 2022-08-10 19:28:50 --> Input Class Initialized
+INFO - 2022-08-10 19:28:50 --> Language Class Initialized
+INFO - 2022-08-10 19:28:50 --> Language Class Initialized
+INFO - 2022-08-10 19:28:50 --> Config Class Initialized
+INFO - 2022-08-10 19:28:50 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:50 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:50 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:50 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:50 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:50 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:50 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:50 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:50 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:50 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:50 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:50 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:50 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:50 --> Email Class Initialized
+INFO - 2022-08-10 19:28:50 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:50 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:50 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:50 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:50 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:51 --> Config Class Initialized
+INFO - 2022-08-10 19:28:51 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:51 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:51 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:51 --> URI Class Initialized
+INFO - 2022-08-10 19:28:51 --> Router Class Initialized
+INFO - 2022-08-10 19:28:51 --> Output Class Initialized
+INFO - 2022-08-10 19:28:51 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:51 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:51 --> CSRF token verified
+INFO - 2022-08-10 19:28:51 --> Input Class Initialized
+INFO - 2022-08-10 19:28:51 --> Language Class Initialized
+INFO - 2022-08-10 19:28:51 --> Language Class Initialized
+INFO - 2022-08-10 19:28:51 --> Config Class Initialized
+INFO - 2022-08-10 19:28:51 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:51 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:51 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:51 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:51 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:51 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:51 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:51 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:51 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:51 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:51 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:51 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:51 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:51 --> Email Class Initialized
+INFO - 2022-08-10 19:28:51 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:51 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:51 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:51 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:51 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:52 --> Config Class Initialized
+INFO - 2022-08-10 19:28:52 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:52 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:52 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:52 --> URI Class Initialized
+INFO - 2022-08-10 19:28:52 --> Router Class Initialized
+INFO - 2022-08-10 19:28:52 --> Output Class Initialized
+INFO - 2022-08-10 19:28:52 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:52 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:52 --> CSRF token verified
+INFO - 2022-08-10 19:28:52 --> Input Class Initialized
+INFO - 2022-08-10 19:28:52 --> Language Class Initialized
+INFO - 2022-08-10 19:28:52 --> Language Class Initialized
+INFO - 2022-08-10 19:28:52 --> Config Class Initialized
+INFO - 2022-08-10 19:28:52 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:52 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:52 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:52 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:52 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:52 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:52 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:52 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:52 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:52 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:52 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:52 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:52 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:52 --> Email Class Initialized
+INFO - 2022-08-10 19:28:52 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:52 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:52 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:52 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:52 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:53 --> Config Class Initialized
+INFO - 2022-08-10 19:28:53 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:53 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:53 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:53 --> URI Class Initialized
+INFO - 2022-08-10 19:28:53 --> Router Class Initialized
+INFO - 2022-08-10 19:28:53 --> Output Class Initialized
+INFO - 2022-08-10 19:28:53 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:53 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:53 --> CSRF token verified
+INFO - 2022-08-10 19:28:53 --> Input Class Initialized
+INFO - 2022-08-10 19:28:53 --> Language Class Initialized
+INFO - 2022-08-10 19:28:53 --> Language Class Initialized
+INFO - 2022-08-10 19:28:53 --> Config Class Initialized
+INFO - 2022-08-10 19:28:53 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:53 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:53 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:53 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:53 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:53 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:53 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:53 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:53 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:53 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:53 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:53 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:53 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:53 --> Email Class Initialized
+INFO - 2022-08-10 19:28:53 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:53 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:53 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:53 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:53 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:54 --> Config Class Initialized
+INFO - 2022-08-10 19:28:54 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:54 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:54 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:54 --> URI Class Initialized
+INFO - 2022-08-10 19:28:54 --> Router Class Initialized
+INFO - 2022-08-10 19:28:54 --> Output Class Initialized
+INFO - 2022-08-10 19:28:54 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:54 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:54 --> CSRF token verified
+INFO - 2022-08-10 19:28:54 --> Input Class Initialized
+INFO - 2022-08-10 19:28:54 --> Language Class Initialized
+INFO - 2022-08-10 19:28:54 --> Language Class Initialized
+INFO - 2022-08-10 19:28:54 --> Config Class Initialized
+INFO - 2022-08-10 19:28:54 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:54 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:54 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:54 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:54 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:54 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:54 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:54 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:54 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:54 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:54 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:54 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:54 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:54 --> Email Class Initialized
+INFO - 2022-08-10 19:28:54 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:54 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:54 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:54 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:54 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:55 --> Config Class Initialized
+INFO - 2022-08-10 19:28:55 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:55 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:55 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:55 --> URI Class Initialized
+INFO - 2022-08-10 19:28:55 --> Router Class Initialized
+INFO - 2022-08-10 19:28:55 --> Output Class Initialized
+INFO - 2022-08-10 19:28:55 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:55 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:55 --> CSRF token verified
+INFO - 2022-08-10 19:28:55 --> Input Class Initialized
+INFO - 2022-08-10 19:28:55 --> Language Class Initialized
+INFO - 2022-08-10 19:28:55 --> Language Class Initialized
+INFO - 2022-08-10 19:28:55 --> Config Class Initialized
+INFO - 2022-08-10 19:28:55 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:55 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:55 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:55 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:55 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:55 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:55 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:55 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:55 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:55 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:55 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:55 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:55 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:55 --> Email Class Initialized
+INFO - 2022-08-10 19:28:55 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:55 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:55 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:55 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:55 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:56 --> Config Class Initialized
+INFO - 2022-08-10 19:28:56 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:56 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:56 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:56 --> URI Class Initialized
+INFO - 2022-08-10 19:28:56 --> Router Class Initialized
+INFO - 2022-08-10 19:28:56 --> Output Class Initialized
+INFO - 2022-08-10 19:28:56 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:56 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:56 --> CSRF token verified
+INFO - 2022-08-10 19:28:56 --> Input Class Initialized
+INFO - 2022-08-10 19:28:56 --> Language Class Initialized
+INFO - 2022-08-10 19:28:56 --> Language Class Initialized
+INFO - 2022-08-10 19:28:56 --> Config Class Initialized
+INFO - 2022-08-10 19:28:56 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:56 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:56 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:56 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:56 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:56 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:56 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:56 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:56 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:56 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:56 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:56 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:56 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:56 --> Email Class Initialized
+INFO - 2022-08-10 19:28:56 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:56 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:56 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:56 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:56 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:57 --> Config Class Initialized
+INFO - 2022-08-10 19:28:57 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:57 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:57 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:57 --> URI Class Initialized
+INFO - 2022-08-10 19:28:57 --> Router Class Initialized
+INFO - 2022-08-10 19:28:57 --> Output Class Initialized
+INFO - 2022-08-10 19:28:57 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:57 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:57 --> CSRF token verified
+INFO - 2022-08-10 19:28:57 --> Input Class Initialized
+INFO - 2022-08-10 19:28:57 --> Language Class Initialized
+INFO - 2022-08-10 19:28:57 --> Language Class Initialized
+INFO - 2022-08-10 19:28:57 --> Config Class Initialized
+INFO - 2022-08-10 19:28:57 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:57 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:57 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:57 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:57 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:57 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:57 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:57 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:57 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:57 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:57 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:57 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:57 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:57 --> Email Class Initialized
+INFO - 2022-08-10 19:28:57 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:57 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:57 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:57 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:57 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:58 --> Config Class Initialized
+INFO - 2022-08-10 19:28:58 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:58 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:58 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:58 --> URI Class Initialized
+INFO - 2022-08-10 19:28:58 --> Router Class Initialized
+INFO - 2022-08-10 19:28:58 --> Output Class Initialized
+INFO - 2022-08-10 19:28:58 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:58 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:58 --> CSRF token verified
+INFO - 2022-08-10 19:28:58 --> Input Class Initialized
+INFO - 2022-08-10 19:28:58 --> Language Class Initialized
+INFO - 2022-08-10 19:28:58 --> Language Class Initialized
+INFO - 2022-08-10 19:28:58 --> Config Class Initialized
+INFO - 2022-08-10 19:28:58 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:58 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:58 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:58 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:58 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:58 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:58 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:58 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:58 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:58 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:58 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:58 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:58 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:58 --> Email Class Initialized
+INFO - 2022-08-10 19:28:58 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:58 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:58 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:58 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:58 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:58 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:59 --> Config Class Initialized
+INFO - 2022-08-10 19:28:59 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:59 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:59 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:59 --> URI Class Initialized
+INFO - 2022-08-10 19:28:59 --> Router Class Initialized
+INFO - 2022-08-10 19:28:59 --> Output Class Initialized
+INFO - 2022-08-10 19:28:59 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:59 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:59 --> CSRF token verified
+INFO - 2022-08-10 19:28:59 --> Input Class Initialized
+INFO - 2022-08-10 19:28:59 --> Language Class Initialized
+INFO - 2022-08-10 19:28:59 --> Language Class Initialized
+INFO - 2022-08-10 19:28:59 --> Config Class Initialized
+INFO - 2022-08-10 19:28:59 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:59 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:59 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:59 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:59 --> Email Class Initialized
+INFO - 2022-08-10 19:28:59 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:59 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:59 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:59 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:59 --> Pagination Class Initialized
+INFO - 2022-08-10 19:28:59 --> Config Class Initialized
+INFO - 2022-08-10 19:28:59 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:28:59 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:28:59 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:28:59 --> URI Class Initialized
+INFO - 2022-08-10 19:28:59 --> Router Class Initialized
+INFO - 2022-08-10 19:28:59 --> Output Class Initialized
+INFO - 2022-08-10 19:28:59 --> Security Class Initialized
+DEBUG - 2022-08-10 19:28:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:28:59 --> CSRF cookie sent
+INFO - 2022-08-10 19:28:59 --> CSRF token verified
+INFO - 2022-08-10 19:28:59 --> Input Class Initialized
+INFO - 2022-08-10 19:28:59 --> Language Class Initialized
+INFO - 2022-08-10 19:28:59 --> Language Class Initialized
+INFO - 2022-08-10 19:28:59 --> Config Class Initialized
+INFO - 2022-08-10 19:28:59 --> Loader Class Initialized
+INFO - 2022-08-10 19:28:59 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:28:59 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:28:59 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:28:59 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:28:59 --> Email Class Initialized
+INFO - 2022-08-10 19:28:59 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:28:59 --> Cart Class Initialized
+INFO - 2022-08-10 19:28:59 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:28:59 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:28:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:28:59 --> Pagination Class Initialized
+INFO - 2022-08-10 19:29:00 --> Config Class Initialized
+INFO - 2022-08-10 19:29:00 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:29:00 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:29:00 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:29:00 --> URI Class Initialized
+INFO - 2022-08-10 19:29:00 --> Router Class Initialized
+INFO - 2022-08-10 19:29:00 --> Output Class Initialized
+INFO - 2022-08-10 19:29:00 --> Security Class Initialized
+DEBUG - 2022-08-10 19:29:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:29:00 --> CSRF cookie sent
+INFO - 2022-08-10 19:29:00 --> CSRF token verified
+INFO - 2022-08-10 19:29:00 --> Input Class Initialized
+INFO - 2022-08-10 19:29:00 --> Language Class Initialized
+INFO - 2022-08-10 19:29:00 --> Language Class Initialized
+INFO - 2022-08-10 19:29:00 --> Config Class Initialized
+INFO - 2022-08-10 19:29:00 --> Loader Class Initialized
+INFO - 2022-08-10 19:29:00 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:29:00 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:29:00 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:29:00 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:29:00 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:29:00 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:29:00 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:29:00 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:29:00 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:29:00 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:29:00 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:29:00 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:29:00 --> Email Class Initialized
+INFO - 2022-08-10 19:29:00 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:29:00 --> Cart Class Initialized
+INFO - 2022-08-10 19:29:00 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:29:00 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:29:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:29:00 --> Pagination Class Initialized
+INFO - 2022-08-10 19:29:01 --> Config Class Initialized
+INFO - 2022-08-10 19:29:01 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:29:01 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:29:01 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:29:01 --> URI Class Initialized
+INFO - 2022-08-10 19:29:01 --> Router Class Initialized
+INFO - 2022-08-10 19:29:01 --> Output Class Initialized
+INFO - 2022-08-10 19:29:01 --> Security Class Initialized
+DEBUG - 2022-08-10 19:29:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:29:01 --> CSRF cookie sent
+INFO - 2022-08-10 19:29:01 --> CSRF token verified
+INFO - 2022-08-10 19:29:01 --> Input Class Initialized
+INFO - 2022-08-10 19:29:01 --> Language Class Initialized
+INFO - 2022-08-10 19:29:01 --> Language Class Initialized
+INFO - 2022-08-10 19:29:01 --> Config Class Initialized
+INFO - 2022-08-10 19:29:01 --> Loader Class Initialized
+INFO - 2022-08-10 19:29:01 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:29:01 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:29:01 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:29:01 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:29:01 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:29:01 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:29:01 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:29:01 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:29:01 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:29:01 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:29:01 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:29:01 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:29:01 --> Email Class Initialized
+INFO - 2022-08-10 19:29:01 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:29:01 --> Cart Class Initialized
+INFO - 2022-08-10 19:29:01 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:29:01 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:29:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:29:01 --> Pagination Class Initialized
+INFO - 2022-08-10 19:29:02 --> Config Class Initialized
+INFO - 2022-08-10 19:29:02 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:29:02 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:29:02 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:29:02 --> URI Class Initialized
+INFO - 2022-08-10 19:29:02 --> Router Class Initialized
+INFO - 2022-08-10 19:29:02 --> Output Class Initialized
+INFO - 2022-08-10 19:29:02 --> Security Class Initialized
+DEBUG - 2022-08-10 19:29:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:29:02 --> CSRF cookie sent
+INFO - 2022-08-10 19:29:02 --> CSRF token verified
+INFO - 2022-08-10 19:29:02 --> Input Class Initialized
+INFO - 2022-08-10 19:29:02 --> Language Class Initialized
+INFO - 2022-08-10 19:29:02 --> Language Class Initialized
+INFO - 2022-08-10 19:29:02 --> Config Class Initialized
+INFO - 2022-08-10 19:29:02 --> Loader Class Initialized
+INFO - 2022-08-10 19:29:02 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:29:02 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:29:02 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:29:02 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:29:02 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:29:02 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:29:02 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:29:02 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:29:02 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:29:02 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:29:02 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:29:02 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:29:02 --> Email Class Initialized
+INFO - 2022-08-10 19:29:02 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:29:02 --> Cart Class Initialized
+INFO - 2022-08-10 19:29:02 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:29:02 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:29:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:29:02 --> Pagination Class Initialized
+INFO - 2022-08-10 19:29:03 --> Config Class Initialized
+INFO - 2022-08-10 19:29:03 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:29:03 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:29:03 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:29:03 --> URI Class Initialized
+INFO - 2022-08-10 19:29:03 --> Router Class Initialized
+INFO - 2022-08-10 19:29:03 --> Output Class Initialized
+INFO - 2022-08-10 19:29:03 --> Security Class Initialized
+DEBUG - 2022-08-10 19:29:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:29:03 --> CSRF cookie sent
+INFO - 2022-08-10 19:29:03 --> CSRF token verified
+INFO - 2022-08-10 19:29:03 --> Input Class Initialized
+INFO - 2022-08-10 19:29:03 --> Language Class Initialized
+INFO - 2022-08-10 19:29:03 --> Language Class Initialized
+INFO - 2022-08-10 19:29:03 --> Config Class Initialized
+INFO - 2022-08-10 19:29:03 --> Loader Class Initialized
+INFO - 2022-08-10 19:29:03 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:29:03 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:29:03 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:29:03 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:29:03 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:29:03 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:29:03 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:29:03 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:29:03 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:29:03 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:29:03 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:29:03 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:29:03 --> Email Class Initialized
+INFO - 2022-08-10 19:29:03 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:29:03 --> Cart Class Initialized
+INFO - 2022-08-10 19:29:03 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:29:03 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:29:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:29:03 --> Pagination Class Initialized
+INFO - 2022-08-10 19:29:04 --> Config Class Initialized
+INFO - 2022-08-10 19:29:04 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:29:04 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:29:04 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:29:04 --> URI Class Initialized
+INFO - 2022-08-10 19:29:04 --> Router Class Initialized
+INFO - 2022-08-10 19:29:04 --> Output Class Initialized
+INFO - 2022-08-10 19:29:04 --> Security Class Initialized
+DEBUG - 2022-08-10 19:29:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:29:04 --> CSRF cookie sent
+INFO - 2022-08-10 19:29:04 --> CSRF token verified
+INFO - 2022-08-10 19:29:04 --> Input Class Initialized
+INFO - 2022-08-10 19:29:04 --> Language Class Initialized
+INFO - 2022-08-10 19:29:04 --> Language Class Initialized
+INFO - 2022-08-10 19:29:04 --> Config Class Initialized
+INFO - 2022-08-10 19:29:04 --> Loader Class Initialized
+INFO - 2022-08-10 19:29:04 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:29:04 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:29:04 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:29:04 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:29:04 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:29:04 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:29:04 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:29:04 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:29:04 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:29:04 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:29:04 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:29:04 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:29:04 --> Email Class Initialized
+INFO - 2022-08-10 19:29:04 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:29:04 --> Cart Class Initialized
+INFO - 2022-08-10 19:29:04 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:29:04 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:29:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:29:04 --> Pagination Class Initialized
+INFO - 2022-08-10 19:29:05 --> Config Class Initialized
+INFO - 2022-08-10 19:29:05 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:29:05 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:29:05 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:29:05 --> URI Class Initialized
+INFO - 2022-08-10 19:29:05 --> Router Class Initialized
+INFO - 2022-08-10 19:29:05 --> Output Class Initialized
+INFO - 2022-08-10 19:29:05 --> Security Class Initialized
+DEBUG - 2022-08-10 19:29:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:29:05 --> CSRF cookie sent
+INFO - 2022-08-10 19:29:05 --> CSRF token verified
+INFO - 2022-08-10 19:29:05 --> Input Class Initialized
+INFO - 2022-08-10 19:29:05 --> Language Class Initialized
+INFO - 2022-08-10 19:29:05 --> Language Class Initialized
+INFO - 2022-08-10 19:29:05 --> Config Class Initialized
+INFO - 2022-08-10 19:29:05 --> Loader Class Initialized
+INFO - 2022-08-10 19:29:05 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:29:05 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:29:05 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:29:05 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:29:05 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:29:05 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:29:05 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:29:05 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:29:05 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:29:05 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:29:05 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:29:05 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:29:05 --> Email Class Initialized
+INFO - 2022-08-10 19:29:05 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:29:05 --> Cart Class Initialized
+INFO - 2022-08-10 19:29:05 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:29:05 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:29:05 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:29:05 --> Pagination Class Initialized
+INFO - 2022-08-10 19:29:06 --> Config Class Initialized
+INFO - 2022-08-10 19:29:06 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:29:06 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:29:06 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:29:06 --> URI Class Initialized
+DEBUG - 2022-08-10 19:29:06 --> No URI present. Default controller set.
+INFO - 2022-08-10 19:29:06 --> Router Class Initialized
+INFO - 2022-08-10 19:29:06 --> Output Class Initialized
+INFO - 2022-08-10 19:29:06 --> Security Class Initialized
+DEBUG - 2022-08-10 19:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:29:06 --> CSRF cookie sent
+INFO - 2022-08-10 19:29:06 --> Input Class Initialized
+INFO - 2022-08-10 19:29:06 --> Language Class Initialized
+INFO - 2022-08-10 19:29:06 --> Language Class Initialized
+INFO - 2022-08-10 19:29:06 --> Config Class Initialized
+INFO - 2022-08-10 19:29:06 --> Loader Class Initialized
+INFO - 2022-08-10 19:29:06 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:29:06 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:29:06 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:29:06 --> Email Class Initialized
+INFO - 2022-08-10 19:29:06 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:29:06 --> Cart Class Initialized
+INFO - 2022-08-10 19:29:06 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:29:06 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:29:06 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:29:06 --> Pagination Class Initialized
+INFO - 2022-08-10 19:29:06 --> Config Class Initialized
+INFO - 2022-08-10 19:29:06 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:29:06 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:29:06 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:29:06 --> URI Class Initialized
+INFO - 2022-08-10 19:29:06 --> Router Class Initialized
+INFO - 2022-08-10 19:29:06 --> Output Class Initialized
+INFO - 2022-08-10 19:29:06 --> Config Class Initialized
+INFO - 2022-08-10 19:29:06 --> Hooks Class Initialized
+INFO - 2022-08-10 19:29:06 --> Security Class Initialized
+DEBUG - 2022-08-10 19:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:29:06 --> CSRF cookie sent
+DEBUG - 2022-08-10 19:29:06 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:29:06 --> Input Class Initialized
+INFO - 2022-08-10 19:29:06 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:29:06 --> Language Class Initialized
+INFO - 2022-08-10 19:29:06 --> URI Class Initialized
+INFO - 2022-08-10 19:29:06 --> Router Class Initialized
+INFO - 2022-08-10 19:29:06 --> Output Class Initialized
+INFO - 2022-08-10 19:29:06 --> Security Class Initialized
+DEBUG - 2022-08-10 19:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:29:06 --> CSRF cookie sent
+INFO - 2022-08-10 19:29:06 --> Input Class Initialized
+INFO - 2022-08-10 19:29:06 --> Language Class Initialized
+INFO - 2022-08-10 19:29:06 --> Language Class Initialized
+INFO - 2022-08-10 19:29:06 --> Config Class Initialized
+INFO - 2022-08-10 19:29:06 --> Loader Class Initialized
+INFO - 2022-08-10 19:29:06 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:29:06 --> Language Class Initialized
+INFO - 2022-08-10 19:29:06 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:29:06 --> Config Class Initialized
+INFO - 2022-08-10 19:29:06 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:29:06 --> Loader Class Initialized
+INFO - 2022-08-10 19:29:06 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:29:06 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:29:06 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:29:06 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:29:06 --> Email Class Initialized
+INFO - 2022-08-10 19:29:06 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:29:06 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:29:06 --> Cart Class Initialized
+INFO - 2022-08-10 19:29:06 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:29:06 --> Form Validation Class Initialized
+INFO - 2022-08-10 19:29:06 --> Email Class Initialized
+DEBUG - 2022-08-10 19:29:06 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:29:06 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:29:06 --> Pagination Class Initialized
+INFO - 2022-08-10 19:29:06 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:29:06 --> Cart Class Initialized
+INFO - 2022-08-10 19:29:06 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:29:06 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:29:06 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:29:06 --> Pagination Class Initialized
+INFO - 2022-08-10 19:29:06 --> Config Class Initialized
+INFO - 2022-08-10 19:29:06 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:29:06 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:29:06 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:29:06 --> URI Class Initialized
+INFO - 2022-08-10 19:29:06 --> Router Class Initialized
+INFO - 2022-08-10 19:29:06 --> Output Class Initialized
+INFO - 2022-08-10 19:29:06 --> Security Class Initialized
+DEBUG - 2022-08-10 19:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:29:06 --> CSRF cookie sent
+INFO - 2022-08-10 19:29:06 --> Input Class Initialized
+INFO - 2022-08-10 19:29:06 --> Language Class Initialized
+ERROR - 2022-08-10 19:29:06 --> 404 Page Not Found: /index
+INFO - 2022-08-10 19:29:07 --> Config Class Initialized
+INFO - 2022-08-10 19:29:07 --> Hooks Class Initialized
+DEBUG - 2022-08-10 19:29:07 --> UTF-8 Support Enabled
+INFO - 2022-08-10 19:29:07 --> Utf8 Class Initialized
+INFO - 2022-08-10 19:29:07 --> URI Class Initialized
+INFO - 2022-08-10 19:29:07 --> Router Class Initialized
+INFO - 2022-08-10 19:29:07 --> Output Class Initialized
+INFO - 2022-08-10 19:29:07 --> Security Class Initialized
+DEBUG - 2022-08-10 19:29:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2022-08-10 19:29:07 --> Input Class Initialized
+INFO - 2022-08-10 19:29:07 --> Language Class Initialized
+INFO - 2022-08-10 19:29:07 --> Language Class Initialized
+INFO - 2022-08-10 19:29:07 --> Config Class Initialized
+INFO - 2022-08-10 19:29:07 --> Loader Class Initialized
+INFO - 2022-08-10 19:29:07 --> Helper loaded: url_helper
+INFO - 2022-08-10 19:29:07 --> Helper loaded: security_helper
+INFO - 2022-08-10 19:29:07 --> Helper loaded: file_helper
+INFO - 2022-08-10 19:29:07 --> Helper loaded: html_helper
+INFO - 2022-08-10 19:29:07 --> Helper loaded: form_helper
+INFO - 2022-08-10 19:29:07 --> Helper loaded: text_helper
+INFO - 2022-08-10 19:29:07 --> Helper loaded: lang_helper
+INFO - 2022-08-10 19:29:07 --> Helper loaded: directory_helper
+INFO - 2022-08-10 19:29:07 --> Helper loaded: common_helper
+INFO - 2022-08-10 19:29:07 --> Helper loaded: dompdf_helper
+INFO - 2022-08-10 19:29:07 --> Database Driver Class Initialized
+INFO - 2022-08-10 19:29:07 --> Helper loaded: sslc_helper
+INFO - 2022-08-10 19:29:07 --> Email Class Initialized
+INFO - 2022-08-10 19:29:07 --> Session: Class initialized using 'files' driver.
+INFO - 2022-08-10 19:29:07 --> Cart Class Initialized
+INFO - 2022-08-10 19:29:07 --> Form Validation Class Initialized
+DEBUG - 2022-08-10 19:29:07 --> Config file loaded: C:\xampp\htdocs\bosca.cendolkampunghulu.com\application\config/paypallib_config.php
+INFO - 2022-08-10 19:29:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2022-08-10 19:29:07 --> Pagination Class Initialized

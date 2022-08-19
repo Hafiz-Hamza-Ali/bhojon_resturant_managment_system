@@ -5,7 +5,8 @@ class Auth_model extends CI_Model {
 
 	public function checkUser($data = array())
 	{
-		return $this->db->select("
+		//print_r($data);
+		$datas= $this->db->select("
 				user.id, 
 				CONCAT_WS(' ', user.firstname, user.lastname) AS fullname,
 				user.email, 
@@ -20,8 +21,13 @@ class Auth_model extends CI_Model {
 			")
 			->from('user')
 			->where('email', $data['email'])
-			->where('password', md5($data['password']))
-			->get();
+			//->where('password', md5($data['password']))
+			->get()
+			->row();
+			;
+			//print_r($datas->result_array());die();
+			//print_r($datas);die();
+			return $datas;
 	}
 
 

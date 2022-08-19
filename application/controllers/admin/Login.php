@@ -12,10 +12,14 @@ class Login extends CI_Controller
         $this->load->model(array(
             'auth_model' 
         ));
+
+        
     }
     public function index()
     {
+       
         if($this->session->userdata('isLogIn'))
+       
 			redirect('admin/dashboard');
 		$data['title']    = display('login'); 
         
@@ -27,30 +31,38 @@ class Login extends CI_Controller
 			'email' 	 => $this->input->post('email',true),
 			'password'   => $this->input->post('password',true),
 		);
-
+        
         if(!empty($this->input->post('email'))){
             $user = $this->auth_model->checkUser($userData);
-            
-            if($this->form_validation->run() && $user->num_rows() > 0 && $user->row()->is_admin == 3)
+            //print_r($user);die();
+            if(!empty($user)){
+                //print_r($user->is_admin);die();
+            if($this->form_validation->run() && $user->is_admin == 3)
             {
+                //print_r('1');die();
                 $sData = array(
 					'isLogIn' 	  => true,
-					'isAdmin' 	  => (($user->row()->is_admin == 3)?true:false),
-					'user_type'   => $user->row()->is_admin,
-					'id' 		  => $user->row()->id,
-					'client_id'   => @$row->client_id,
-					'fullname'	  => $user->row()->fullname,
-					'user_level'  => $user->row()->user_level,
-					'email' 	  => $user->row()->email,
-					'image' 	  => $user->row()->image,
-					'last_login'  => $user->row()->last_login,
-					'last_logout' => $user->row()->last_logout,
-					'ip_address'  => $user->row()->ip_address
+					'isAdmin' 	  => (($user->is_admin == 3)?true:false),
+					'user_type'   => $user->is_admin,
+					'id' 		  => $user->id,
+					//'client_id'   => $row->client_id,
+					'fullname'	  => $user->fullname,
+					'user_level'  => $user->user_level,
+					'email' 	  => $user->email,
+					'image' 	  => $user->image,
+					'last_login'  => $user->last_login,
+					'last_logout' => $user->last_logout,
+					'ip_address'  => $user->ip_address
 					);	
 					//store date to session 
+                   // print_r($sData);die();
 					$this->session->set_userdata($sData);
                 redirect('admin/dashboard');
             }else{
+                
+                redirect('admin/login');
+            }}
+            else{
                 redirect('admin/login');
             }
         }
@@ -81,6 +93,17 @@ class Login extends CI_Controller
 		//destroy session
 		$this->session->sess_destroy();
 		redirect('admin/login');
+	}
+    public function products()
+	{ 
+
+       $data=[];
+       $pModel=$this->load->model("products_model");
+       $data['products']=$this->products_model->getProducts();
+       //print_r($data);die();
+       //$data=$pModel->getProducts();
+     
+		$this->load->view('themes/super-admin/products/index', $data);
 	}
 }
 

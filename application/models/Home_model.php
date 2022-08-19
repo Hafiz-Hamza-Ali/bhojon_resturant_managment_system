@@ -9,7 +9,7 @@ class Home_model extends CI_Model {
 
 	public function checkUser($data = array())
 	{
-		return $this->db->select("
+		$data= $this->db->select("
 				user.id, 
 				CONCAT_WS(' ', user.firstname, user.lastname) AS fullname,
 				user.email, 
@@ -25,6 +25,8 @@ class Home_model extends CI_Model {
 			->where('email', $data['email'])
 			->where('password', md5($data['password']))
 			->get();
+			print_r('1');die();
+
 	}
 
 	public function userPermission($id = null)

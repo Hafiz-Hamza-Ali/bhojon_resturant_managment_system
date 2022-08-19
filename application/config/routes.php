@@ -48,7 +48,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route["default_controller"] = "hungry";
 $route['login']  = "dashboard/auth/index";
 $route['logout'] = "dashboard/auth/logout";
-$route['home'] = "hungry";
+$route['/'] = "hungry";
 $route['menu'] = "hungry/menu";
 $route['menu/(:any)'] = "hungry/menu/$1";
 $route['searchitem'] = "hungry/searchitem";
@@ -85,7 +85,7 @@ $route['admin/dashboard'] = "admin/superadmin/index";
 $route['admin/login'] = "admin/login/index";
 $route['admin/logout'] = "admin/login/logout";
 
-
+$route['admin/products'] = "admin/login/products";
 /////////////Super-Admin Panel Routes End//////////////
 
 //set modules/config/routes.php
