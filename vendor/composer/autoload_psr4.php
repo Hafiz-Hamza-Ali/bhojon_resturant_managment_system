@@ -18,7 +18,7 @@ return array(
     'PhpOffice\\PhpSpreadsheet\\' => array($vendorDir . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet'),
     'MyCLabs\\Enum\\' => array($vendorDir . '/myclabs/php-enum/src'),
     'Money\\' => array($vendorDir . '/moneyphp/money/src'),
-    'Mike42\\' => array($vendorDir . '/mike42/escpos-php/src/Mike42', $vendorDir . '/mike42/gfx-php/src/Mike42'),
+    'Mike42\\' => array($vendorDir . '/mike42/escpos-php/src/Mike42'),
     'Matrix\\' => array($vendorDir . '/markbaker/matrix/classes/src'),
     'Laravie\\Codex\\Testing\\' => array($vendorDir . '/laravie/codex-common/src/Testing'),
     'Laravie\\Codex\\Filter\\' => array($vendorDir . '/laravie/codex-filter/src'),
