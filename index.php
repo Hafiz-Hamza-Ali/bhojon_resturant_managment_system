@@ -1,6 +1,8 @@
 <?php
 // Report runtime errors
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
+error_reporting(-1);
+ini_set('display_errors', 1);
 
 // Report all errors
 error_reporting(E_ALL);

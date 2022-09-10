@@ -7,6 +7,8 @@ class Home extends MX_Controller {
  	{
  		parent::__construct();
 
+
+		
  		$this->load->model(array(
  			'home_model' 
  		)); 
@@ -30,6 +32,7 @@ class Home extends MX_Controller {
 		}
 	public function index()
 	{   
+		
 		if($this->permission->method('dashboard','read')->access()==FALSE){
 				 redirect("dashboard/home/profile");
 				 }
@@ -117,6 +120,25 @@ class Home extends MX_Controller {
 
 		$data["monthname"]=trim($months,',');
 		echo Modules::run('template/layout', $data); 
+	}
+	public function role()
+	{
+		// $this->permission->method('production','create')->redirect();
+	  $data['title'] = "Add role";
+	  #-------------------------------#
+	   $saveid=$this->session->userdata('id');
+	  $data['intinfo']="";
+	 
+	//    $data['item']   = $this->production_model->item_dropdown();
+		
+	   $data['module'] = "role";
+	   $data['page']   = "role_list"; 
+	//    print_r($data);die;  
+	   echo Modules::run('template/layout', $data);
+	}
+	public function rolelist()
+	{
+		die('aaaaa');
 	}
 	public function chartjs(){
 		$allbasicinfo="";

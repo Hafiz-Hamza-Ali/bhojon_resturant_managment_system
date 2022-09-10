@@ -90,7 +90,7 @@ class CI_FTP {
 	 *
 	 * @var	bool
 	 */
-	public $debug = FALSE;
+	public $debug = TRUE;
 
 	// --------------------------------------------------------------------
 

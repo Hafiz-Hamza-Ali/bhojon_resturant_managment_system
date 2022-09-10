@@ -1,5 +1,5 @@
 <div class="sidebar">
-    <!-- Sidebar user panel -->
+    <!-- Sidebar user panel -->?
     <div class="user-panel text-center">
         <div class="image">
             <?php $image = $this->session->userdata('image') ?>
@@ -51,6 +51,7 @@
 			"unavailable_day" => array("controller" => "reservation","method" => "unavailablelist","permission" => "read"), 
 			"reservasetting" => array("controller" => "reservation","method" => "setting","permission" => "read"),   
 		);
+		
 		$HmvcMenu2["purchase"] = array(
     		"icon"=> "<i class='fa fa-shopping-cart' aria-hidden='true'></i>", 
 
@@ -233,6 +234,38 @@
 		   ),
 		   
 		);
+
+
+		?>
+
+<li class="treeview ">
+                    
+                    <a href="javascript:void(0)">
+                        <?php echo "<i class='fa fa-shopping-cart' aria-hidden='true'></i>" ?> <span>Roles</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a> 
+
+                    <ul class="treeview-menu">  
+                  
+                               
+                                <li class="">
+                                    <a href="<?php echo base_url('dashboard/home/role');?>"><?php echo "Role List" ?></a>
+                                </li>
+								<li class="">
+                                    <a href="<?php echo base_url('dashboard/home/rolelist');?>"><?php echo "Add Role" ?></a>
+                                </li>
+
+                           
+
+                        <!-- endforeach -->
+                       
+                    </ul>
+                </li> 
+
+		<?php
+		
         if(isset($HmvcMenu2) && $HmvcMenu2!=null && sizeof($HmvcMenu2) > 0)
         foreach ($HmvcMenu2 as $moduleName => $moduleData) {
           
@@ -316,7 +349,11 @@
             <!-- end if -->
             <?php } ?>
         <!-- end foreach -->
-        <?php } ?>  
+        <?php } ?>
+		
+		
+		
+
         <?php  
         $path = 'application/modules/';
         $map  = directory_map($path);
