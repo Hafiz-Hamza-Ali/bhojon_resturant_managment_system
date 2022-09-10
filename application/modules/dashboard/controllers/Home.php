@@ -123,6 +123,7 @@ class Home extends MX_Controller {
 	}
 	public function role()
 	{
+		
 		// $this->permission->method('production','create')->redirect();
 	  $data['title'] = "Add role";
 	  #-------------------------------#
@@ -130,16 +131,124 @@ class Home extends MX_Controller {
 	  $data['intinfo']="";
 	 
 	//    $data['item']   = $this->production_model->item_dropdown();
-		
-	   $data['module'] = "role";
-	   $data['page']   = "role_list"; 
-	//    print_r($data);die;  
+	$this->db->from('roles');
+
+	$query = $this->db->get();
+	// print_r($query->result());die;
+	$data = array();
+	if ($query->num_rows() > 0) {
+		$data =$query->result();
+		  
+	}
+
+
+	$data["role"] = $data;
+
+	   $data['module'] = "dashboard";
+	   $data['page']   = "role/role_list"; 
+	 
 	   echo Modules::run('template/layout', $data);
 	}
+
 	public function rolelist()
 	{
-		die('aaaaa');
+		$data['title'] = "Add role";
+		#-------------------------------#
+		 $saveid=$this->session->userdata('id');
+		$data['intinfo']="";
+	   
+	  //    $data['item']   = $this->production_model->item_dropdown();
+		 $data['module'] = "dashboard";
+		 $data['page']   = "role/add_role"; 
+		 echo Modules::run('template/layout', $data);
 	}
+
+	public function updaterole()
+	{
+		$this->form_validation->set_rules('title','Title Name','required');
+		$userid=$this->session->userdata('id'); 
+		if ($this->form_validation->run()) { 
+			
+		$this->db->where('id',$this->input->post('id'));
+		$result = $this->db->update('roles',['user_id'=>$userid,'title'=>$this->input->post('title')]);
+		// print_r($this->db->last_query());die;
+		 $this->session->set_flashdata('message', display('update_successfully'));
+		 redirect('dashboard/home/role');
+	}
+}
+public function deleterole($id = null)
+	{
+		
+			
+		$this->db->where('id',$id);
+		$this->db->from('roles');
+		$result = $this->db->delete();
+		// print_r($this->db->last_query());die;
+		 $this->session->set_flashdata('message', display('delete_successfully'));
+		 redirect('dashboard/home/role');
+	
+}
+	public function edit_role($id=null)
+	{
+		
+		$data['title'] = "Update role";
+		#-------------------------------#
+		 $saveid=$this->session->userdata('id');
+		$data['intinfo']="";
+	   
+	  //    $data['item']   = $this->production_model->item_dropdown();
+		 $data['module'] = "dashboard";
+		 $data['page']   = "role/add_role"; 
+		// die($id);
+		 $this->db->from('roles');
+		 $this->db->where('id',$id);
+	$query = $this->db->get();
+	// print_r($query->result());die;
+	
+	if ($query->num_rows() > 0) {
+		$data["role"] =$query->row();
+		  
+	}
+
+
+	//  = $data;
+	// print_r($data);die;
+		 echo Modules::run('template/layout', $data);
+	}
+	public function totalcal($values)
+	{
+		$i=0;
+		// print_r($values);die;
+		$data=array();
+		foreach ($values as $value) {
+			# code...
+			$toalvalue=0;
+			$totalvalucals = $this->iteminfo($value->foodid,$value->pvarientid);
+			foreach ($totalvalucals as $totalvalucal) {
+				# code...
+				$toalvalue = $totalvalucal->uprice*$totalvalucal->qty+$toalvalue;
+			}
+			$values[$i]->totalcost = $toalvalue;
+		$i++;
+		}
+		return $values;
+
+	}
+	public function addrole()
+	{
+		
+		$this->form_validation->set_rules('title','Title Name','required');
+		$userid=$this->session->userdata('id'); 
+		if ($this->form_validation->run()) { 
+			
+		
+		$result = $this->db->insert('roles',['user_id'=>$userid,'title'=>$this->input->post('title')]);
+		// print_r($this->db->last_query());die;
+		 $this->session->set_flashdata('message', display('save_successfully'));
+		 redirect('dashboard/home/role');
+	
+	}
+}
 	public function chartjs(){
 		$allbasicinfo="";
 		$months='';

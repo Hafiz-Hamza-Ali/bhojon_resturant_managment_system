@@ -14,7 +14,7 @@
                             <tr>
                                 <th><?php echo display('sl_no') ?></th>
                                 <th><?php echo display('role_name') ?></th>
-                                <th><?php echo display('description') ?></th>
+                               
                                 <th><?php echo display('action') ?></th>
                             </tr>
                         </thead>
@@ -24,12 +24,12 @@
                             <?php foreach ($role as $value) { ?>
                             <tr>
                                 <td><?php echo $sl++; ?></td>
-                                <td><?php echo $value->role_name; ?></td>
-                                <td><?php echo $value->role_description; ?></td>
+                                <td><?php echo $value->title; ?></td>
+                              
                                 <td>
-                                    <a href="<?php echo base_url("dashboard/role/view/$value->role_id") ?>" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="left" title="View"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a href="<?php echo base_url("dashboard/role/edit_role/$value->role_id") ?>" class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="left" title="Update"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                                    <a href="<?php echo base_url("dashboard/role/delete/$value->role_id") ?>" onclick="return confirm('<?php echo display("are_you_sure") ?>')" class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="right" title="Delete "><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+          
+                                    <a href="<?php echo base_url("dashboard/home/edit_role/$value->id") ?>" class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="left" title="Update"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                                    <a href="<?php echo base_url("dashboard/home/deleterole/$value->id") ?>" onclick="return confirm('<?php echo display("are_you_sure") ?>')" class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="right" title="Delete "><i class="fa fa-trash-o" aria-hidden="true"></i></a>
                                 </td>
                             </tr>
                             <?php } ?>
