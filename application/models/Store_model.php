@@ -8,41 +8,40 @@ class Store_model extends CI_Model {
    if(empty($store['id']))
    {
    $billinfo=array(
-    'name'	        =>	$store['name'],
-    'number'	            =>	$store['number'],
-    'address'	    =>	$store['address'],
-    'user_id'	    =>	$store['user_id'],
-    'status'		=>  1,
+    'store_name'	        =>	$store['name'],
+    // 'number'	            =>	$store['number'],
+    // 'address'	    =>	$store['address'],
+     'user_id'	    =>	$store['user_id'],
+    // 'status'		=>  1,
     );
     
-    $data=$this->db->insert('stores',$billinfo);
+    $data=$this->db->insert('store',$billinfo);
     }
     else{
         $billinfo=array(
-            'name'	        =>	$store['name'],
-            'number'	    =>	$store['number'],
-            'Address'	    =>	$store['address'],
-            'status'		=>  1,
+            'store_name'	        =>	$store['name'],
+            // 'number'	    =>	$store['number'],
+            // 'Address'	    =>	$store['address'],
+            // 'status'		=>  1,
             );
             $data=$this->db->select("*")
-            ->from('stores')
+            ->from('store')
             ->where('id',$store['id'])
-            ->update('stores',$billinfo);
+            ->update('store',$billinfo);
          
     }
     return $data;
     }
     public function getStore(){
         $datas=$this->db->select("*")
-    ->from('stores')
-    ->where('status',1)
+    ->from('store')
     ->get()
     ->result_array();
     return $datas;
          }
          public function getStoreById($id){
          $datas= $this->db->select("*")
-			->from('stores')
+			->from('store')
 			->where('id', $id)
 			->get()
 			->row();
@@ -50,7 +49,7 @@ class Store_model extends CI_Model {
 			return $datas;
          }
     public function delStore($id){
-        $this->db->delete('stores', array('id' => $id)); 
+        $this->db->delete('store', array('id' => $id)); 
         return true;
     }     
 	public function checkUser($data = array())

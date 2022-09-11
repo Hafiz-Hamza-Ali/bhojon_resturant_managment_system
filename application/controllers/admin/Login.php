@@ -34,7 +34,6 @@ class Login extends CI_Controller
     {
         $data=[];
         $data['data'] = $this->Store_model->getStore();
-        //print_r($data);die();
         $this->load->view('themes/super-admin/store/index', $data);
     }
     public function index()

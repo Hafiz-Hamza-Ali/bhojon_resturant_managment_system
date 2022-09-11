@@ -262,31 +262,14 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 									<!-- <label for="focusedinput" class="col-sm-2 control-label">Name</label> -->
 									<div class="col-sm-8">
 									<input type="hidden" name="id" value='<?php echo $result->id?>' class="form-control1" id="focusedinput" placeholder="Default Input">
-										<input type="text" name="name" class="form-control input-lg name" value='<?php echo $result->name?>' id="focusedinput" placeholder="Enter Store Name" style="margin-bottom: 50px;" required='required'>
+										<input type="text" name="name" class="form-control input-lg name" value='<?php echo $result->store_name?>' id="focusedinput" placeholder="Enter Store Name" style="margin-bottom: 50px;" required='required'>
 									</div>
 									<div class="col-sm-2 valid n-valid">
 										<p class="help-block margin-bottom: 50px;" style="color: red;">Name Field is required</p>
 									</div>
 								</div>
                                
-                                <div class="form-group">
-									<!-- <label for="focusedinput" class="col-sm-2 control-label">Number</label> -->
-									<div class="col-sm-8">
-										<input type="text" name="number" class="form-control input-lg number"   value='<?php echo $result->number?>' id="focusedinput" placeholder="Enter Store Number" style="margin-bottom: 50px;">
-									</div>
-									<div class="col-sm-2 valid nu-valid">
-										<p class="help-block margin-bottom: 50px;"  style="color: red;">Number Field is required</p>
-									</div>
-								</div>
-								<div class="form-group">
-									<!-- <label for="focusedinput" class="col-sm-2 control-label">Address</label> -->
-									<div class="col-sm-8 ">
-										<input type="text" name="address" value='<?php echo $result->Address?>' class="form-control input-lg address" id="focusedinput" placeholder="Enter Store Address" style="margin-bottom: 50px;">
-									</div>
-									<div class="col-sm-2 valid a-valid">
-										<p class="help-block margin-bottom: 50px;"  style="color: red;">Address Field is required</p>
-									</div>
-								</div>
+                                <!--  -->
                                 <!-- <div class="form-group">
 									<label for="focusedinput" class="col-sm-2 control-label">Category Id</label>
 									<div class="col-sm-8">
@@ -296,9 +279,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 										<p class="help-block">Your help text!</p>
 									</div>
 								</div>      -->
-								<div class="form-group">
-									<!-- <label for="focusedinput" class="col-sm-2 control-label">Status</label> -->
-									<!-- <label for="selector1" class="col-sm-2 control-label">Dropdown Select</label> -->
+								<!-- <div class="form-group">
 									<div class="col-sm-8"><select name="status" id="selector1" class="form-control input-lg status" style="margin-bottom: 50px;">
 									<option disabled selected>Status</option>
 										<option value="1" <?php echo($result->status == 1 ? "selected":'');?> >Active</option>
@@ -307,7 +288,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 									<div class="col-sm-2 valid s-valid">
 										<p class="help-block margin-bottom: 50px;"  style="color: red;">Status Field is required</p>
 									</div>
-								</div>                                 
+								</div>                                  -->
 								<!-- <div class="form-group">
 									<label for="disabledinput" class="col-sm-2 control-label">Disabled Input</label>
 									<div class="col-sm-8">
@@ -456,10 +437,10 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				$('.valid').hide();
 				//alert();
 				let name=$('.name').val();
-				let email=$('.email').val();
-				let number=$('.number').val();
-				let address=$('.address').val();
-				let status=$('.status').val();
+				// let email=$('.email').val();
+				// let number=$('.number').val();
+				// let address=$('.address').val();
+				// let status=$('.status').val();
 				
 				if(!name)
 				{
@@ -467,27 +448,27 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 					$('.n-valid').show();
 					return false;
 				}
-				if(!number)
-				{
-					//alert();
-					$('.nu-valid').show();
-					return false;
-				}
+				// if(!number)
+				// {
+				// 	//alert();
+				// 	$('.nu-valid').show();
+				// 	return false;
+				// }
 
-				if(!address)
-				{
-					//alert();
-					$('.a-valid').show();
-					return false;
-				}
+				// if(!address)
+				// {
+				// 	//alert();
+				// 	$('.a-valid').show();
+				// 	return false;
+				// }
 
 
-				if(!status)
-				{
-					//alert();
-					$('.s-valid').show();
-					return false;
-				}				
+				// if(!status)
+				// {
+				// 	//alert();
+				// 	$('.s-valid').show();
+				// 	return false;
+				// }				
 
 				
 			});

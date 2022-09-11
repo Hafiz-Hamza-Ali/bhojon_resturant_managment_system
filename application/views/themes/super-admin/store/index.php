@@ -70,20 +70,18 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							<thead> 
 								<tr> <th>#</th>
 									<th>name</th>
-									<th>Address</th> 
-									<th>Number</th> 
                                     <th>Actions</th> 
 								</tr> 
 							</thead> 
 						<tbody> 
 						<?php
+						
                         $c=1;
                         foreach ($data as $item):?>
 								<tr class="active"> 
 									<td><?php echo $c ?></td>
-									<td><?php echo $item['name'] ;?></td> 
-									<td><?php echo $item['Address'] ;?></td> 
-									<td><?php echo $item['number'] ;?></td> 
+									<td><?php echo $item['store_name'] ;?></td> 
+
                                     <td><form><a href='<?php echo base_url(); ?>admin/login/edit?id=<?php echo $item['id'] ;?>' >Edit</a><a href='<?php echo base_url(); ?>admin/login/delete?id=<?php echo $item['id'] ;?>' style="margin-left: 10px;">Delete</a></td>
 								</tr> 
 						<?php

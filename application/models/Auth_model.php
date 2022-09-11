@@ -8,7 +8,7 @@ class Auth_model extends CI_Model {
 			'firstname'	        =>	$store['name'],
 			'email'	            =>	$store['email'],
 			'password'	    =>	md5('123456'),
-			'status'=>1,
+			'status'=>$store['status'],
 			'is_admin'=>1
 			);
 			
