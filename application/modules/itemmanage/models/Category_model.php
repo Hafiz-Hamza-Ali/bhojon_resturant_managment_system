@@ -13,6 +13,14 @@ class Category_model extends CI_Model {
 			->get()
 			->result();
 	}
+	public function get_stores($id)
+	{
+		return $this->db->select('*')	
+			->from('store')
+			->where('user_id', $id)
+			->get()
+			->result_array();
+	}
 	public function cat_create($data = array())
 	{
 		return $this->db->insert($this->table, $data);
@@ -79,23 +87,25 @@ class Category_model extends CI_Model {
 	}
  // Parent Category Dropdown
 	
-    public function allcategory_dropdown(){
+ public function allcategory_dropdown(){
 
-        $this->db->select('*');
-        $this->db->from('item_category');
-        $this->db->where('parentid', 0);
-        $parent = $this->db->get();
-        $categories = $parent->result();
-        $i=0;
-        foreach($categories as $p_cat){
-			
-            $categories[$i]->sub = $this->sub_categories($p_cat->CategoryID);
-			
-            $i++;
-        }
-        return $categories;
-    }
-    public function sub_categories($id){
+	$this->db->select('*');
+	$this->db->from('item_category');
+	$this->db->where('parentid', 0);
+	$parent = $this->db->get();
+	$categories = $parent->result();
+	//print_r($categories);die();
+	// $i=0;
+	// foreach($categories as $p_cat){
+		
+	// 	$categories[$i]->sub = $this->sub_categories($p_cat->CategoryID);
+		
+	// 	$i++;
+	// }
+	
+	return $categories;
+}
+	public function sub_categories($id){
 
         $this->db->select('*');
         $this->db->from('item_category');

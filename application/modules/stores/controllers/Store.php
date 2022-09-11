@@ -48,9 +48,8 @@ class Store extends MX_Controller {
         $theme_name = $this->input->post();
         $theme_name['user_id']=$this->session->userdata('id');
         $active_theme = $this->Store_model->create($theme_name);
-        $data['module'] = "stores";
-        $data['page'] = "create";
-        echo Modules::run('template/layout', $data);
+        $this->session->set_flashdata('message', display('updated_successfully'));
+        redirect('stores/store/index');
     }
     public function index()
     {
@@ -61,8 +60,8 @@ class Store extends MX_Controller {
         // $installed_themes = $this->themes_model->get_installed_themes_ids();
         // $json_theme = $this->addons_model->search_available_themes();
         $user_id=$this->session->userdata('id');
-        $active_theme = $this->Store_model->get_store($user_id);
-        print_r($active_theme);die();
+        $data['store'] = $this->Store_model->get_store($user_id);
+        //print_r($active_theme);die();
         $new_items = [];
         if(!empty($json_theme)){
           $new_items = json_decode($json_theme);
@@ -88,7 +87,44 @@ class Store extends MX_Controller {
         $this->session->set_userdata($sdata);
         redirect('addon/theme');
     }
-
+    public function edit($id)
+    {
+        $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        $input = $this->input->post();
+        if(preg_match("/\/(\d+)$/",$actual_link,$recordMatch)){
+            $lastResult=$recordMatch[1];
+         }
+         $data['store'] = $this->Store_model->get_store_by_id($lastResult);
+         $data['module'] = "stores";
+         $data['page'] = "edit";
+         echo Modules::run('template/layout', $data);
+    }
+    public function update()
+    {
+        //print_r('gdgd');die();
+        $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        $input = $this->input->post();
+        //print_r($input);die();
+        if(preg_match("/\/(\d+)$/",$actual_link,$recordMatch)){
+            $lastResult=$recordMatch[1];
+         }
+         $data['store'] = $this->Store_model->update($input);
+         $this->session->set_flashdata('message', display('updated_successfully'));
+         redirect('stores/store/index');
+    }
+    public function delete()
+    {
+        //print_r('gdgd');die();
+        $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        $input = $this->input->post();
+        //print_r($input);die();
+        if(preg_match("/\/(\d+)$/",$actual_link,$recordMatch)){
+            $lastResult=$recordMatch[1];
+         }
+         $data['store'] = $this->Store_model->delete($lastResult);
+         $this->session->set_flashdata('error_message', display('deleted_successfully'));
+         redirect('stores/store/index');
+    }
     #------------------------------------
     # To upload new theme
     #------------------------------------

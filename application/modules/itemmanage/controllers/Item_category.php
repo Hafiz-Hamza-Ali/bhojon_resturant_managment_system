@@ -117,6 +117,7 @@ class Item_category extends MX_Controller {
 	   'DateInserted'       => date('Y-m-d H:i:s'),
 	   'DateUpdated'        => date('Y-m-d H:i:s'),
 	   'DateLocked'         => date('Y-m-d H:i:s'),
+	   'store_id'           => $this->input->post('store',true)
 	  );
 	 $logData = array(
 	   'action_page'         => "Add Category",
@@ -160,7 +161,9 @@ class Item_category extends MX_Controller {
 	   'CategoryImage'      => $img,
 	   'UserIDUpdated'      => $savedid,
 	   'DateUpdated'        => date('Y-m-d H:i:s'),
+	  
 	  );
+	  print_r($data['category']);die();
 	  $logData = array(
 	   'action_page'         => "Category List",
 	   'action_done'     	 => "Update Data", 
@@ -193,6 +196,9 @@ class Item_category extends MX_Controller {
 		$data['categoryinfo']   = $this->category_model->findById($id);
 	   }
 	   $data['categories']   =  $this->category_model->allcategory_dropdown();
+	   $savedid=$this->session->userdata('id');
+	   $data['stores']   =  $this->category_model->get_stores($savedid);
+	  // print_r($data['stores']);die();
 	   $data['module'] = "itemmanage";
 	   $data['page']   = "addcategory";   
 	   echo Modules::run('template/layout', $data); 

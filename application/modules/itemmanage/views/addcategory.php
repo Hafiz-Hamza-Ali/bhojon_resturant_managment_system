@@ -38,6 +38,25 @@
 					     ?>
                         </div>
                     </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-sm-4 col-form-label">Stores name</label>
+                        <div class="col-sm-8">
+                       <select name="store" class="form-control">
+                            <option value="" selected="selected">Stores name</option> 
+
+                            <?php foreach($stores as $store){
+								?>
+                                
+                            <option value="<?php echo $store['id'];?>" class='bolden' ><strong><?php echo $store['store_name'];?></strong></option>
+                            	
+                            <?php } ?>
+                        </select>
+                        <?php 
+						
+						if(empty($categories)){$categories = array('' => '--Select--');}
+					     ?>
+                        </div>
+                    </div>
                       <div class="form-group row">
                         <label for="firstname" class="col-sm-4 col-form-label"><?php echo display('image')?></label>
                         <div class="col-sm-8">

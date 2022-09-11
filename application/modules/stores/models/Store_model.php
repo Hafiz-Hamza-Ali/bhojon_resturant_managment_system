@@ -63,8 +63,10 @@ class Store_model extends CI_Model {
         if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
         }
-        $sql = "SELECT * FROM store WHERE id=$id";
-$result = $conn->query($sql);
+        $sql = "SELECT * FROM store WHERE user_id=$id";
+        $result = $conn->query($sql);
+        $datas=$result-> fetch_all(MYSQLI_ASSOC);
+        return $datas;
 // if ($result->num_rows > 0) {
 //     // output data of each row
 //     while($row = $result->fetch_assoc()) {
@@ -76,20 +78,88 @@ $result = $conn->query($sql);
 //   $conn->close();
 
 	}
+    public function get_store_by_id($id = null)
+	{
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "cendolka_bhojon";
+        $date=date('Y-m-d');
+      //  print_r($date);die();
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+        }
+        $sql = "SELECT * FROM store WHERE id=$id";
+        $result = $conn->query($sql);
+        $datas=$result-> fetch_array(MYSQLI_ASSOC);
+        return $datas;
+// if ($result->num_rows > 0) {
+//     // output data of each row
+//     while($row = $result->fetch_assoc()) {
+//       echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+//     }
+//   } else {
+//     echo "0 results";
+//   }
+//   $conn->close();
 
+	}
 	public function update($data = array())
 	{
-		return $this->db->where('id', $data["id"])
-			->update("module", $data);
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "cendolka_bhojon";
+        $date=date('Y-m-d');
+      //  print_r($date);die();
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+        }
+        $store_name=$data['foodname'];
+        $store_id=$data['id'];
+       // print_r( $data);die();
+        $sql = "UPDATE store SET store_name='$store_name' WHERE id=$store_id";
+
+if ($conn->query($sql) === TRUE) {
+  echo "Record updated successfully";
+} else {
+  echo "Error updating record: " . $conn->error;
+}
+
+$conn->close();
+return true;
 	}
 
 	public function delete($id = null)
 	{
-		$this->db->where('id', $id)
-			->delete("module");
-		$this->db->where('fk_module_id', $id)
-			->delete("module_permission");
-		return true;
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "cendolka_bhojon";
+        $date=date('Y-m-d');
+      //  print_r($date);die();
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+        }
+		$sql = "DELETE FROM store WHERE id=$id";
+
+if ($conn->query($sql) === TRUE) {
+  echo "Record deleted successfully";
+} else {
+  echo "Error deleting record: " . $conn->error;
+}
+
+$conn->close();
+return true;
 	}
 
 	public function delete_by_directory($directory = null)
