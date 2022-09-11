@@ -1,8 +1,6 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
 
 class Login extends CI_Controller
 {
@@ -10,18 +8,38 @@ class Login extends CI_Controller
     public function __construct() {
         parent::__construct();
         $this->load->model(array(
-            'auth_model' 
+            'auth_model',
+            'Store_model' 
         ));
 
         
     }
+    public function create(){
+        $data=array();
+        $this->load->view('themes/super-admin/header.php');
+        $this->load->view('themes/super-admin/store/create.php',$data);
+    }
+    public function post()
+    {
+        //print_r('jgj');die();
+        $data=$this->input->post();
+        $user_data = $this->auth_model->store($data);
+        $user = $this->auth_model->checkUser($data);
+        $data['user_id']=$user->id;
+        $store = $this->Store_model->store($data);
+        $this->session->set_flashdata('message', display('save_successfully'));
+        redirect('admin/store/list');
+    }
+    public function list()
+    {
+        $data=[];
+        $data['data'] = $this->Store_model->getStore();
+        //print_r($data);die();
+        $this->load->view('themes/super-admin/store/index', $data);
+    }
     public function index()
     {
-<<<<<<< HEAD
        
-=======
-        
->>>>>>> main
         if($this->session->userdata('isLogIn'))
        
 			redirect('admin/dashboard');
@@ -109,6 +127,29 @@ class Login extends CI_Controller
      
 		$this->load->view('themes/super-admin/products/index', $data);
 	}
+    public function delete()
+	{ 
+        $data=$this->input->get();
+        $data['data'] = $this->Store_model->delStore($data['id']);
+        $this->session->set_flashdata('message', display('save_successfully'));
+       // print_r('1sadas');die();
+        redirect('admin/store/list');
+	}
+    public function edit()
+	{ 
+        $data=$this->input->get();
+        // print_r($data);die();
+        $data['result'] = $this->Store_model->getStoreById($data['id']);
+        //print_r($result->id);die();
+       $this->load->view('themes/super-admin/store/edit', $data);
+	}
+    public function update()
+    {
+        $data=$this->input->post();
+        $this->session->set_flashdata('message', display('save_successfully'));
+        $store = $this->Store_model->store($data);
+        redirect('admin/store/list');
+    }
 }
 
 ?>

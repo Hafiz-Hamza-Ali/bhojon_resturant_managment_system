@@ -14,7 +14,7 @@
                         </div>
                         <div class="clearfix"> </div>
                     </div> -->
-                    <input type="submit" name="Sign In" value="Sign Ins">
+                    <input type="submit" name="Sign In" value="Sign In">
                 </form>
             </div>
         </div>

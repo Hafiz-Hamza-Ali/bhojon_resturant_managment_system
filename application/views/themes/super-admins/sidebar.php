@@ -36,14 +36,14 @@
 					</ul>
 				</li>
 				<li class="treeview">
-					<a href="<?php echo base_url(); ?>#">
+					<a href="<?php echo base_url(); ?>">
 					<i class="fa fa-laptop"></i>
 					<span>Store Management</span>
 					<i class="fa fa-angle-left pull-right"></i>
 					</a>
 					<ul class="treeview-menu">
 					<li><a href="<?php echo base_url(); ?>admin/store/create"><i class="fa fa-angle-right"></i> Create Store</a></li>
-					<li><a href="<?php echo base_url(); ?>admin/store/list"><i class="fa fa-angle-right"></i> All Stores</a></li>
+					<li><a href="<?php echo base_url(); ?>admin/store/view"><i class="fa fa-angle-right"></i> All Stores</a></li>
 					</ul>
 				</li>
 				<li class="treeview">

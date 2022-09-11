@@ -84,8 +84,14 @@ $route['admin/store'] = '';
 $route['admin/dashboard'] = "admin/superadmin/index";
 $route['admin/login'] = "admin/login/index";
 $route['admin/logout'] = "admin/login/logout";
-
+$route['admin/store/post'] = "admin/login/post";
+$route['admin/store/list'] = "admin/login/list";
+$route['admin/store/delete'] = "admin/login/delete";
+$route['admin/store/edit'] = "admin/login/edit";
+$route['admin/store/update'] = "admin/login/update";
 $route['admin/products'] = "admin/login/products";
+$route['admin/products'] = "admin/login/products";
+$route['admin/store/create'] = "admin/login/create";
 /////////////Super-Admin Panel Routes End//////////////
 
 //set modules/config/routes.php

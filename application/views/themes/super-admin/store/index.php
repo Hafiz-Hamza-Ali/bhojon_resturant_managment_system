@@ -47,7 +47,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	<div class="main-content">
     <?php $this->load->view('themes/super-admin/sidebar.php'); ?>
 	<?php $this->load->view('themes/super-admin/topbar.php'); ?>
-
+	
 	
 		<!--left-fixed -navigation-->
 		
@@ -55,29 +55,40 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 
 		<!-- //header-ends -->
 		<!-- main content start-->
+	
 		<div id="page-wrapper">
 			<div class="main-page">
 				<div class="tables">
-					<h2 class="title1">Tables</h2>				
+				<?php if ($this->session->message): ?>
+							<div class="form-control alert alert-success"><?php echo $this->session->message; ?></div>
+						<?php endif; ?>
+					<h2 class="title1">Stores</h2>				
 					<div class="bs-example widget-shadow" data-example-id="contextual-table"> 
-						<h4>Products:</h4>
+						<!-- <h4>Stores:</h4> -->
+						
 						<table class="table"> 
 							<thead> 
 								<tr> <th>#</th>
 									<th>name</th>
-									<th>Price</th> 
-									<th>Category</th> 
+									<th>Address</th> 
+									<th>Number</th> 
+                                    <th>Actions</th> 
 								</tr> 
 							</thead> 
 						<tbody> 
-						<?php foreach ($products as $item):?>
+						<?php
+                        $c=1;
+                        foreach ($data as $item):?>
 								<tr class="active"> 
-									<th scope="row">1</th>
+									<td><?php echo $c ?></td>
 									<td><?php echo $item['name'] ;?></td> 
-									<td><?php echo $item['price'] ;?></td> 
-									<td><?php echo $item['category'] ;?></td> 
+									<td><?php echo $item['Address'] ;?></td> 
+									<td><?php echo $item['number'] ;?></td> 
+                                    <td><form><a href='<?php echo base_url(); ?>admin/login/edit?id=<?php echo $item['id'] ;?>' >Edit</a><a href='<?php echo base_url(); ?>admin/login/delete?id=<?php echo $item['id'] ;?>' style="margin-left: 10px;">Delete</a></td>
 								</tr> 
-						<?php endforeach;?>
+						<?php
+                        $c++;
+                     endforeach;?>
 								
 								 </tbody> </table> 
 					</div>

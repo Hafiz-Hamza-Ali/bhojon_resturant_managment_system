@@ -2,7 +2,20 @@
 
 class Auth_model extends CI_Model {
 
-
+	public function store($store)
+	{
+		$info=array(
+			'firstname'	        =>	$store['name'],
+			'email'	            =>	$store['email'],
+			'password'	    =>	md5('123456'),
+			'status'=>1,
+			'is_admin'=>1
+			);
+			
+			$data=$this->db->insert('user',$info);
+			//print_r($data);die();
+			return $data;
+	}
 	public function checkUser($data = array())
 	{
 		//print_r($data);

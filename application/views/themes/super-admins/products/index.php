@@ -74,7 +74,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 								<tr class="active"> 
 									<th scope="row">1</th>
 									<td><?php echo $item['name'] ;?></td> 
-									<td><?php echo $item['price'] ;?></td> 
+									<td><?php echo $item['price'] ;?><td> 
 									<td><?php echo $item['category'] ;?></td> 
 								</tr> 
 						<?php endforeach;?>

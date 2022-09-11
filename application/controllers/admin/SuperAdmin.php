@@ -17,11 +17,16 @@ class SuperAdmin extends CI_Controller
     }
     public function index()
     {
+        //print_r('1');die();
         $ordernum= $this->home_model->countorder();
 		$data["totalorder"]  =$this->changeformat($ordernum);
-
+        
         $this->load->view('themes/super-admin/header.php');
         $this->load->view('themes/super-admin/index.php',$data);
+    }
+    public function post()
+    {
+        print_r('1');die();
     }
 
     public function changeformat($num) {
