@@ -17,7 +17,11 @@ class Login extends CI_Controller
     }
     public function index()
     {
+<<<<<<< HEAD
        
+=======
+        
+>>>>>>> main
         if($this->session->userdata('isLogIn'))
        
 			redirect('admin/dashboard');

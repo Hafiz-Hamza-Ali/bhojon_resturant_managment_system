@@ -102,6 +102,13 @@
 	            "assign_adons_list" => array("controller" => "menu_addons","method"     => "assignaddons","permission" => "read")   
    				)
 		);
+		$HmvcMenu2["stores"] = array( 
+    		"icon"           => "<i class='fa fa-product-hunt' aria-hidden='true'></i>", 
+   			"set_storesunit" => array("controller" => "stores","method"     => "storesunit","permission" => "create"),
+   			"stores_set_list" => array("controller" => "stores","method"     => "index","permission" => "read"),
+			"stores_add" => array("controller" => "stores","method"     => "create","permission" => "create"),
+			"stores_setting" => array("controller" => "stores","method" => "possetting","permission" => "create")
+			);
 		$HmvcMenu2["production"] = array( 
     		"icon"           => "<i class='fa fa-product-hunt' aria-hidden='true'></i>", 
    			"set_productionunit" => array("controller" => "production","method"     => "productionunit","permission" => "create"),
@@ -267,6 +274,36 @@
 		<?php
 		
         if(isset($HmvcMenu2) && $HmvcMenu2!=null && sizeof($HmvcMenu2) > 0)
+		// print_r($HmvcMenu2);die();
+		?>
+		<li class="treeview">
+                    
+                    <a href="javascript:void(0)">
+                        <i class="fa fa-first-order" aria-hidden="true"></i> <span>Stores</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a> 
+
+                    <ul class="treeview-menu">  
+                                                                            <!-- endforeach -->
+                                                     
+                               
+                                <li class="">
+                                    <a href="http://localhost/sop/stores/Store/add">Add Store</a>
+                                </li>
+
+                                                    <!-- endforeach -->
+                                                     
+                               
+                                <li class="">
+                                    <a href="http://localhost/sop/stores/Store/index">Store List</a>
+                                </li>
+
+                                                    <!-- endforeach -->
+                                            </ul>
+                </li>
+		<?php
         foreach ($HmvcMenu2 as $moduleName => $moduleData) {
           
             // check module permission 

@@ -67,6 +67,7 @@ class Item_food extends MX_Controller {
 	
     public function create($id = null)
     {
+	//	print_r('hjhj');die();
 	  $this->permission->method('itemmanage','create')->redirect();
 	  $data['title'] = display('add_food');
 	  #-------------------------------#
@@ -123,6 +124,7 @@ class Item_food extends MX_Controller {
 	   }
 	    $uniqueStr = implode(',', array_unique(explode(',', $alltmtype)));
 	  #-------------------------------#
+	  
 	  if ($this->form_validation->run()) { 
 	  /****************image Upload*************/
 	    $config['upload_path']          = 'application/modules/itemmanage/assets/images/';
@@ -204,6 +206,7 @@ class Item_food extends MX_Controller {
 	   'DateInserted'       	=> date('Y-m-d H:i:s'),
 	   'DateUpdated'        	=> date('Y-m-d H:i:s'),
 	   'DateLocked'         	=> date('Y-m-d H:i:s'),
+	   'store_id'           => $this->input->post('store',true)
 	  );
 	  $logData = array(
 	   'action_page'         => "Add Food",
@@ -322,10 +325,12 @@ class Item_food extends MX_Controller {
 	   }
 	   
 	   $data['categories']   =  $this->category_model->allcategory_dropdown();
+	   	  $data['stores']   =  $this->category_model->get_stores($savedid);
 	   $data['allkitchen']   =  $this->fooditem_model->allkitchen();
 	   $data['todaymenu']   =  $this->todaymenu_model->read_menulist();
 	   $data['module'] = "itemmanage";
 	   $data['page']   = "addfooditem";   
+	   
 	   echo Modules::run('template/layout', $data); 
 	   }   
  
