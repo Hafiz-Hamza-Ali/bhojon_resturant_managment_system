@@ -5,24 +5,7 @@
             <div class="panel panel-bd">
                <div class="panel-heading">
                 <div class="panel-title">
-                	<div class="btn-group pull-right form-inline"> 
-		                <?php $today = date('d-m-Y'); ?>
-		                    <div class="form-group">
-		                        <label class="" for="from_date"><?php echo display('start_date') ?></label>
-		                        <input type="text" name="from_date" class="form-control datepicker5" id="from_date" value="" placeholder="<?php echo display('start_date') ?>" readonly="readonly" >
-		                    </div> 
-
-		                    <div class="form-group">
-		                        <label class="" for="to_date"><?php echo display('end_date') ?></label>
-		                        <input type="text" name="to_date" class="form-control datepicker5" id="to_date" placeholder="<?php echo "To"; ?>" value="" readonly="readonly">
-		                    </div> 
-                            <div class="form-group">
-		                    <button  class="btn btn-success" id="filterordlist"><?php echo display('search') ?></button>
-                            <button  class="btn btn-warning" id="filterordlistrst"><?php echo display('reset') ?></button>
-                            </div>
-		                   </div>
-                    <h4><?php echo (!empty($title)?$title:null) ?></h4>
-                </div>
+                	
             </div>
                 <div class="panel-body">
 					<div class="row">

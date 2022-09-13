@@ -47,14 +47,8 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	<div class="main-content">
     <?php $this->load->view('themes/super-admin/sidebar.php'); ?>
 	<?php $this->load->view('themes/super-admin/topbar.php'); ?>
-
-
-		<!--left-fixed -navigation-->
-		
-		<!-- header-starts -->
-
-		<!-- //header-ends -->
-
+	
+	
 		<!--left-fixed -navigation-->
 		
 		<!-- header-starts -->
@@ -146,51 +140,14 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<!--footer-->
 		<div class="footer">
-		   <p>&copy; 2022 Glance Design Dashboard. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">w3layouts</a></p>
+		   <!-- <p>&copy; 2018 Glance Design Dashboard. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">w3layouts</a></p> -->
 	   </div>
-        <!--//footer-->
-	</div>
         <!--//footer-->
 	</div>
 	
 	<!-- side nav js -->
 	<script src='<?php echo base_url(); ?>assets/super-admin/js/SidebarNav.min.js' type='text/javascript'></script>
-	<!-- <script>
-        $('#store_id').submit(function(e) {
-        e.preventDefault();
-
-
-    //    var title = $("input[name='title']").val();
-    //    var description = $("textarea[name='description']").val();
-
-    var data=$('#store_id').serialize();
-    console.log(data);
-        $.ajax({
-           url: '/sop/admin/store/post',
-           type: 'POST',
-           data: {data: data},
-           error: function() {
-              alert('Something is wrong');
-           },
-           success: function(data) {
-                $("tbody").append("<tr><td>"+title+"</td><td>"+description+"</td></tr>");
-                alert("Record added successfully");  
-           }
-        });
-
-
-    });
-
-      $('.sidebar-menu').SidebarNav()
-    </script> -->
-	<!-- //side nav js -->
-	
-	<!-- Classie --><!-- for toggle left push menu script -->
-
-		<script src="<?php echo base_url(); ?>assets/super-admin/js/classie.js"></script>
-			<!--scrolling js-->
-	
-		<script>
+    <script>
 			$('.valid').hide();
 			$( "#store_id" ).submit(function( event ) {
 				$('.valid').hide();
@@ -256,8 +213,34 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				}
 			}
 		</script>
+	<script>
+      $('.sidebar-menu').SidebarNav()
+    </script>
+	<!-- //side nav js -->
+	
+	<!-- Classie --><!-- for toggle left push menu script -->
+		<script src="<?php echo base_url(); ?>assets/super-admin/js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+				body = document.body;
+				
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeftPush' );
+			};
+			
+			function disableOther( button ) {
+				if( button !== 'showLeftPush' ) {
+					classie.toggle( showLeftPush, 'disabled' );
+				}
+			}
+		</script>
 	<!-- //Classie --><!-- //for toggle left push menu script -->
 	
+	<!--scrolling js-->
 	<script src="<?php echo base_url(); ?>assets/super-admin/js/jquery.nicescroll.js"></script>
 	<script src="<?php echo base_url(); ?>assets/super-admin/js/scripts.js"></script>
 	<!--//scrolling js-->
