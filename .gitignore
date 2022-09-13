@@ -1,0 +1,4 @@
+application/logs/*
+assets/img/captcha/*
+application/cache/temp/*
+assets/data/outgoing/*

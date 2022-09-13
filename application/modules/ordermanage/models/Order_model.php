@@ -917,12 +917,17 @@ public function customer_dropdown()
 	public function orderlist($limit = null, $start = null){
 			$this->db->select('customer_order.*,customer_info.customer_name,customer_type.customer_type,employee_history.first_name,employee_history.last_name,rest_table.tablename');
 			$this->db->from('customer_order');
-			$this->db->join('customer_info','customer_order.customer_id=customer_info.customer_id','left');
-			$this->db->join('customer_type','customer_order.cutomertype=customer_type.customer_type_id','left');
-			$this->db->join('employee_history','customer_order.waiter_id=employee_history.emp_his_id','left');
-			$this->db->join('rest_table','customer_order.table_no=rest_table.tableid','left');
+			$this->db->join('customer_info','customer_order.customer_id=customer_info.customer_id');
+			$this->db->join('customer_type','customer_order.cutomertype=customer_type.customer_type_id');
+			$this->db->join('employee_history','customer_order.waiter_id=employee_history.emp_his_id');
+			$this->db->join('rest_table','customer_order.table_no=rest_table.tableid');
+			
+			$this->db->join('order_menu','order_menu.order_id=customer_order.order_id');   // add new line by Adil
+			$this->db->join('item_foods','order_menu.menu_id=item_foods.ProductsID ');   // add new line by Adil  
+			$this->db->join('store','store.id=item_foods.store_id ');   
 			$this->db->order_by('customer_order.order_id', 'DESC');
-	
+			$this->db->where('store.user_id',$this->session->userdata('id'));// add new line by Adil
+		// print_r($this->session->userdata('id'));die;
 			$this->db->limit($limit, $start);
 			$query = $this->db->get();
 			$orderdetails=$query->result();
@@ -933,9 +938,15 @@ public function customer_dropdown()
 		$this->db->select('customer_order.*,customer_info.customer_name,customer_type.customer_type,employee_history.first_name,employee_history.last_name,rest_table.tablename');
 		$this->db->from('customer_order');
 		$this->db->join('customer_info','customer_order.customer_id=customer_info.customer_id','left');
+
 		$this->db->join('customer_type','customer_order.cutomertype=customer_type.customer_type_id','left');
 		$this->db->join('employee_history','customer_order.waiter_id=employee_history.emp_his_id','left');
 		$this->db->join('rest_table','customer_order.table_no=rest_table.tableid','left');
+		$this->db->join('order_menu','order_menu.order_id=customer_order.order_id');   // add new line by Adil
+		$this->db->join('item_foods','order_menu.menu_id=item_foods.ProductsID ');   // add new line by Adil  
+		$this->db->join('store','store.id=item_foods.store_id ');   
+		$this->db->order_by('customer_order.order_id', 'DESC');
+		$this->db->where('store.user_id',$this->session->userdata('id'));// add new line by Adil
         $query = $this->db->get();
         if ($query->num_rows() > 0) {
             return $query->num_rows();  
@@ -1268,7 +1279,14 @@ public function customer_dropdown()
 			$this->db->join('customer_type','customer_order.cutomertype=customer_type.customer_type_id','left');
 			$this->db->join('employee_history','customer_order.waiter_id=employee_history.emp_his_id','left');
 			$this->db->join('rest_table','customer_order.table_no=rest_table.tableid','left');
+
+			$this->db->join('order_menu','order_menu.order_id=customer_order.order_id');   // add new line by Adil
+			$this->db->join('item_foods','order_menu.menu_id=item_foods.ProductsID ');   // add new line by Adil  
+			$this->db->join('store','store.id=item_foods.store_id ');   
 			$this->db->order_by('customer_order.order_id', 'DESC');
+			$this->db->where('store.user_id',$this->session->userdata('id'));// add new line by Adil
+			$this->db->order_by('customer_order.order_id', 'DESC');
+
 			$startdate=$this->input->post('startdate',true);
 			$enddate=$this->input->post('enddate',true);
 			if(!empty($startdate)){
@@ -1331,6 +1349,11 @@ public function customer_dropdown()
 			$this->db->join('customer_type','customer_order.cutomertype=customer_type.customer_type_id','left');
 			$this->db->join('employee_history','customer_order.waiter_id=employee_history.emp_his_id','left');
 			$this->db->join('rest_table','customer_order.table_no=rest_table.tableid','left');
+			$this->db->join('order_menu','order_menu.order_id=customer_order.order_id');   // add new line by Adil
+			$this->db->join('item_foods','order_menu.menu_id=item_foods.ProductsID ');   // add new line by Adil  
+			$this->db->join('store','store.id=item_foods.store_id ');   
+			$this->db->order_by('customer_order.order_id', 'DESC');
+			$this->db->where('store.user_id',$this->session->userdata('id'));// add new line by Adil
 			$startdate=$this->input->post('startdate',true);
 			$enddate=$this->input->post('enddate',true);
 			if(!empty($startdate)){
