@@ -53,7 +53,8 @@ class Item_food extends MX_Controller {
         /* ends of bootstrap */
         $this->pagination->initialize($config);
         $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
-        $data["fooditemslist"] = $this->fooditem_model->read_fooditem($config["per_page"], $page);
+		$id=$this->session->userdata('id');
+        $data["fooditemslist"] = $this->fooditem_model->read_fooditems($config["per_page"], $page,$id);
 		$data['pagenum']=$page;
         $data["links"] = $this->pagination->create_links();
         #
@@ -581,7 +582,8 @@ class Item_food extends MX_Controller {
         /* ends of bootstrap */
         $this->pagination->initialize($config);
         $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
-		$data["fooditemslist"] = $this->foodvarient_model->read_varient($config["per_page"], $page);
+		$id=$this->session->userdata('id');
+		$data["fooditemslist"] = $this->foodvarient_model->read_varient($config["per_page"], $page,$id);
         $data["links"] = $this->pagination->create_links();
 		$data['pagenum']=$page;
         #
@@ -601,13 +603,14 @@ class Item_food extends MX_Controller {
     }
 	public function varientcreate($id = null)
     {
+		
 	  $this->permission->method('itemmanage','create')->redirect();
 	  $data['title'] = display('add_varient');
 	  #-------------------------------#
 		$this->form_validation->set_rules('varientname',display('varient_name'),'required|max_length[50]');
 		$this->form_validation->set_rules('foodid',display('item_name')  ,'required');
 		$this->form_validation->set_rules('price', display('price')  ,'required');
-	   
+		
 	  $data['intinfo']="";
 	  $data['varient']   = (Object) $postData = [
 	   'variantid'          => $this->input->post('variantid'),
@@ -618,6 +621,7 @@ class Item_food extends MX_Controller {
 	  if ($this->form_validation->run()) { 
 	   if (empty($this->input->post('variantid'))) {
 		$this->permission->method('itemmanage','create')->redirect();
+		
 		
 	 $logData = [
 	   'action_page'         => "Varient List",

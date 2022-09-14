@@ -19,7 +19,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         		<div class="r3_counter_box">
                     <i class="pull-left fa fa-dollar icon-rounded"></i>
                     <div class="stats">
-                      <h5><strong><?= $totalorder ?></strong></h5>
+                      <h5><strong><?= $totalproduct ?></strong></h5>
                       <span>Total Products</span>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         		<div class="r3_counter_box">
                     <i class="pull-left fa fa-laptop user1 icon-rounded"></i>
                     <div class="stats">
-                      <h5><strong>$1019</strong></h5>
+                      <h5><strong><?php echo $totalstore;?></strong></h5>
                       <span>Total Stores</span>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         		<div class="r3_counter_box">
                     <i class="pull-left fa fa-money user2 icon-rounded"></i>
                     <div class="stats">
-                      <h5><strong>$1012</strong></h5>
+                      <h5><strong><?php echo $sum;?></strong></h5>
                       <span>Earnings</span>
                     </div>
                 </div>
@@ -46,8 +46,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         		<div class="r3_counter_box">
                     <i class="pull-left fa fa-pie-chart dollar1 icon-rounded"></i>
                     <div class="stats">
-                      <h5><strong>$450</strong></h5>
-                      <span>Pending Stores</span>
+                      <h5><strong><?php echo $totalorder;?></strong></h5>
+                      <span>Total Orders</span>
                     </div>
                 </div>
         	 </div>

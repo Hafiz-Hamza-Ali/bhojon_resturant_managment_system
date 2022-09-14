@@ -131,7 +131,21 @@ class Fooditem_model extends CI_Model {
         }
         return false;
 	} 
-
+	public function read_fooditems($limit = null, $start = null,$id)
+	{
+	    $this->db->select('item_foods.*,item_category.Name,store.*');
+        $this->db->from($this->table);
+		$this->db->join('item_category','item_foods.CategoryID = item_category.CategoryID','left');
+		$this->db->join('store','store.id =item_foods.store_id');
+		$this->db->where('store.user_id',$id);
+        $this->db->order_by('ProductsID', 'desc');
+   
+        $query = $this->db->get();
+        if ($query->num_rows() > 0) {
+            return $query->result();    
+        }
+        return false;
+	} 
 	public function findById($id = null)
 	{ 
 		return $this->db->select("*")->from($this->table)
@@ -192,11 +206,13 @@ class Fooditem_model extends CI_Model {
 			->from($this->table)
 			->get()
 			->result();
-
+		
 		$list[''] = 'Select '.display('item_name');
 		if (!empty($data)) {
 			foreach($data as $value)
 				$list[$value->ProductsID] = $value->ProductName;
+
+				//print_r($list);die();
 			return $list;
 		} else {
 			return false; 

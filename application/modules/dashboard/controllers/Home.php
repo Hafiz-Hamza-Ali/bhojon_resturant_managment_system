@@ -132,7 +132,7 @@ class Home extends MX_Controller {
 	 
 	//    $data['item']   = $this->production_model->item_dropdown();
 	$this->db->from('roles');
-
+	$this->db->where('user_id',$saveid);
 	$query = $this->db->get();
 	// print_r($query->result());die;
 	$data = array();
@@ -143,7 +143,7 @@ class Home extends MX_Controller {
 
 
 	$data["role"] = $data;
-
+//print_r($data["role"]);die();
 	   $data['module'] = "dashboard";
 	   $data['page']   = "role/role_list"; 
 	 

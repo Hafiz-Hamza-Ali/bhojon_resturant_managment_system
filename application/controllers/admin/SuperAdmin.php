@@ -18,9 +18,13 @@ class SuperAdmin extends CI_Controller
     public function index()
     {
         //print_r('1');die();
-        $ordernum= $this->home_model->countorder();
-		$data["totalorder"]  =$this->changeformat($ordernum);
-        
+        $data['ordernum']= $this->home_model->countorder();
+		$data["totalorder"]  =$this->changeformat($data['ordernum']);
+        $data['totalstore']= $this->home_model->countstore();
+        $data['totalproduct']= $this->home_model->countproduct();
+        $data['sumearn']= $this->home_model->sumearn();
+        $data['sum']= $data['sumearn']->totalamount;
+        //print_r($data['sumearn']->totalamount);die();
         $this->load->view('themes/super-admin/header.php');
         $this->load->view('themes/super-admin/index.php',$data);
     }

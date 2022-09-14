@@ -51,22 +51,28 @@ class Store_model extends CI_Model {
 	}
 	public function get_store($id = null)
 	{
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "cendolka_bhojon";
-        $date=date('Y-m-d');
-      //  print_r($date);die();
-        // Create connection
-        $conn = new mysqli($servername, $username, $password, $dbname);
-        // Check connection
-        if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-        }
-        $sql = "SELECT * FROM store WHERE user_id=$id";
-        $result = $conn->query($sql);
-        $datas=$result-> fetch_all(MYSQLI_ASSOC);
-        return $datas;
+    //print_r($id);die();
+    return $this->db->select('*')
+    ->where('user_id',$id)
+			->from('store')
+			->get()
+			->result_array();
+      //   $servername = "localhost";
+      //   $username = "root";
+      //   $password = "";
+      //   $dbname = "cendolka_bhojon";
+      //   $date=date('Y-m-d');
+      // //  print_r($date);die();
+      //   // Create connection
+      //   $conn = new mysqli($servername, $username, $password, $dbname);
+      //   // Check connection
+      //   if ($conn->connect_error) {
+      //   die("Connection failed: " . $conn->connect_error);
+      //   }
+      //   $sql = "SELECT * FROM store WHERE user_id=$id";
+      //   $result = $conn->query($sql);
+      //   $datas=$result-> fetch_all(MYSQLI_ASSOC);
+      //   return $datas;
 // if ($result->num_rows > 0) {
 //     // output data of each row
 //     while($row = $result->fetch_assoc()) {

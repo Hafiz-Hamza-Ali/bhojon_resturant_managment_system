@@ -1247,6 +1247,7 @@ class Hungry extends CI_Controller
 
     public function checkopenclose()
     {
+        print_r('5775');die();
         $getdate = $this->input->post('getdate');
         $time = $this->input->post('time');
         $openingtime = $this->settinginfo->opentime;
@@ -1320,6 +1321,7 @@ class Hungry extends CI_Controller
 
     public function checkout()
     {
+      // print_r($this->cart->contents());die();
         if ($this->webinfo->web_onoff == 0) {
             redirect(base_url() . 'login');
             exit;
@@ -1788,6 +1790,7 @@ class Hungry extends CI_Controller
 
     public function placeorder()
     {
+
         if ($this->webinfo->web_onoff == 0) {
             redirect(base_url() . 'login');
             exit;
@@ -1913,6 +1916,14 @@ class Hungry extends CI_Controller
         $orderinfo['tokenno'] = $tokenno;
         $orderinfo['customer_note'] = $this->input->post('ordre_notes');
         $orderinfo['order_status'] = 1;
+        if (!empty($this->cart->contents())) {
+            $carts=$this->cart->contents();
+            foreach($carts as $vals)
+            {
+                $store_id[] = $vals['pid'];
+            }
+        }
+        $orderinfo['p_id'] = implode(',',$store_id);
         $orderid = $this->hungry_model->insert_data('customer_order', $orderinfo);
 
         $taxinfos = $this->taxchecking();
@@ -2282,6 +2293,14 @@ document.getElementById("paytrack").click();
             $orderinfo['table_no'] = $this->session->userdata('tableid');
             $orderinfo['customer_note'] = $this->input->post('ordernote');
             $orderinfo['order_status'] = 1;
+            if (!empty($this->cart->contents())) {
+                $carts=$this->cart->contents();
+                foreach($carts as $vals)
+                {
+                    $store_id[] = $vals['pid'];
+                }
+            }
+            $orderinfo['p_id'] = implode(',',$store_id);
             $orderid = $this->hungry_model->insert_data('customer_order', $orderinfo);
 
 
@@ -3742,6 +3761,7 @@ document.getElementById("paytrack").click();
         $orderinfo = $this->hungry_model->read('*', 'customer_order', array('order_id' => $orderid));
         $oldbillinfo = $this->hungry_model->billinfo($orderid);
         if ($cart = $this->cart->contents()) {
+            // print_r($cart);die();
             foreach ($cart as $item) {
                 $total = $this->cart->total();
 

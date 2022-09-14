@@ -47,7 +47,8 @@ class Item_category extends MX_Controller {
         /* ends of bootstrap */
         $this->pagination->initialize($config);
         $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
-        $data["categories"] = $this->category_model->read_category($config["per_page"], $page);
+		$id=$this->session->userdata('id');
+        $data["categories"] = $this->category_model->read_categories($config["per_page"], $page,$id);
         $data["links"] = $this->pagination->create_links();
 		$data['pagenum']=$page;
         #
@@ -163,7 +164,7 @@ class Item_category extends MX_Controller {
 	   'DateUpdated'        => date('Y-m-d H:i:s'),
 	  
 	  );
-	  print_r($data['category']);die();
+	//  print_r($data['category']);die();
 	  $logData = array(
 	   'action_page'         => "Category List",
 	   'action_done'     	 => "Update Data", 
@@ -195,7 +196,7 @@ class Item_category extends MX_Controller {
 		$data['title'] = display('update_category');
 		$data['categoryinfo']   = $this->category_model->findById($id);
 	   }
-	   $data['categories']   =  $this->category_model->allcategory_dropdown();
+	   $data['categories']   =  $this->category_model->allcategory_dropdowns($savedid);
 	   $savedid=$this->session->userdata('id');
 	   $data['stores']   =  $this->category_model->get_stores($savedid);
 	  // print_r($data['stores']);die();

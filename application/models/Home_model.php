@@ -92,6 +92,36 @@ class Home_model extends CI_Model {
         }
         return 0;
 	}
+	public function countstore()
+	{
+		$this->db->select('*');
+        $this->db->from('store');
+        $query = $this->db->get();
+        if ($query->num_rows() > 0) {
+            return $query->num_rows();  
+        }
+        return 0;
+	}
+	public function sumearn()
+	{
+		
+		$this->db->select_sum('totalamount');
+$this->db->from('customer_order');
+        $query = $this->db->get();
+        
+		return $query->row();
+	}
+	
+	public function countproduct()
+	{
+		$this->db->select('*');
+        $this->db->from('item_foods');
+        $query = $this->db->get();
+        if ($query->num_rows() > 0) {
+            return $query->num_rows();  
+        }
+        return 0;
+	}
 	public function countcompleteorder()
 	{
 		$this->db->select('*');

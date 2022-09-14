@@ -26,13 +26,13 @@ class Foodvarient_model extends MX_Controller {
 			->update($this->table, $data);
 	}
 
-    public function read_varient($limit = null, $start = null)
+    public function read_varient($limit = null, $start = null,$id)
 	{
 	    $this->db->select('variant.*,item_foods.ProductName');
         $this->db->from($this->table);
 		$this->db->join('item_foods','variant.menuid = item_foods.ProductsID','left');
         $this->db->order_by('variantid', 'desc');
-    
+		$this->db->where('user_id', $id);
         $query = $this->db->get();
         if ($query->num_rows() > 0) {
             return $query->result();    

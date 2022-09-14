@@ -59,7 +59,20 @@ class Category_model extends CI_Model {
         }
         return false;
 	} 
-
+    public function read_categories($limit = null, $start = null,$id)
+	{
+	   $this->db->select('item_category.*,store.*');
+        $this->db->from('item_category');
+		$this->db->join('store','store.id=item_category.store_id ');
+		$this->db->where('store.user_id',$id);
+        $this->db->order_by('CategoryID', 'desc');
+     
+        $query = $this->db->get();
+        if ($query->num_rows() > 0) {
+            return $query->result();    
+        }
+        return false;
+	} 
 	public function findById($id = null)
 	{ 
 		return $this->db->select("*")->from($this->table)
@@ -67,7 +80,31 @@ class Category_model extends CI_Model {
 			->get()
 			->row();
 	} 
- 
+	public function allcategory_dropdowns($id){
+
+		// $this->db->select('*');
+		// $this->db->from('item_category');
+		// $this->db->where('parentid', 0);
+		//print_r('jh');die();
+		$this->db->select('item_category.*,store.*');
+		$this->db->from('item_category');
+		$this->db->join('store','store.id=item_category.store_id ');
+		$this->db->where('store.user_id',$id);
+		$this->db->order_by('CategoryID', 'desc');
+		$this->db->where('parentid', 0);
+		$parent = $this->db->get();
+		$categories = $parent->result();
+		//print_r($id);die();
+		// $i=0;
+		// foreach($categories as $p_cat){
+			
+		// 	$categories[$i]->sub = $this->sub_categories($p_cat->CategoryID);
+			
+		// 	$i++;
+		// }
+		
+		return $categories;
+	}
 // Department Dropdown
 	public function category_dropdown()
 	{
