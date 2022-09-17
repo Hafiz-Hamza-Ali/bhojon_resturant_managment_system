@@ -290,14 +290,14 @@
                                                      
                                
                                 <li class="">
-                                    <a href="http://localhost/sop/stores/Store/add">Add Store</a>
+                                    <a href="<?php echo base_url(); ?>stores/Store/add">Add Store</a>
                                 </li>
 
                                                     <!-- endforeach -->
                                                      
                                
                                 <li class="">
-                                    <a href="http://localhost/sop/stores/Store/index">Store List</a>
+                                    <a href="<?php echo base_url(); ?>stores/Store/index">Store List</a>
                                 </li>
 
                                                     <!-- endforeach -->

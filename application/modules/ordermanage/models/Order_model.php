@@ -922,9 +922,15 @@ public function customer_dropdown()
 			$this->db->join('employee_history','customer_order.waiter_id=employee_history.emp_his_id');
 			$this->db->join('rest_table','customer_order.table_no=rest_table.tableid');
 			
-			$this->db->join('order_menu','order_menu.order_id=customer_order.order_id');   // add new line by Adil
-			$this->db->join('item_foods','order_menu.menu_id=item_foods.ProductsID ');   // add new line by Adil  
-			$this->db->join('store','store.id=item_foods.store_id ');   
+			// $this->db->join('order_menu','order_menu.order_id=customer_order.order_id');   // add new line by Adil
+			// $this->db->join('item_foods','order_menu.menu_id=item_foods.ProductsID ');   // add new line by Adil 
+			
+			$this->db->join('item_foods','customer_order.p_id=item_foods.ProductsID ');   // add new line by Adil  
+			
+
+			$this->db->join('store','store.id=item_foods.store_id '); 
+			
+			
 			$this->db->order_by('customer_order.order_id', 'DESC');
 			$this->db->where('store.user_id',$this->session->userdata('id'));// add new line by Adil
 		// print_r($this->session->userdata('id'));die;

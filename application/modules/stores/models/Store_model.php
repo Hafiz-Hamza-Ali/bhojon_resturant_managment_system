@@ -17,30 +17,32 @@ class Store_model extends CI_Model {
 	}
     public function create($data)
 	{
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "cendolka_bhojon";
+        // $servername = "localhost";
+        // $username = "root";
+        // $password = "";
+        // $dbname = "cendolka_bhojon";
         $date=date('Y-m-d');
       //  print_r($date);die();
         // Create connection
-        $conn = new mysqli($servername, $username, $password, $dbname);
+        // $conn = new mysqli($servername, $username, $password, $dbname);
         // Check connection
-        if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-        }
+        // if ($conn->connect_error) {
+        // die("Connection failed: " . $conn->connect_error);
+        // }
         $food=$data['foodname'];
         $user_id=$data['user_id'];
         $sql = "INSERT INTO store (store_name,user_id,created_at)
         VALUES ( '$food',$user_id,$date)";
+       $result =  $this->db->insert('store',['store_name'=>$food,'user_id'=>$user_id,'created_at'=>$date]);
 
-        if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
-        } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-        }
+      // print_r($result);die;
+        // if ($conn->query($sql) === TRUE) {
+        // echo "New record created successfully";
+        // } else {
+        // echo "Error: " . $sql . "<br>" . $conn->error;
+        // }
 
-        $conn->close();
+        // $conn->close();
         // print_r($data['foodname']);die();
 		// $cdv = array(
         //     'store_name'            =>  $data['foodname'],
