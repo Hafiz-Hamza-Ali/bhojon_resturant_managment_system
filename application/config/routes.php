@@ -92,6 +92,23 @@ $route['admin/store/update'] = "admin/login/update";
 $route['admin/products'] = "admin/login/products";
 $route['admin/products'] = "admin/login/products";
 $route['admin/store/create'] = "admin/login/create";
+$route['admin/web_setting/create'] = "admin/login/web_view";
+$route['admin/web_setting/add_banner'] = "admin/login/add_banner";
+$route['admin/login/delete_banner/(:bannerid)'] = "admin/login/delete_banner";
+$route['admin/web_setting/common'] = "admin/login/common_view";
+$route['admin/web_setting/payment'] = "admin/login/payment_view";
+$route['admin/web_setting/common'] = "admin/login/menusetting";
+$route['admin/web_setting/common_create'] = "admin/login/common_create";
+$route['admin/web_setting/payment_create'] = "admin/login/payment_create";
+$route['admin/profile_setting'] = "admin/login/profile_setting";
+$route['admin/login/updatepassword'] = "admin/login/updatepassword";
+$route['admin/web_setting/menu_create'] = "admin/login/createmenu";
+$route['admin/web_setting/email_config_setup'] = "admin/login/email_config_setup";
+$route['admin/web_setting/email_config_save'] = "admin/login/email_config_save";
+$route['admin/view/users'] = "admin/login/users";
+$route['admin/users/edit'] = "admin/login/edits";
+$route['admin/users/user_update'] = "admin/login/user_update";
+$route['admin/user/delete'] = "admin/login/delete_user";
 /////////////Super-Admin Panel Routes End//////////////
 
 //set modules/config/routes.php

@@ -149,7 +149,22 @@ public function userPermission2($id = null)
 			->where('id', $this->session->userdata('id'))
 			->update('user');
 	}
+	public function type_dropdown()
+	{
+		$data = $this->db->select("*")
+			->from('tbl_slider_type')
+			->get()
+			->result();
 
+		$list[''] = display('name');
+		if (!empty($data)) {
+			foreach($data as $value)
+				$list[$value->stype_id] = $value->STypeName;
+			return $list;
+		} else {
+			return false; 
+		}
+	}
 
 }
  

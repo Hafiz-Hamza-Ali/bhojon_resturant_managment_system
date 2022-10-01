@@ -1,7 +1,22 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Auth_model extends CI_Model {
+	public function type_dropdown()
+	{
+		$data = $this->db->select("*")
+			->from('tbl_slider_type')
+			->get()
+			->result();
 
+		$list[''] = display('name');
+		if (!empty($data)) {
+			foreach($data as $value)
+				$list[$value->stype_id] = $value->STypeName;
+			return $list;
+		} else {
+			return false; 
+		}
+	}
 	public function store($store)
 	{
 		$info=array(
@@ -150,8 +165,37 @@ public function userPermission2($id = null)
 			->result();
 	}
 
+	public function allmenu_dropdown(){
 
+        $this->db->select('*');
+        $this->db->from('top_menu');
+        $this->db->where('parentid', 0);
+        $parent = $this->db->get();
+        $menulist = $parent->result();
+        $i=0;
+        foreach($menulist as $sub_menu){
+            $menulist[$i]->sub = $this->sub_menu($sub_menu->menuid);
+			
+            $i++;
+        }
+        return $menulist;
+    }
 
+    public function sub_menu($id){
+
+        $this->db->select('*');
+        $this->db->from('top_menu');
+        $this->db->where('parentid', $id);
+
+        $child = $this->db->get();
+        $menulist = $child->result();
+        $i=0;
+        foreach($menulist as $sub_menu){
+            $menulist[$i]->sub = $this->sub_menu($sub_menu->menuid);
+            $i++;
+        }
+        return $menulist;       
+    }
 
 
 	public function last_login($id = null)

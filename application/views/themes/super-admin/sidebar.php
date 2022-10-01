@@ -32,7 +32,7 @@
 					</a>
 					<ul class="treeview-menu">
 					<li><a href="<?php echo base_url(); ?>admin/view/users"><i class="fa fa-angle-right"></i>View Users</a></li>
-					<li><a href="<?php echo base_url(); ?>admin/roles/add"><i class="fa fa-angle-right"></i>Add Roles</a></li>
+					<!-- <li><a href="<?php echo base_url(); ?>admin/roles/add"><i class="fa fa-angle-right"></i>Add Roles</a></li> -->
 					</ul>
 				</li>
 				<li class="treeview">
@@ -68,6 +68,31 @@
 					<!-- //<li><a href="<?php echo base_url(); ?>#"><i class="fa fa-angle-right"></i>Payment Options</a></li> -->
 					</ul>
 				</li>
+				<li class="treeview">
+            <a href="#">
+                <i class="ti-settings"></i><span>Web Setting</span>
+                <span class="pull-right-container">
+                    <i class="fa fa-angle-left pull-right"></i>
+                </span>
+            </a>
+            <ul class="treeview-menu">
+			<li><a href="<?php echo base_url(); ?>admin/login/payment_view">Payment Setting</a></li>
+                <li><a href="<?php echo base_url(); ?>admin/login/common_view">Common Setting</a></li>
+                <!-- <li><a href="http://localhost/sop/dashboard/web_setting/storetime">Manage Store Time</a></li> -->
+                <li><a href="<?php echo base_url(); ?>admin/login/web_view">Banner Setting</a></li>
+                <li><a href="<?php echo base_url(); ?>admin/login/menusetting">Menu Setting</a></li>
+                <!--<li><a href=""></a></li>
+                <li><a href=""></a></li>-->
+                <!-- <li><a href="http://localhost/sop/dashboard/web_setting/seosetting">SEO Setting</a></li>
+                <li><a href="http://localhost/sop/dashboard/web_setting/socialtting">Social Setting</a></li>
+                <li><a href="http://localhost/sop/dashboard/web_setting/widgetsetting">Widget Setting</a></li> -->
+                <li><a href="<?php echo base_url(); ?>admin/web_setting/email_config_setup">Email Setting</a></li> 
+                <!-- <li><a href="http://localhost/sop/dashboard/rating">Customer Rating</a></li>
+                <li><a href="http://localhost/sop/dashboard/couponlist">Coupon List</a></li>
+ 			    <li><a href="http://localhost/sop/dashboard/web_setting/subscribeList">Subscribe List</a></li>  -->
+            </ul>
+        </li>
+				
 				<!-- <li class="treeview">
 				<li class="treeview">
 					<a href="<?php echo base_url(); ?>#">

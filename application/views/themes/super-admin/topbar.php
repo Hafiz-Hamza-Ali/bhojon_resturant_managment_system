@@ -188,6 +188,7 @@
 								</div>	
 							</a>
 							<ul class="dropdown-menu drp-mnu">
+							<li> <a href="<?php echo base_url(); ?>admin/profile_setting/"><i class="fa fa-cog"></i>Profile Settings</a> </li>
 								<li> <a href="<?php echo base_url(); ?>assets/super-admin/#"><i class="fa fa-cog"></i> Settings</a> </li> 
 								<li> <a href="<?php echo base_url(); ?>admin/logout"><i class="fa fa-sign-out"></i> Logout</a> </li>
 							</ul>
