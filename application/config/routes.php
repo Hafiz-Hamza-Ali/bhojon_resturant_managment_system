@@ -109,6 +109,7 @@ $route['admin/view/users'] = "admin/login/users";
 $route['admin/users/edit'] = "admin/login/edits";
 $route['admin/users/user_update'] = "admin/login/user_update";
 $route['admin/user/delete'] = "admin/login/delete_user";
+$route['admin/login/editbanner'] = "admin/login/editBanner";
 /////////////Super-Admin Panel Routes End//////////////
 
 //set modules/config/routes.php

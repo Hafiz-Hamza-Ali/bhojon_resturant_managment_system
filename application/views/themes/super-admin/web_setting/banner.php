@@ -209,6 +209,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 														<?php if($value->status==1){echo display('active');}else{ echo display('inactive');} ?>
 													</td>
 													<td>
+													<a onclick="editbanner('<?php echo $value->slid; ?>')" class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="left" title="Update"><i class="fa fa-pencil" aria-hidden="true"></i></a>
 													<a href="<?php echo base_url("admin/login/delete_banner/$value->slid") ?>" onclick="return confirm('<?php echo display("are_you_sure") ?>')" class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="right" title="Delete "><i class="fa fa-trash-o" aria-hidden="true"></i></a>
 													</td>
 												</tr>
@@ -311,7 +312,76 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	   </div>
         <!--//footer-->
 	</div>
-	
+	<div id="edit" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <strong><?php echo display('banner_edit');?></strong>
+            </div>
+            <div class="modal-body editbanner">
+            
+    		</div>
+     
+            </div>
+            <div class="modal-footer">
+
+            </div>
+
+        </div>
+
+    </div>
+ <div class="row">
+    <div class="col-sm-12 col-md-12">
+        <div class="panel panel-bd ">
+            <div class="panel-heading">
+                <div class="panel-title">
+					<div class="btn-group pull-right"> 
+                   
+                    <a data-target="#add0" data-toggle="modal" class="btn btn-success"><i class="fa fa-plus"></i> <?php echo display('add_banner')?></a>
+                    </div>
+                    
+                    <h4><?php echo (!empty($title)?$title:null) ?></h4>
+                </div>
+            </div>
+            <div class="panel-body">
+ 
+                    <table class="table table-bordered table-hover" id="RoleTbl">
+                        <thead>
+                            <tr>
+                                <th><?php echo display('sl_no') ?></th>
+                                <th><?php echo display('title') ?></th>
+                                <th><?php echo display('image') ?></th>
+                                <th><?php echo display('bannersize') ?></th>
+                                <th><?php echo display('status') ?></th>
+                                <th><?php echo display('action') ?></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php if (!empty($baller_list)) ?>
+                            <?php $sl = 1; ?>
+                            <?php foreach ($baller_list as $value) { ?>
+                            <tr>
+                                <td><?php echo $sl++; ?></td>
+                                <td><?php echo $value->title; ?></td>
+                                <td><img src="<?php echo base_url(!empty($value->image)?$value->image:'assets/img/icons/default.jpg'); ?>" alt="Image" height="64" ></td>
+                                <td><?php echo display('width') ?>:<?php echo $value->width; ?> X <?php echo display('height') ?>:<?php echo $value->height; ?></td>
+                                <td><?php if($value->status==1){echo display('active');}else{ echo display('inactive');} ?></td>
+                                <td>
+                                    <a onclick="editbanner('<?php echo $value->slid; ?>')" class="btn btn-info btn-sm" data-toggle="tooltip" data-placement="left" title="Update"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                                    <a href="<?php echo base_url("dashboard/web_setting/delete/$value->slid") ?>" onclick="return confirm('<?php echo display("are_you_sure") ?>')" class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="right" title="Delete "><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                </td>
+                            </tr>
+                            <?php } ?>
+                            
+                        </tbody>
+                    </table>
+
+
+            </div>
+        </div>
+    </div>
+</div>	
 	<!-- side nav js -->
 	<script src='<?php echo base_url(); ?>assets/super-admin/js/SidebarNav.min.js' type='text/javascript'></script>
     <script>
@@ -333,6 +403,85 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
     
         </script>
 <script src="<?php echo base_url('application/modules/dashboard/assest/js/banner.js'); ?>" type="text/javascript"></script>
+<script>
+	function editbanner(id){
+		console.log('id',id)
+	var csrf = $('#csrfhashresarvation').val();
+	var base_url = window.location.origin;
+	   var myurl =base_url+'/sop/admin/login/editbanner/'+id;
+	    var dataString = "id="+id+'&csrf_test_name='+csrf;
+
+		 $.ajax({
+		 type: "GET",
+		 url: myurl,
+		//  data: dataString,
+		 success: function(data) {
+			 $('.editbanner').html(data);
+			 $('#edit').modal('show');
+		 } 
+	});
+	}
+function edittype(typename,typeid){
+	$("#bannertype").val(typename);
+	$("#btnchnage").text("Update");
+	$('#typeurl').attr('action', basicinfo.baseurl+"dashboard/web_setting/edittype/"+typeid);
+	}
+function editmenu(menuname,menuurl,status,parent,menuid){
+	$("#menuname").val(menuname);
+	$("#Menuurl").val(menuurl);
+	$("#menuid").val(parent).trigger('change');
+	$("#status").select2("val", status);
+	$("#btnchnage").text("Update");
+	$("#upbtn").show();
+	$('#menuurl').attr('action', basicinfo.baseurl+"dashboard/web_setting/editmenu/"+menuid);
+	}
+function editwidget(id){
+	 var csrf = $('#csrfhashresarvation').val();
+	 var myurl =basicinfo.baseurl+'dashboard/web_setting/updatewidget/'+id;
+	  var dataString = "id="+id+'&csrf_test_name='+csrf;
+	  $(window).scrollTop(0);
+	  $.ajax({
+		 type: "POST",
+		 url: myurl,
+		 data: dataString,
+		 success: function(data) {
+			 tinymce.remove();
+			$('#updatecontent').html(data);
+			tinymce.init({
+			  selector: '.tinymce',
+			  height: 150,
+			  theme: 'modern',
+			  plugins: ["advlist autolink lists link image charmap print preview hr anchor pagebreak", "searchreplace wordcount visualblocks visualchars code fullscreen", "insertdatetime media nonbreaking save table contextmenu directionality", "emoticons template paste textcolor colorpicker textpattern"],
+					toolbar1: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image",
+					toolbar2: "print preview media | forecolor backcolor emoticons | fontsizeselect",
+					image_advtab: true,
+			 });
+		 } 
+		});
+	  
+	
+	}
+
+	 
+	 var edit = $(".edit");
+        edit.click(function()
+        {
+            var template = $(this).parent().prev().text();
+            var type = $(this).parent().prev().prev().text();
+            var name = $(this).parent().prev().prev().prev().text();
+            var id = $(this).data('id');
+
+
+            $("#id").val(id);
+            $("#template_name").val(name); 
+            $('select#type option[value='+type+']').attr("selected", "selected");  
+            $("#message").html(template);
+
+            $(".tit").text(lang.sms_template_setup);
+            $("#MyForm").attr("action", basicinfo.baseurl+'dashboard/smsetting/template_update');
+            $(".sav_btn").text(lang.update); 
+        });
+	</script>
     <script>
 			$('.valid').hide();
 			$( "#store_id" ).submit(function( event ) {

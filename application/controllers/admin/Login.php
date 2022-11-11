@@ -378,9 +378,10 @@ class Login extends CI_Controller
 		$data['title'] = display('menu_setting');
 		$data['module'] 	= "dashboard";  
 		$data['menu_list'] = $this->db->select('*')->from('top_menu')->get()->result(); 
-		//print_r($data);die();
+		
 		$data['allmenu']   =  $this->auth_model->allmenu_dropdown();
 		
+		//print_r($data['allmenu']);die();
 		$this->load->view('themes/super-admin/header.php');
 		
         $this->load->view('themes/super-admin/web_setting/menu.php',$data);
@@ -504,7 +505,18 @@ class Login extends CI_Controller
 			redirect('admin/login/web_view');
 		} 
 	}
-	
+	public function editBanner($id){
+		$data['title'] = display('banner_edit');
+		$data['intinfo']    = $this->db->select("*")->from('tbl_slider')
+		->where('slid',$id) 
+		->get()
+		->row();
+		$data['type']   =  $this->Store_model->type_dropdown();
+        $data['module'] 	= "dashboard";    
+        $data['page']   = "web/banneredit";
+		$this->load->view('dashboard/web/banneredit', $data);   
+  
+	   }
     public function delete_banner($bannerid = null)
     {
 		//print_r($bannerid);die();

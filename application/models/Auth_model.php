@@ -167,17 +167,21 @@ public function userPermission2($id = null)
 
 	public function allmenu_dropdown(){
 
+       
         $this->db->select('*');
         $this->db->from('top_menu');
         $this->db->where('parentid', 0);
         $parent = $this->db->get();
-        $menulist = $parent->result();
+		$menulist = $parent->result();
+       // $menulist = $parent->result();
+		/// print_r($menulist);die();
         $i=0;
         foreach($menulist as $sub_menu){
             $menulist[$i]->sub = $this->sub_menu($sub_menu->menuid);
 			
             $i++;
         }
+		//print_r($menulist);die();
         return $menulist;
     }
 
