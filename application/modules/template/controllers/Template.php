@@ -28,5 +28,11 @@ class Template extends MX_Controller {
 		$data['setting'] = $this->template_model->setting();
 		$this->load->view('login', $data);
 	}
+
+	public function register($data)
+	{ 
+		$data['setting'] = $this->template_model->setting();
+		$this->load->view('register', $data);
+	}
  
 }

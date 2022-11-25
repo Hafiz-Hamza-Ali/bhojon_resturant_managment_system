@@ -50,6 +50,7 @@ $route['login']  = "dashboard/auth/index";
 $route['logout'] = "dashboard/auth/logout";
 $route['/'] = "hungry";
 $route['menu'] = "hungry/menu";
+$route['hungrystore'] = "hungry/hungrystore";
 $route['menu/(:any)'] = "hungry/menu/$1";
 $route['searchitem'] = "hungry/searchitem";
 $route['details/(:any)/(:any)'] = "hungry/details/$1/$2";
@@ -110,6 +111,7 @@ $route['admin/users/edit'] = "admin/login/edits";
 $route['admin/users/user_update'] = "admin/login/user_update";
 $route['admin/user/delete'] = "admin/login/delete_user";
 $route['admin/login/editbanner'] = "admin/login/editBanner";
+$route['register']  = "dashboard/auth/register";
 /////////////Super-Admin Panel Routes End//////////////
 
 //set modules/config/routes.php

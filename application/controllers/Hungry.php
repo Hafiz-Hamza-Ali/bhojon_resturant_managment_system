@@ -53,7 +53,7 @@ class Hungry extends CI_Controller
 
     public function index()
     {
-      
+     // print_r('7767');die();
         $data['title'] = $this->settinginfo->title;
         $data['title2'] = "Welcome to Hungry";
         $data['seoterm'] = "home";
@@ -74,7 +74,9 @@ class Hungry extends CI_Controller
             $data['shippinginfo'] = $this->hungry_model->read_all('*', 'shipping_method', 'ship_id', '', 'is_active', '1');
             $data['delivarytime'] = $this->hungry_model->read_all('*', 'tbl_delivaritime', '', '', '', '');
         }
-        $data['todaymenu_menu'] = $this->hungry_model->read_all('*', 'tbl_menutype', 'menutype', '', '', '');
+        //$data['todaymenu_menu'] = $this->hungry_model->read_all('*', 'tbl_menutype', 'menutype', '', '', '');
+        //$data=array();
+		$data['todaymenu_menu'] = $this->db->select("*")->from('store')->get()->result();
         $data['openclosetime'] = $this->hungry_model->read_allorderby('*', 'tbl_openclose', 'stid', 'ASC');
         $data['ourteam'] = $this->hungry_model->ourteam();
         $data['taxinfos'] = $this->taxchecking();
@@ -169,11 +171,21 @@ class Hungry extends CI_Controller
 
     public function mtypefood()
     {
+        $uri_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        $uri_segments = explode('/', $uri_path);
+       
+        $url = $this->input->post('url');
+       // print_r($url);die();
         $mtypeid = $this->input->post('mtypeid');
         $start = $this->input->post('start');
         $limit = $this->input->post('limit');
         $data['mtype'] = $mtypeid;
-        $data['todaymenu_food'] = $this->hungry_model->todaymenu($mtypeid, $limit, $start);
+        if(empty($uri_segments>0))
+        {
+   //     $data['todaymenu_food'] = $this->hungry_model->todaymenu_store($mtypeid, $limit, $start,$uri_segments);
+        }else{
+            $data['todaymenu_food'] = $this->hungry_model->todaymenu($mtypeid, $limit, $start);
+        }
         $data['taxinfos'] = $this->taxchecking();
         if ($this->webinfo->web_onoff == 0) {
             redirect(base_url() . 'login');
@@ -1790,15 +1802,18 @@ class Hungry extends CI_Controller
 
     public function placeorder()
     {
-
+      //  print_r('hfhfh');die();
         if ($this->webinfo->web_onoff == 0) {
             redirect(base_url() . 'login');
             exit;
         }
 
         $memail = $this->input->post('email', TRUE);
+        
         $emailexists = $this->db->select("*")->from('customer_info')->where('customer_email', $memail)->get()->row();
+        // print_r($emailexists);die();
         $islogin = $this->session->userdata('CusUserID');
+        //print_r($islogin);die();
         if (empty($islogin)) {
             if (!empty($emailexists)) {
                 $this->session->set_flashdata('exception', 'Your Email Already Exits!!! Please Try to Login or Use Another Email Address!!!');
@@ -1874,7 +1889,7 @@ class Hungry extends CI_Controller
             $this->hungry_model->insert_data('acc_coa', $postData1);
 
             $mysesdata = array('CusUserID' => $customerid);
-            $this->session->set_userdata($mysesdata);
+            // $this->session->set_userdata($mysesdata);
         } else {
             $customerid = $islogin;
         }
@@ -4365,5 +4380,49 @@ document.getElementById("paytrack").click();
                 //if $matches[0] is empty
                 return false;
             }*/
+    }
+    public function hungrystore(){
+        $uri_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+$uri_segments = explode('/', $uri_path);
+//echo end($uri_segments );die();
+        $data['title'] = $this->settinginfo->title;
+        $data['title2'] = "Welcome to Hungry";
+        $data['seoterm'] = "home";
+        $data['slider_info'] = $this->hungry_model->read_all_slider('*', 'tbl_slider', 'slid', 'delation_status', 'Sltypeid', '1');
+        $data['banner_story'] = $this->hungry_model->read_all_slider('*', 'tbl_slider', 'slid', 'delation_status', 'Sltypeid', '2');
+        $data['foodhistory'] = $this->hungry_model->read_all_slider('*', 'tbl_slider', 'slid', 'delation_status', 'Sltypeid', '5');
+        $data['banner_menu'] = $this->hungry_model->read_all_slider('*', 'tbl_slider', 'slid', 'delation_status', 'Sltypeid', '3');
+        $data['reservation_sl'] = $this->hungry_model->read_all_slider('*', 'tbl_slider', 'slid', 'delation_status', 'Sltypeid', '6');
+        $data['gallery'] = $this->hungry_model->read_all_slider('*', 'tbl_slider', 'slid', 'delation_status', 'Sltypeid', '7');
+        $data['best_seller'] = $this->hungry_model->bestseller();
+        $data['special_menu'] = $this->hungry_model->specialmenu();
+        if ($this->themeinfo->themename == "modern") {
+            $data['offerimg'] = $this->hungry_model->read('*', 'tbl_slider', array('Sltypeid' => '11'));
+            $data["categorylist"] = $this->hungry_model->categories();
+            $start = $this->input->post('start');
+            $limit = $this->input->post('limit');
+            $data["searchresult"] = $this->hungry_model->searchinfo($product = null, $category = null, $limit, $start);
+            $data['shippinginfo'] = $this->hungry_model->read_all('*', 'shipping_method', 'ship_id', '', 'is_active', '1');
+            $data['delivarytime'] = $this->hungry_model->read_all('*', 'tbl_delivaritime', '', '', '', '');
+        }
+        $data['todaymenu_food'] = $this->hungry_model->todaymenu_store($uri_segments);
+        // echo '<pre>';
+        // print_r($data['todaymenu_food']); echo '</pre>';die();
+        $data['todaymenu_menu'] = $this->hungry_model->read_all('*', 'tbl_menutype', 'top_menu', '', '', '');
+        //print_r('1212');die();
+        //$data=array();
+      
+	//	$data['todaymenu_menu'] = $this->db->select("top_menu")->from('store')->get()->result();
+        
+        $data['openclosetime'] = $this->hungry_model->read_allorderby('*', 'tbl_openclose', 'stid', 'ASC');
+        $data['ourteam'] = $this->hungry_model->ourteam();
+        $data['taxinfos'] = $this->taxchecking();
+        //print_r( $this->themeinfo->themename);die();
+        if ($this->webinfo->web_onoff == 0) {
+            redirect(base_url() . 'login');
+            exit;
+        }
+        $data['content'] = $this->load->view('themes/' . $this->themeinfo->themename . '/store_list', $data, TRUE);
+        $this->load->view('themes/' . $this->themeinfo->themename . '/index', $data);
     }
 }

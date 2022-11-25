@@ -71,6 +71,8 @@
                 <button type="submit" class="btn btn-success btn-lg btn-block fw-500 mb-3"><?php echo display('login') ?></button>
                 
             </form>
+
+            <a class="btn btn-primary btn-lg btn-block fw-500 mb-3" href="<?php echo base_url(); ?>register">Register Here</a>
         </div>
     </div>
     <script src="<?php echo base_url('assets/js/jquery-1.12.4.min.js') ?>" type="text/javascript"></script>
