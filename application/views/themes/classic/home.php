@@ -65,13 +65,19 @@ if (!empty($history)) {
 if (!empty($testymenu)) {
 ?>
     <section class="menu_area pb-5">
-
+<div class="food_menu_topper">
+            <div class="text-center">
+                <h2 class="food_menu_title"><?php echo $testymenu->widget_name; ?></h2>
+                <h4 class="food_menu_title2">Store List </h4>
+            </div>
+        </div>
         <div class="container">
+        
             <div class="tab-content menu-tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-0" role="tabpanel">
                     <div class="row">
                         <?php foreach($todaymenu_menu as $value){ ?>
-                        <div class="col-xl-6 offset-xl-0 col-lg-8 offset-lg-2">
+                        <div class="col-xl-4 offset-xl-0 col-lg-4 offset-lg-2">
                             <div class="single_item">
                                 <div class="row mb-3">
                                     <div id="snackbar550" class="snackbar">Item has been successfully added</div>
@@ -88,7 +94,7 @@ if (!empty($testymenu)) {
                                                     <input type="hidden" name="varient" id="varient_550other" value="sjksj">
                                                     <input type="hidden" name="cartpage" id="cartpage_550other" value="0">
                                                     <input name="itemprice" type="hidden" value="666.00" id="itemprice_550other">
-                                                    <a href='hungry/hungrystore/<?php echo $value->id;?>' class="simple_btn mt-0 mr-2 text-white">Store Products Detail</a>
+                                                    <a href='hungry/hungrystore/<?php echo $value->id;?>' class="simple_btn mt-0 mr-2 text-white">Store Products</a>
                                                     <!-- <div class="cart_counter">
                                                         <button onclick="var result = document.getElementById('sst6550_other'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;" class="reduced items-count" type="button">
                                                             <i class="fa fa-minus"></i>
