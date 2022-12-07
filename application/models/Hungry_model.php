@@ -155,15 +155,20 @@ class Hungry_model extends CI_Model{
 		$itemlist=$query->result();
 	    return $itemlist;
 		}
-		public function todaymenu_store($uri_path){
+		public function todaymenu_store($store_id){
+			//echo end($uri_segments );die();
+			// $store_id=end($uri_segments);
+			//print_r($store_id);die();
 			$condition="FIND_IN_SET(item_foods.menutype) AND item_foods.ProductsIsActive=1";
 			$this->db->select('*');
 			$this->db->from('item_foods');
-			$this->db->where('store_id',$uri_segments);
-			//$this->db->where($condition);
-			//$this->db->limit($limit, $start);
+			$this->db->where('store_id',$store_id);
+			
+		//	$this->db->where($condition);
+		//	$this->db->limit($limit, $start);
 			$query = $this->db->get();
 			$itemlist=$query->result();
+			//print_r($itemlist);die();
 			$output=array();
 			if(!empty($itemlist)){
 				$k=0;

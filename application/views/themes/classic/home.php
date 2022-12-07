@@ -75,9 +75,9 @@ if (!empty($testymenu)) {
                             <div class="single_item">
                                 <div class="row mb-3">
                                     <div id="snackbar550" class="snackbar">Item has been successfully added</div>
-                                        <div class="item_img col-sm-3">
+                                        <!-- <div class="item_img col-sm-3">
                                             <img src="http://localhost/sop/dummyimage/250x250.jpg" class="img-fluid" alt="">
-                                        </div>
+                                        </div> -->
                                         <div class="item_details col-sm-6 pl-0">
                                                 <a href="http://localhost/sop/details/5/5" class="item_title"><?php echo $value->store_name ?></a>
                                                       
@@ -88,8 +88,8 @@ if (!empty($testymenu)) {
                                                     <input type="hidden" name="varient" id="varient_550other" value="sjksj">
                                                     <input type="hidden" name="cartpage" id="cartpage_550other" value="0">
                                                     <input name="itemprice" type="hidden" value="666.00" id="itemprice_550other">
-                                                    <a href='hungry/hungrystore/<?php echo $value->id;?>' class="simple_btn mt-0 mr-2 text-white">add to cart</a>
-                                                    <div class="cart_counter">
+                                                    <a href='hungry/hungrystore/<?php echo $value->id;?>' class="simple_btn mt-0 mr-2 text-white">Store Products Detail</a>
+                                                    <!-- <div class="cart_counter">
                                                         <button onclick="var result = document.getElementById('sst6550_other'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;" class="reduced items-count" type="button">
                                                             <i class="fa fa-minus"></i>
                                                         </button>
@@ -97,7 +97,7 @@ if (!empty($testymenu)) {
                                                         <button onclick="var result = document.getElementById('sst6550_other'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;" class="increase items-count" type="button">
                                                             <i class="fa fa-plus"></i>
                                                         </button>
-                                                    </div>
+                                                    </div> -->
                                                 </div>
                                         </div>
                                         <!-- <div class="item_info col-sm-3 text-center">

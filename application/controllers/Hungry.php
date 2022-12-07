@@ -4385,6 +4385,8 @@ document.getElementById("paytrack").click();
         $uri_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $uri_segments = explode('/', $uri_path);
 //echo end($uri_segments );die();
+        $store_id=end($uri_segments);
+        //print_r($store_id);die();
         $data['title'] = $this->settinginfo->title;
         $data['title2'] = "Welcome to Hungry";
         $data['seoterm'] = "home";
@@ -4405,7 +4407,7 @@ $uri_segments = explode('/', $uri_path);
             $data['shippinginfo'] = $this->hungry_model->read_all('*', 'shipping_method', 'ship_id', '', 'is_active', '1');
             $data['delivarytime'] = $this->hungry_model->read_all('*', 'tbl_delivaritime', '', '', '', '');
         }
-        $data['todaymenu_food'] = $this->hungry_model->todaymenu_store($uri_segments);
+        $data['todaymenu_food'] = $this->hungry_model->todaymenu_store($store_id);
         // echo '<pre>';
         // print_r($data['todaymenu_food']); echo '</pre>';die();
         $data['todaymenu_menu'] = $this->hungry_model->read_all('*', 'tbl_menutype', 'top_menu', '', '', '');
