@@ -532,6 +532,64 @@ class Login extends CI_Controller
 		}
 		redirect('admin/login/web_view');
     }
+	public function subscription_list()
+	{
+		$curl = curl_init();
+
+		curl_setopt_array($curl, array(
+		CURLOPT_URL => 'https://api.stripe.com/v1/subscriptions?limit=3',
+		CURLOPT_RETURNTRANSFER => true,
+		CURLOPT_ENCODING => '',
+		CURLOPT_MAXREDIRS => 10,
+		CURLOPT_TIMEOUT => 0,
+		CURLOPT_FOLLOWLOCATION => true,
+		CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+		CURLOPT_CUSTOMREQUEST => 'GET',
+		CURLOPT_POSTFIELDS => 'limit=3',
+		CURLOPT_HTTPHEADER => array(
+			'Authorization: Basic c2tfdGVzdF9rQzhqSlF2UW5WUU40amdPcmhzZG1pYWYwMG9WQlpadEppOg==',
+			'Content-Type: application/x-www-form-urlencoded'
+		),
+		));
+
+		$response = curl_exec($curl);
+
+		curl_close($curl);
+		$data['result']=json_decode($response, true);
+		$data['response']=$data['result']['data'];
+				$this->load->view('themes/super-admin/subscriptions/list', $data);
+	}
+	public function payments()
+	{
+		$curl = curl_init();
+
+		curl_setopt_array($curl, array(
+		CURLOPT_URL => 'https://api.stripe.com/v1/charges?limit=3',
+		CURLOPT_RETURNTRANSFER => true,
+		CURLOPT_ENCODING => '',
+		CURLOPT_MAXREDIRS => 10,
+		CURLOPT_TIMEOUT => 0,
+		CURLOPT_FOLLOWLOCATION => true,
+		CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+		CURLOPT_CUSTOMREQUEST => 'GET',
+		CURLOPT_POSTFIELDS => 'limit=3',
+		CURLOPT_HTTPHEADER => array(
+			'Authorization: Basic c2tfdGVzdF9rQzhqSlF2UW5WUU40amdPcmhzZG1pYWYwMG9WQlpadEppOg==',
+			'Content-Type: application/x-www-form-urlencoded'
+		),
+		));
+
+		$response = curl_exec($curl);
+
+		curl_close($curl);
+		$data['result']=json_decode($response, true);
+		// echo "<pre>";
+		// print_r($response);
+		// echo "</pre>";
+		// die();
+		$data['response']=$data['result']['data'];
+				$this->load->view('themes/super-admin/subscriptions/payments', $data);
+	}
 }
 
 ?>

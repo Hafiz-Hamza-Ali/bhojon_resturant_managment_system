@@ -1,3 +1,4 @@
+<?php print_r($result);die();?>
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
