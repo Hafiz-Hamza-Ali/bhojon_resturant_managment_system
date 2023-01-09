@@ -31,7 +31,7 @@ class Login extends CI_Controller
     }
     public function post()
     {
-        //print_r('jgj');die();
+        print_r('jgj');die();
         $data=$this->input->post();
         $user_data = $this->auth_model->store($data);
         $user = $this->auth_model->checkUser($data);
@@ -48,7 +48,7 @@ class Login extends CI_Controller
     }
     public function index()
     {
-       
+       //var_dump('66');die();
         if($this->session->userdata('isLogIn'))
        
 			redirect('admin/dashboard');

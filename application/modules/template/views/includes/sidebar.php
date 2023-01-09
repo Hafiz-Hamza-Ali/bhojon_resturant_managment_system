@@ -312,79 +312,165 @@
        
             $this->permission->module($moduleName)->access();
         ?>
-                <li class="treeview ">
-                    
-                    <a href="javascript:void(0)">
-                        <?php echo (($moduleData['icon']!=null)?$moduleData['icon']:null) ?> <span><?php echo display($moduleName) ?></span>
-                        <span class="pull-right-container">
-                            <i class="fa fa-angle-left pull-right"></i>
-                        </span>
-                    </a> 
+<?php if(strlen($this->session->userdata('suscription_detail'))>0 && $this->session->userdata('subscription_end_date')>0){;?>
+    <li class="treeview ">
+       
+        <a href="javascript:void(0)">
+            <?php echo (($moduleData['icon']!=null)?$moduleData['icon']:null) ?> <span><?php echo display($moduleName) ?></span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a> 
 
-                    <ul class="treeview-menu">  
-                        <?php foreach ($moduleData as $groupLabel => $label) {?>
-                            <?php   
-   
-                            if ($groupLabel!='icon') 
+        <ul class="treeview-menu">  
+            <?php foreach ($moduleData as $groupLabel => $label) {?>
 
-                            if ((isset($label['controller']) && $label['controller']!=null) && ($label['method']!=null)) {
+                <?php   
 
-                               if($this->permission->check_label($groupLabel)->access()){
-                               
-								if($label['controller']=='dashboard'){
-									$furl=base_url($label['controller']."/".$label['method']);
-									}
-								else{
-									$furl=base_url($moduleName."/".$label['controller']."/".$label['method']);
-									}
-									
+                if ($groupLabel!='icon') 
+
+                if ((isset($label['controller']) && $label['controller']!=null) && ($label['method']!=null)) {
+
+                   if($this->permission->check_label($groupLabel)->access()){
+                   
+                    if($label['controller']=='dashboard'){
+                        $furl=base_url($label['controller']."/".$label['method']);
+                        }
+                    else{
+                        $furl=base_url($moduleName."/".$label['controller']."/".$label['method']);
+                        }
+                        
+                ?> 
+                   
+                    <li class="<?php echo (($this->uri->segment(1)==$moduleName && $label['controller']==$this->uri->segment(2) && $this->uri->segment(3)==$label['method'])?"active":null) ?>">
+                        <a href="<?php echo $furl;?>"><?php echo display($groupLabel) ?></a>
+                    </li>
+
+                <?php 
+                    } 
+
+                } else { 
+             
+                ?>
+
+                <!-- multilevel menu/link -->
+                <!-- extract $label to compare with segment -->
+                <?php 
+                if($this->permission->check_label($groupLabel)->access()){
+                foreach ($label as $url) 
+           ?>
+                    <li class="">
+                        <a href="#"><?php echo display($groupLabel) ?>
+                            <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                        </a>
+                        <ul class="treeview-menu"> 
+                            <?php 
+                            foreach ($label as $name => $value) {
+                                if($this->permission->check_label($name)->access()){
+                                 
+                                ?>
+                                <li class=""><a href="<?php echo base_url($moduleName."/".$value['controller']."/".$value['method']) ?>"><?php echo display($name) ?></a></li>
+                                <?php 
+                                }
+                                //endif
+                            } //endforeach
                             ?> 
-                               
-                                <li class="<?php echo (($this->uri->segment(1)==$moduleName && $label['controller']==$this->uri->segment(2) && $this->uri->segment(3)==$label['method'])?"active":null) ?>">
-                                    <a href="<?php echo $furl;?>"><?php echo display($groupLabel) ?></a>
-                                </li>
+                        </ul>
+                    </li> 
+                <?php } ?>    
 
-                            <?php 
-                                } 
-
-                            } else { 
-                         
-                            ?>
-
-                            <!-- multilevel menu/link -->
-                            <!-- extract $label to compare with segment -->
-                            <?php 
-                            if($this->permission->check_label($groupLabel)->access()){
-                            foreach ($label as $url) 
-                       ?>
-                                <li class="">
-                                    <a href="#"><?php echo display($groupLabel) ?>
-                                        <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
-                                    </a>
-                                    <ul class="treeview-menu"> 
-                                        <?php 
-                                        foreach ($label as $name => $value) {
-                                            if($this->permission->check_label($name)->access()){
-                                             
-                                            ?>
-                                            <li class=""><a href="<?php echo base_url($moduleName."/".$value['controller']."/".$value['method']) ?>"><?php echo display($name) ?></a></li>
-                                            <?php 
-                                            }
-											//endif
-                                        } //endforeach
-                                        ?> 
-                                    </ul>
-                                </li> 
-                            <?php } ?>    
-
-                            <!-- endif -->
-                            <?php } ?>
-                        <!-- endforeach -->
-                        <?php } ?>
-                    </ul>
-                </li> 
-            <!-- end if -->
+                <!-- endif -->
+                <?php } ?>
+            <!-- endforeach -->
             <?php } ?>
+        </ul>
+                           
+    </li> 
+    <?php }else{?> 
+        <?php if($moduleName=='hrm' || $moduleName=='accounts' || $moduleName=='purchase'){;?>
+<?php continue; ?>
+        <?php }else{?>
+
+        <li class="treeview ">
+       
+       <a href="javascript:void(0)">
+           <?php echo (($moduleData['icon']!=null)?$moduleData['icon']:null) ?> <span><?php echo display($moduleName) ?></span>
+           <span class="pull-right-container">
+               <i class="fa fa-angle-left pull-right"></i>
+           </span>
+       </a> 
+
+       <ul class="treeview-menu">  
+           <?php foreach ($moduleData as $groupLabel => $label) {?>
+
+               <?php   
+
+               if ($groupLabel!='icon') 
+
+               if ((isset($label['controller']) && $label['controller']!=null) && ($label['method']!=null)) {
+
+                  if($this->permission->check_label($groupLabel)->access()){
+                  
+                   if($label['controller']=='dashboard'){
+                       $furl=base_url($label['controller']."/".$label['method']);
+                       }
+                   else{
+                       $furl=base_url($moduleName."/".$label['controller']."/".$label['method']);
+                       }
+                       
+               ?> 
+                  
+                   <li class="<?php echo (($this->uri->segment(1)==$moduleName && $label['controller']==$this->uri->segment(2) && $this->uri->segment(3)==$label['method'])?"active":null) ?>">
+                       <a href="<?php echo $furl;?>"><?php echo display($groupLabel) ?></a>
+                   </li>
+
+               <?php 
+                   } 
+
+               } else { 
+            
+               ?>
+
+               <!-- multilevel menu/link -->
+               <!-- extract $label to compare with segment -->
+               <?php 
+               if($this->permission->check_label($groupLabel)->access()){
+               foreach ($label as $url) 
+          ?>
+                   <li class="">
+                       <a href="#"><?php echo display($groupLabel) ?>
+                           <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
+                       </a>
+                       <ul class="treeview-menu"> 
+                           <?php 
+                           foreach ($label as $name => $value) {
+                               if($this->permission->check_label($name)->access()){
+                                
+                               ?>
+                               <li class=""><a href="<?php echo base_url($moduleName."/".$value['controller']."/".$value['method']) ?>"><?php echo display($name) ?></a></li>
+                               <?php 
+                               }
+                               //endif
+                           } //endforeach
+                           ?> 
+                       </ul>
+                   </li> 
+               <?php } ?>    
+
+               <!-- endif -->
+               <?php } ?>
+           <!-- endforeach -->
+           <?php } ?>
+       </ul>
+                          
+   </li> 
+   <?php } ?>
+        <?php }?> 
+<!-- end if -->
+<?php } ?>
+
+            <!-- end if -->
+           
         <!-- end foreach -->
         <?php } ?>
 		
@@ -415,6 +501,7 @@
         <li class="header">Default </li>
 
         <?php if($this->session->userdata('isAdmin')) { ?>
+            <?php if(strlen($this->session->userdata('suscription_detail'))>0 && $this->session->userdata('subscription_end_date')>0){;?>
         <li class="treeview <?php echo (($this->uri->segment(2)=="user")?"active":null) ?>">
             <a href="#">
                 <i class="ti-user"></i><span><?php echo display('user')?></span>
@@ -426,10 +513,11 @@
                 <li><a href="<?php echo base_url('dashboard/user/form') ?>"><?php echo display('add_user')?></a></li>
                 <li><a href="<?php echo base_url('dashboard/user/index') ?>"><?php echo display('user_list')?></a></li> 
             </ul>
-        </li>
+        </li><?php }?>
         
         <li class="treeview"><a href="<?php echo base_url('addon/module/index') ?>"><i class="fa fa-adn"></i><span><?php echo display('moduless')?></span> </a></li>
         <li class="treeview"><a href="<?php echo base_url('addon/theme/index') ?>"><i class="fa fa-adn"></i><span><?php echo display('themes')?></span> </a></li>
+        <?php if(strlen($this->session->userdata('suscription_detail'))>0 && $this->session->userdata('subscription_end_date')>0){;?>
 		<li class="treeview <?php echo (($this->uri->segment(2)=="role" ||$this->uri->segment(2)=="module_permission")?"active":null) ?>">
             <a href="#">
 
@@ -446,10 +534,10 @@
            
             </ul>
         </li>
-        
+        <?php }?>
     
 
-        
+        <?php if(strlen($this->session->userdata('suscription_detail'))>0 && $this->session->userdata('subscription_end_date')>0){;?>
          <li class="treeview <?php echo (($this->uri->segment(2)=="setting")?"active":null) ?>">
             <a href="#">
                 <i class="ti-settings"></i><span><?php echo display('web_setting')?></span>
@@ -473,6 +561,7 @@
  			    <li><a href="<?php echo base_url('dashboard/web_setting/subscribeList') ?>"><?php echo display('subscribelist')?></a></li> 
             </ul>
         </li>
+        <?php }?>
         <li class="treeview <?php echo (($this->uri->segment(2)=="autoupdate")?"active":null) ?>">
            <a href="<?php echo base_url('dashboard/autoupdate') ?>"><i class="ti-reload"></i> <span><?php echo display('autoupdate')?></span></a>
         </li>

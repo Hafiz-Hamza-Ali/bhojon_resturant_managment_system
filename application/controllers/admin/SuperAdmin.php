@@ -17,7 +17,7 @@ class SuperAdmin extends CI_Controller
     }
     public function index()
     {
-        //print_r('1');die();
+       // print_r('1');die();
         $data['ordernum']= $this->home_model->countorder();
 		$data["totalorder"]  =$this->changeformat($data['ordernum']);
         $data['totalstore']= $this->home_model->countstore();

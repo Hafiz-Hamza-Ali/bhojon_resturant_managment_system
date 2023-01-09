@@ -49,12 +49,20 @@
                             <?php } ?> 
                         </div>
                  <div class="text-center mb-5">
-                    <h1 class="mt-0"><?php echo display('login') ?></h1>
+                    <h1 class="mt-0"><?php echo display('Register') ?></h1>
                     <div class="text-muted">
-                        <?php echo (!empty($setting->title)?$setting->title:null) ?>
+                        Register
                     </div>
                 </div>
-                <?php echo form_open('login',''); ?>            
+                <?php echo form_open('register','id="registerForm" novalidate'); ?> 
+                <div class="form-group">
+                    <label for="name"><?php echo display('First Name') ?></label>
+                    <input type="text" placeholder="<?php echo display('first_name') ?>" name="name" id="name" class="form-control fs-15px" autocomplete="off"> 
+                </div>
+                <div class="form-group">
+                    <label for="name"><?php echo display('Last Name') ?></label>
+                    <input type="text" placeholder="<?php echo display('last_name') ?>" name="names" id="names" class="form-control fs-15px" autocomplete="off"> 
+                </div>           
                 <div class="form-group">
                     <label for="email"><?php echo display('email') ?></label>
                     <input type="text" placeholder="<?php echo display('email') ?>" name="email" id="email" class="form-control fs-15px" autocomplete="off"> 
@@ -63,16 +71,15 @@
                     <label for="password"><?php echo display('password') ?></label>
                     <input type="password"  placeholder="<?php echo display('password') ?>" name="password" id="password" class="form-control fs-15px" autocomplete="off"> 
                 </div>
-                <!-- <div class="form-group">
-                    <label class="control-label" for="captcha"><?php echo $captcha_image ?></label>
-                    
-                    <input type="captcha"  placeholder="<?php echo display('captcha') ?>" name="captcha" id="captcha" class="form-control fs-15px" autocomplete="off"> 
-                </div>  -->
-                <button type="submit" class="btn btn-success btn-lg btn-block fw-500 mb-3"><?php echo display('login') ?></button>
+                <div class="form-group">
+                    <label for="password"><?php echo display('Confirm Password') ?></label>
+                    <input type="password"  placeholder="<?php echo display('password') ?>" name="passwords" id="passwords" class="form-control fs-15px" autocomplete="off"> 
+                </div>
+                
+
+                <button type="submit" class="btn btn-success btn-lg btn-block fw-500 mb-3"><?php echo display('register') ?></button>
                 
             </form>
-
-            <a class="btn btn-primary btn-lg btn-block fw-500 mb-3" href="<?php echo base_url(); ?>register">Register Here</a>
         </div>
     </div>
     <script src="<?php echo base_url('assets/js/jquery-1.12.4.min.js') ?>" type="text/javascript"></script>

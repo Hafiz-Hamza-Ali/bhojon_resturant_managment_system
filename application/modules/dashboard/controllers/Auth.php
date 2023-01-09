@@ -26,14 +26,14 @@ class Auth extends MX_Controller {
 	
 		$this->form_validation->set_rules('email', display('email'), 'required|valid_email|max_length[100]|trim');
 		$this->form_validation->set_rules('password', display('password'), 'required|max_length[32]|md5|trim');
-		$this->form_validation->set_rules('captcha', display('captcha'),  array('matches[captcha]', function($captcha){ 
-		        	$oldCaptcha = $this->session->userdata('captcha');
-		        	if ($captcha == $oldCaptcha) {
-		        		return true;
-		        	}
-		        }
-		    )
-		);
+		// $this->form_validation->set_rules('captcha', display('captcha'),  array('matches[captcha]', function($captcha){ 
+		//         	$oldCaptcha = $this->session->userdata('captcha');
+		//         	if ($captcha == $oldCaptcha) {
+		//         		return true;
+		//         	}
+		//         }
+		//     )
+		// );
 		
 		#-------------------------------------#
 		$data['user'] = (object)$userData = array(
@@ -102,7 +102,14 @@ class Auth extends MX_Controller {
 			if($user->row()->is_admin == 2){
 				$row = $this->db->select('client_id,client_email')->where('client_email',$user->row()->email)->get('setup_client_tbl')->row();
 			}
-
+			$user_row = $this->db->select('*')->where('email',$user->row()->email)->get('user')->row();
+			if($user_row->subscription_end_date>date("Y-m-d")){
+				$subscription_end_date_value=1;
+			}else{
+				$subscription_end_date_value=0;
+			}
+			//print_r($user_row->subscription_end_date);die();
+			//echo date("Y-m-d");die();
 				     $sData = array(
 					'isLogIn' 	  => true,
 					'isAdmin' 	  => (($user->row()->is_admin == 1)?true:false),
@@ -116,6 +123,8 @@ class Auth extends MX_Controller {
 					'last_login'  => $user->row()->last_login,
 					'last_logout' => $user->row()->last_logout,
 					'ip_address'  => $user->row()->ip_address,
+					'suscription_detail'  => $user_row->suscription_detail,
+					'subscription_end_date'  => $subscription_end_date_value,
 					'permission'  => json_encode(@$permission), 
 					'label_permission'  => json_encode(@$permission1) 
 					);	
