@@ -59,7 +59,6 @@ $(document).ready(function () {
 					url :basicinfo.baseurl+"ordermanage/order/allorderlist",
 					type: "post",
 					"data": function ( data ) {
-                        console.log('fgfgfgfg')
 						data.csrf_test_name = $('#csrfhashresarvation').val();
 						data.startdate = $('#from_date').val();
 						data.enddate = $('#to_date').val();
@@ -168,7 +167,6 @@ function createMargeorder(orderid,value=null){
         processData: false,
         contentType: false,
         success:function(data){
-            console.log('jhjj1')
             var value = $('#get-order-flag').val();
             if(value ==1){
                  setTimeout(function () {
@@ -206,7 +204,6 @@ function createMargeorder(orderid,value=null){
              url: url,
 			 data:{csrf_test_name:csrf},
              success: function(data) {
-                console.log('175577')
 				 if(basicinfo.printtype!=1){
                     	printRawHtml(data);
 					 }
@@ -223,7 +220,6 @@ function createMargeorder(orderid,value=null){
              url: url,
 			 data:{csrf_test_name:csrf},
              success: function(data) {
-                console.log('1j')
              if(basicinfo.printtype!=1){
                     	printRawHtml(data);
 					 }
@@ -241,7 +237,6 @@ $(document).on('click','#add_new_payment_type',function(){
              url: url,
 			 data:{csrf_test_name:csrf},
              success: function(data) {
-                console.log('13')
               $('#add_new_payment').append(data);
               var length = $(".number").length;
               $(".number:eq("+(length-1)+")").val(parseFloat($("#pay-amount").text()));
@@ -285,8 +280,7 @@ function possubpageprint(orderid){
                             type: "GET",
                             url: basicinfo.baseurl+"ordermanage/order/posprintdirectsub/"+orderid,
                             data:{csrf_test_name:csrf},
-                            success: function(printdata){      
-                                console.log('21')                                     
+                            success: function(printdata){                                           
 								 	if(basicinfo.printtype!=1){
 										printRawHtml(printdata);
 									 }
@@ -313,7 +307,6 @@ function possubpageprint(orderid){
 				url: basicinfo.baseurl+"ordermanage/order/itemlist",
 				data: dataString,
 				success: function(data){
-                    console.log('1')
 					$('#item'+id).html(data);
 					
 					}

@@ -1,5 +1,4 @@
 <script src="<?php echo base_url('application/modules/ordermanage/assets/js/postop.js'); ?>" type="text/javascript"></script>
-<!--  -->
 <div id="cancelord" class="modal fade" role="dialog">
     <div class="modal-dialog modal-md">
         <div class="modal-content">

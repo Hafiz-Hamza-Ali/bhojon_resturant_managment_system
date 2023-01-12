@@ -16,6 +16,7 @@ class Home extends MX_Controller {
 		if (! $this->session->userdata('isLogIn'))
 			redirect('login');
  	}
+ 	
 	public function changeformat($num) {
 			  if($num>1000) {
 					$x = round($num);

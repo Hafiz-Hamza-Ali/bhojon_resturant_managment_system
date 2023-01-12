@@ -47,10 +47,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route["default_controller"] = "hungry";
 $route['login']  = "dashboard/auth/index";
+$route['subscrib'] = "dashboard/auth/stripe";
+$route['customer_transaction'] = "dashboard/auth/customer_transaction";
+$route['register']  = "dashboard/auth/register";
 $route['logout'] = "dashboard/auth/logout";
 $route['/'] = "hungry";
 $route['menu'] = "hungry/menu";
-$route['hungrystore'] = "hungry/hungrystore";
 $route['menu/(:any)'] = "hungry/menu/$1";
 $route['searchitem'] = "hungry/searchitem";
 $route['details/(:any)/(:any)'] = "hungry/details/$1/$2";
@@ -84,11 +86,11 @@ $route['translate_uri_dashes'] = FALSE;
 $route['admin/store'] = '';
 $route['admin/dashboard'] = "admin/superadmin/index";
 $route['admin/login'] = "admin/login/index";
+$route['admin/log'] = "admin/login/log";
+
 $route['admin/logout'] = "admin/login/logout";
 $route['admin/store/post'] = "admin/login/post";
 $route['admin/store/list'] = "admin/login/list";
-$route['admin/subscription/list'] = "admin/login/subscription_list";
-$route['admin/payments/list'] = "admin/login/payments";
 $route['admin/store/delete'] = "admin/login/delete";
 $route['admin/store/edit'] = "admin/login/edit";
 $route['admin/store/update'] = "admin/login/update";
@@ -112,8 +114,6 @@ $route['admin/view/users'] = "admin/login/users";
 $route['admin/users/edit'] = "admin/login/edits";
 $route['admin/users/user_update'] = "admin/login/user_update";
 $route['admin/user/delete'] = "admin/login/delete_user";
-$route['admin/login/editbanner'] = "admin/login/editBanner";
-$route['register']  = "dashboard/auth/register";
 /////////////Super-Admin Panel Routes End//////////////
 
 //set modules/config/routes.php

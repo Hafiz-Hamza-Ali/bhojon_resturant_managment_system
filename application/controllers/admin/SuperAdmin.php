@@ -12,8 +12,8 @@ class SuperAdmin extends CI_Controller
         $this->load->model(array(
             'home_model' 
         ));
-        if (! $this->session->userdata('isLogIn'))
-			redirect('admin/login');
+       
+
     }
     public function index()
     {
@@ -25,8 +25,14 @@ class SuperAdmin extends CI_Controller
         $data['sumearn']= $this->home_model->sumearn();
         $data['sum']= $data['sumearn']->totalamount;
         //print_r($data['sumearn']->totalamount);die();
+        if ($this->session->userdata('is_admin') == '3'){
+         // redirect('admin/login');
+        
         $this->load->view('themes/super-admin/header.php');
         $this->load->view('themes/super-admin/index.php',$data);
+    }else{
+        redirect('/');
+    }
     }
     public function post()
     {

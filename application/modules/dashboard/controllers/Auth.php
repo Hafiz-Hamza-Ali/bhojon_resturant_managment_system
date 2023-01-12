@@ -26,14 +26,14 @@ class Auth extends MX_Controller {
 	
 		$this->form_validation->set_rules('email', display('email'), 'required|valid_email|max_length[100]|trim');
 		$this->form_validation->set_rules('password', display('password'), 'required|max_length[32]|md5|trim');
-		$this->form_validation->set_rules('captcha', display('captcha'),  array('matches[captcha]', function($captcha){ 
-		        	$oldCaptcha = $this->session->userdata('captcha');
-		        	if ($captcha == $oldCaptcha) {
-		        		return true;
-		        	}
-		        }
-		    )
-		);
+		// $this->form_validation->set_rules('captcha', display('captcha'),  array('matches[captcha]', function($captcha){ 
+		//         	$oldCaptcha = $this->session->userdata('captcha');
+		//         	if ($captcha == $oldCaptcha) {
+		//         		return true;
+		//         	}
+		//         }
+		//     )
+		// );
 		
 		#-------------------------------------#
 		$data['user'] = (object)$userData = array(
@@ -170,6 +170,22 @@ class Auth extends MX_Controller {
 		}
 	}
 
+
+public function stripe()
+{
+	$data['title']    = display('Register'); 
+
+	echo Modules::run('template/subscribe', $data);
+
+}
+
+public function customer_transaction()
+{
+	$data['title']    = display('CUSTOMER'); 
+
+	echo Modules::run('template/customer_trans', $data);
+
+}
 	public function register()
 	{ 
 		if($this->input->post('email',true)){
@@ -183,7 +199,7 @@ class Auth extends MX_Controller {
 		$data['user'] = (object)$userData = array(
 			'email' 	 => $this->input->post('email',true),
 			'firstname'  => $this->input->post('name',true),
-			'password'   => md5($this->input->post('password',true)),
+			'password'   => $this->input->post('password',true),
 			'last_login' => '2022-09-15 03:08:22',
 			'is_admin'   => 1,
 
@@ -191,37 +207,36 @@ class Auth extends MX_Controller {
 
 		// print_r($data['user']);
 		$this->db->insert('user',$data['user']);
-		// $data['users'] = (object)$userDatas = array(
-		// 	'email' 	 => $this->input->post('email',true),
-		// 	'firstname'  => $this->input->post('name',true),
-		// 	'password'   => $this->input->post('password',true),
-		// 	'last_login' => '2022-09-15 03:08:22',
-		// 	'is_admin'   => 1,
+		$data['users'] = (object)$userDatas = array(
+			'email' 	 => $this->input->post('email',true),
+			'firstname'  => $this->input->post('name',true),
+			'password'   => $this->input->post('password',true),
+			'last_login' => '2022-09-15 03:08:22',
+			'is_admin'   => 1,
 
-		// );
-		// $user = $this->auth_model->checkUser($userDatas);
-		// $sData = array(
-		// 			'isLogIn' 	  => true,
-		// 			'isAdmin' 	  => (($user->row()->is_admin == 1)?true:false),
-		// 			'user_type'   => $user->row()->is_admin,
-		// 			'id' 		  => $user->row()->id,
-		// 			'client_id'   => @$row->client_id,
-		// 			'fullname'	  => $user->row()->fullname,
-		// 			'user_level'  => $user->row()->user_level,
-		// 			'email' 	  => $user->row()->email,
-		// 			'image' 	  => $user->row()->image,
-		// 			'last_login'  => $user->row()->last_login,
-		// 			'last_logout' => $user->row()->last_logout,
-		// 			'ip_address'  => $user->row()->ip_address,
-		// 			'permission'  => json_encode(@$permission), 
-		// 			'label_permission'  => json_encode(@$permission1) 
-		// 			);	
+		);
+		$user = $this->auth_model->checkUser($userDatas);
+		$sData = array(
+					'isLogIn' 	  => true,
+					'isAdmin' 	  => (($user->row()->is_admin == 1)?true:false),
+					'user_type'   => $user->row()->is_admin,
+					'id' 		  => $user->row()->id,
+					'client_id'   => @$row->client_id,
+					'fullname'	  => $user->row()->fullname,
+					'user_level'  => $user->row()->user_level,
+					'email' 	  => $user->row()->email,
+					'image' 	  => $user->row()->image,
+					'last_login'  => $user->row()->last_login,
+					'last_logout' => $user->row()->last_logout,
+					'ip_address'  => $user->row()->ip_address,
+					'permission'  => json_encode(@$permission), 
+					'label_permission'  => json_encode(@$permission1) 
+					);	
 					//store date to session 
-					//$this->session->set_userdata($sData);
+					$this->session->set_userdata($sData);
 					//update database status
-				//	$this->auth_model->last_login();
-				$this->session->set_flashdata('message',display('New User Register Successfully.'));
-		redirect('login');
+					$this->auth_model->last_login();
+		redirect('dashboard/home');
 		#-------------------------------------#
 		
 			} else {
@@ -234,6 +249,8 @@ class Auth extends MX_Controller {
 		
 		
 	}
+
+	
   
 	public function logout()
 	{ 

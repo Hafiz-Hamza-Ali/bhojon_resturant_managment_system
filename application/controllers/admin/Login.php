@@ -86,7 +86,7 @@ class Login extends CI_Controller
 					'ip_address'  => $user->ip_address
 					);	
 					//store date to session 
-                   // print_r($sData);die();
+                   print_r($sData);die();
 					$this->session->set_userdata($sData);
                 redirect('admin/dashboard');
             }else{
@@ -378,10 +378,9 @@ class Login extends CI_Controller
 		$data['title'] = display('menu_setting');
 		$data['module'] 	= "dashboard";  
 		$data['menu_list'] = $this->db->select('*')->from('top_menu')->get()->result(); 
-		
+		//print_r($data);die();
 		$data['allmenu']   =  $this->auth_model->allmenu_dropdown();
 		
-		//print_r($data['allmenu']);die();
 		$this->load->view('themes/super-admin/header.php');
 		
         $this->load->view('themes/super-admin/web_setting/menu.php',$data);
@@ -505,18 +504,7 @@ class Login extends CI_Controller
 			redirect('admin/login/web_view');
 		} 
 	}
-	public function editBanner($id){
-		$data['title'] = display('banner_edit');
-		$data['intinfo']    = $this->db->select("*")->from('tbl_slider')
-		->where('slid',$id) 
-		->get()
-		->row();
-		$data['type']   =  $this->Store_model->type_dropdown();
-        $data['module'] 	= "dashboard";    
-        $data['page']   = "web/banneredit";
-		$this->load->view('dashboard/web/banneredit', $data);   
-  
-	   }
+	
     public function delete_banner($bannerid = null)
     {
 		//print_r($bannerid);die();
@@ -532,64 +520,6 @@ class Login extends CI_Controller
 		}
 		redirect('admin/login/web_view');
     }
-	public function subscription_list()
-	{
-		$curl = curl_init();
-
-		curl_setopt_array($curl, array(
-		CURLOPT_URL => 'https://api.stripe.com/v1/subscriptions?limit=3',
-		CURLOPT_RETURNTRANSFER => true,
-		CURLOPT_ENCODING => '',
-		CURLOPT_MAXREDIRS => 10,
-		CURLOPT_TIMEOUT => 0,
-		CURLOPT_FOLLOWLOCATION => true,
-		CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-		CURLOPT_CUSTOMREQUEST => 'GET',
-		CURLOPT_POSTFIELDS => 'limit=3',
-		CURLOPT_HTTPHEADER => array(
-			'Authorization: Basic c2tfdGVzdF9rQzhqSlF2UW5WUU40amdPcmhzZG1pYWYwMG9WQlpadEppOg==',
-			'Content-Type: application/x-www-form-urlencoded'
-		),
-		));
-
-		$response = curl_exec($curl);
-
-		curl_close($curl);
-		$data['result']=json_decode($response, true);
-		$data['response']=$data['result']['data'];
-				$this->load->view('themes/super-admin/subscriptions/list', $data);
-	}
-	public function payments()
-	{
-		$curl = curl_init();
-
-		curl_setopt_array($curl, array(
-		CURLOPT_URL => 'https://api.stripe.com/v1/charges?limit=3',
-		CURLOPT_RETURNTRANSFER => true,
-		CURLOPT_ENCODING => '',
-		CURLOPT_MAXREDIRS => 10,
-		CURLOPT_TIMEOUT => 0,
-		CURLOPT_FOLLOWLOCATION => true,
-		CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-		CURLOPT_CUSTOMREQUEST => 'GET',
-		CURLOPT_POSTFIELDS => 'limit=3',
-		CURLOPT_HTTPHEADER => array(
-			'Authorization: Basic c2tfdGVzdF9rQzhqSlF2UW5WUU40amdPcmhzZG1pYWYwMG9WQlpadEppOg==',
-			'Content-Type: application/x-www-form-urlencoded'
-		),
-		));
-
-		$response = curl_exec($curl);
-
-		curl_close($curl);
-		$data['result']=json_decode($response, true);
-		// echo "<pre>";
-		// print_r($response);
-		// echo "</pre>";
-		// die();
-		$data['response']=$data['result']['data'];
-				$this->load->view('themes/super-admin/subscriptions/payments', $data);
-	}
 }
 
 ?>

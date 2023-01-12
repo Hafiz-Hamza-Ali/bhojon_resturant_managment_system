@@ -48,22 +48,6 @@ class Store_model extends CI_Model {
 			;
 			return $datas;
          }
-         public function type_dropdown()
-         {
-             $data = $this->db->select("*")
-                 ->from('tbl_slider_type')
-                 ->get()
-                 ->result();
-     
-             $list[''] = display('name');
-             if (!empty($data)) {
-                 foreach($data as $value)
-                     $list[$value->stype_id] = $value->STypeName;
-                 return $list;
-             } else {
-                 return false; 
-             }
-         }
     public function delStore($id){
         $this->db->delete('store', array('id' => $id)); 
         return true;
