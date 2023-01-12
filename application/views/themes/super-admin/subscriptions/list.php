@@ -63,7 +63,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 				<?php if ($this->session->message): ?>
 							<div class="form-control alert alert-success"><?php echo $this->session->message; ?></div>
 						<?php endif; ?>
-					<h2 class="title1">Users SUbscriptions List</h2>				
+					<h2 class="title1">Users Subscriptions List</h2>				
 					<div class="bs-example widget-shadow" data-example-id="contextual-table"> 
 						<!-- <h4>Stores:</h4> -->
 						
@@ -71,8 +71,11 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							<thead> 
 								<tr> <th>#</th>
 									<th>name</th>
-                                    <th>email</th>
-                                    <th>Actions</th> 
+                                    <th>amount</th>
+                                    <th>currency</th> 
+									<th>Interval</th> 
+									<th>Subscription Start Date</th> 
+									<th>Subscription End Date</th> 
 								</tr> 
 							</thead> 
 						<tbody> 
@@ -87,6 +90,10 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 									<td><?php echo $item['id'] ;?></td> 
                                     <td><?php echo $item['currency'] ;?></td>
                                     <td><?php echo $item['plan']['amount'] ;?></td>
+									<td><?php echo $item['items']['data'][0]['plan']['interval'] ;?></td>
+									<td><?php echo date('m/d/Y', $item['current_period_start']);?></td>
+									<td><?php echo date('m/d/Y', $item['current_period_end']);?></td>
+									
 								</tr> 
 						<?php
                         $c++;

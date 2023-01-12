@@ -63,11 +63,11 @@
                     <label for="password"><?php echo display('password') ?></label>
                     <input type="password"  placeholder="<?php echo display('password') ?>" name="password" id="password" class="form-control fs-15px" autocomplete="off"> 
                 </div>
-                <!-- <div class="form-group">
+                <div class="form-group">
                     <label class="control-label" for="captcha"><?php echo $captcha_image ?></label>
                     
                     <input type="captcha"  placeholder="<?php echo display('captcha') ?>" name="captcha" id="captcha" class="form-control fs-15px" autocomplete="off"> 
-                </div>  -->
+                </div> 
                 <button type="submit" class="btn btn-success btn-lg btn-block fw-500 mb-3"><?php echo display('login') ?></button>
                 
             </form>

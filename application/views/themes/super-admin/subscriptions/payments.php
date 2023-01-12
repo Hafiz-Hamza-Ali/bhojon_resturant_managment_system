@@ -1,4 +1,4 @@
-<!--  -->
+
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -71,8 +71,11 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 							<thead> 
 								<tr> <th>#</th>
 									<th>id</th>
-                                    <th>currency</th>
+                                    
                                     <th>amount</th> 
+									<th>date</th>
+									<th>currency</th>
+									<th>payment gateway</th>
 								</tr> 
 							</thead> 
 						<tbody> 
@@ -85,8 +88,10 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 								<tr class="active"> 
 									<td><?php echo $c ?></td>
 									<td><?php echo $item['id'] ;?></td> 
-                                    <td><?php echo $item['currency'] ;?></td>
-                                    <td><?php echo $item['amount'] ;?></td>
+                                    <td><?php echo $item['amount_captured'] ;?></td>
+									<td><?php echo date('m/d/Y', $item['created']);?></td>
+									<td><?php echo $item['currency'];?></td>
+                                    <td><?php echo $item['calculated_statement_descriptor'] ;?></td>
 								</tr> 
 						<?php
                         $c++;

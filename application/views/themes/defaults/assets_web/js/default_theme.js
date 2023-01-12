@@ -197,7 +197,34 @@ function addtocartitem(pid, id, type) {
         }
     });
 }
+function storeview(pid) {
+    alert(pid)
+var itemname = $("#itemname_" + id + type).val();
 
+
+$.ajax({
+    type: "POST",
+    url: myurl,
+    data: dataString,
+    success: function(data) {
+        if (ismenupage == 0) {
+            $('#cartitem').html(data);
+            var items = $("#totalitem").val();
+
+            $(".my-cart-badge").html(items);
+        } else {
+            $('#cartitem').html(data);
+            var items = $("#totalitem").val();
+            $(".my-cart-badge").html(items);
+        }
+        var x = document.getElementById("snackbar" + id);
+        x.className = "snackbar show";
+        setTimeout(function() {
+            x.className = x.className.replace("snackbar show", "snackbar");
+        }, 3000);
+    }
+});
+}
 function addonsfoodtocart(pid, id, type) {
     var addons = [];
     var adonsqty = [];

@@ -537,7 +537,7 @@ class Login extends CI_Controller
 		$curl = curl_init();
 
 		curl_setopt_array($curl, array(
-		CURLOPT_URL => 'https://api.stripe.com/v1/subscriptions?limit=3',
+		CURLOPT_URL => 'https://api.stripe.com/v1/subscriptions',
 		CURLOPT_RETURNTRANSFER => true,
 		CURLOPT_ENCODING => '',
 		CURLOPT_MAXREDIRS => 10,
@@ -564,7 +564,7 @@ class Login extends CI_Controller
 		$curl = curl_init();
 
 		curl_setopt_array($curl, array(
-		CURLOPT_URL => 'https://api.stripe.com/v1/charges?limit=3',
+		CURLOPT_URL => 'https://api.stripe.com/v1/charges',
 		CURLOPT_RETURNTRANSFER => true,
 		CURLOPT_ENCODING => '',
 		CURLOPT_MAXREDIRS => 10,

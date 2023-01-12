@@ -1,5 +1,5 @@
 // JavaScript Document
-"use strict";    
+//"use strict";    
 $(document).on('click', '.sa-clicon', function() {
     swal.close();
 });
@@ -512,11 +512,13 @@ function addnotetoitem() {
     });
 }
 function showfood(mtypeid) {
+    
 			var limit = 8;
 			var start = 0;
 			var action = "inactive";
 			var geturl = basicinfo.baseurl+'hungry/mtypefood';
-			var dataString = "mtypeid=" + mtypeid + '&limit=' + limit + '&start=' + start+'&csrf_test_name='+basicinfo.csrftokeng;
+            console.log(this.href.substring(this.href.lastIndexOf('/') + 1));
+			var dataString = "url"+ window.location.href + "mtypeid=" + mtypeid + '&limit=' + limit + '&start=' + start+'&csrf_test_name='+basicinfo.csrftokeng;
 			$.ajax({
 				type: "POST",
 				url: geturl,
@@ -534,6 +536,7 @@ function showfood(mtypeid) {
 			});
 		}
 function load_country_data(mtypeid, limit, start, action) {
+    alert();
 			$.ajax({
 				url: basicinfo.baseurl+'hungry/mtypefood',
 				method: "POST",
