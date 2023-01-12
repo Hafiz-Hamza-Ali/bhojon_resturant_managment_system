@@ -4,7 +4,6 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -42,7 +41,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <script src="<?php echo base_url(); ?>assets/super-admin/js/custom.js"></script>
 <link href="<?php echo base_url(); ?>assets/super-admin/css/custom.css" rel="stylesheet">
 <!--//Metis Menu -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
 
 </head> 
 <body class="cbp-spmenu-push">
@@ -126,7 +124,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                  <th><?php echo display('menu_url') ?></th>
                                  <th><?php echo display('parent_menu') ?></th>
                                  <th><?php echo display('status') ?></th>
-                                <th>Action</th>
+                                
                              </tr>
                          </thead>
                          <tbody>
@@ -139,7 +137,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                  <td><?php echo $value->menu_slug; ?></td>
                                  <td></td>
                                  <td><?php if($value->isactive==1){ echo "Active";}else{ echo "Inactive";} ?></td>
-                                
+                                 
                              </tr>
                              <?php if(!empty($value->sub)){
                                  foreach($value->sub as $submenu){?> 
@@ -149,10 +147,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
                                  <td><?php echo $submenu->menu_slug; ?></td>
                                  <td><?php echo $value->menu_name;?></td>
                                  <td><?php if($submenu->isactive==1){ echo "Active";}else{ echo "Inactive";} ?></td>
-                                 <td>
-                                    <a onclick="editmenu('<?php echo $value->menu_name; ?>','<?php echo $value->menu_slug; ?>','<?php echo $value->isactive; ?>',<?php echo $value->parentid; ?>,<?php echo $value->menuid; ?>)"  data-toggle="tooltip" data-placement="left" title="Update" class="btn btn-success btn-sm"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-                                	
-                                </td>
+                               
                              </tr>
                                  <?php }}?>
                              
@@ -183,17 +178,6 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 	<!-- side nav js -->
 	<script src='<?php echo base_url(); ?>assets/super-admin/js/SidebarNav.min.js' type='text/javascript'></script>
     <script>
-        function editmenu(menuname,menuurl,status,parent,menuid){
-           // alert(status)
-	$("#menuname").val(menuname);
-	$("#Menuurl").val(menuurl);
-	$("#menuid").val(parent).trigger('change');
-//	$("#status").select2("val", status);
-	$("#btnchnage").text("Update");
-	$("#upbtn").show();
-    var base_url = window.location.origin;
-	$('#menuurl').attr('action', base_url+"/sop/dashboard/web_setting/editmenu/"+menuid);
-	}
         $( document ).ready(function() {
             $(".addbanner").hide();
 });
@@ -211,7 +195,7 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
     // });
     
         </script>
-<!-- <script src="<?php echo base_url('application/modules/dashboard/assest/js/banner.js'); ?>" type="text/javascript"></script> -->
+<script src="<?php echo base_url('application/modules/dashboard/assest/js/banner.js'); ?>" type="text/javascript"></script>
     <script>
            setTimeout(function() { 
             $("[name='status']").on('change', function(){

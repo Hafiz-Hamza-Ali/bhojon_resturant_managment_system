@@ -21,7 +21,7 @@ class Item_food extends MX_Controller {
  
     public function index()
     {
-       
+        
 		$this->permission->method('itemmanage','read')->redirect();
         $data['title']    = display('food_list'); 
         #-------------------------------#       
@@ -325,9 +325,7 @@ class Item_food extends MX_Controller {
 		$data['productinfo']   = $this->fooditem_model->findById($id);
 	   }
 	   
-	   $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
-		$id=$this->session->userdata('id');
-        $data["categories"] = $this->category_model->read_categories($config["per_page"], $page,$id);
+	   $data['categories']   =  $this->category_model->allcategory_dropdown();
 	   	  $data['stores']   =  $this->category_model->get_stores($savedid);
 	   $data['allkitchen']   =  $this->fooditem_model->allkitchen();
 	   $data['todaymenu']   =  $this->todaymenu_model->read_menulist();
@@ -552,7 +550,7 @@ class Item_food extends MX_Controller {
 	//Food Variant Section
 	public function foodvarientlist($id=null)
     {
-     // print_r('jhjhjj');die();
+        
 		$this->permission->method('itemmanage','read')->redirect();
         $data['title']    = display('variant_list'); 
         #-------------------------------#       
@@ -598,9 +596,7 @@ class Item_food extends MX_Controller {
 	   $settinginfo=$this->fooditem_model->settinginfo();
 	   $data['storeinfo']      = $settinginfo;
 	   $data['currency']=$this->fooditem_model->currencysetting($settinginfo->currency);
-	   $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
-		$id=$this->session->userdata('id');
-	    $data['itemdropdown']   =  $this->fooditem_model->fooditem_dropdownUser($page,$id);  
+	    $data['itemdropdown']   =  $this->fooditem_model->fooditem_dropdown();  
         $data['module'] = "itemmanage";
         $data['page']   = "varientlist";   
         echo Modules::run('template/layout', $data); 
@@ -621,7 +617,6 @@ class Item_food extends MX_Controller {
 	   'menuid' 	        => $this->input->post('foodid',true),
 	   'variantName' 	 	=> $this->input->post('varientname',true),
 	   'price' 	 	        => $this->input->post('price',true),
-	   'user_id'=>$this->session->userdata('id')
 	  ];
 	  if ($this->form_validation->run()) { 
 	   if (empty($this->input->post('variantid'))) {
@@ -635,7 +630,6 @@ class Item_food extends MX_Controller {
 	   'user_name'           => $this->session->userdata('fullname'),
 	   'entry_date'          => date('Y-m-d H:i:s'),
 	  ];
-	  //print_r($postData);die();
 		if ($this->foodvarient_model->create($postData)) { 
 		 $this->logs_model->log_recorded($logData);
 		 $this->session->set_flashdata('message', display('save_successfully'));
@@ -760,9 +754,7 @@ class Item_food extends MX_Controller {
 		$data['title'] = display('variant_edit');
 		$data['intinfo']   = $this->foodavailable_model->findById($id);
 	   }
-	   $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
-	   $id=$this->session->userdata('id');
-	   $data['itemdropdown']   =  $this->fooditem_model->fooditem_dropdownUser($page,$id);   
+	    $data['itemdropdown']   =  $this->fooditem_model->fooditem_dropdown();  
         $data['module'] = "itemmanage";
         $data['page']   = "availablelist";   
         echo Modules::run('template/layout', $data); 
@@ -984,7 +976,6 @@ class Item_food extends MX_Controller {
 	
 	public function addgroupfood($id = null)
     {
-		//print_r('313123');die();
 	  $this->permission->method('itemmanage','create')->redirect();
 	  $data['title'] = display('add_group_item');
 	  #-------------------------------#
@@ -1235,9 +1226,7 @@ class Item_food extends MX_Controller {
 		$data['groupsitem']   = $this->fooditem_model->allgroupitem($id);
 	   }
 	   
-	   $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
-	   $id=$this->session->userdata('id');
-	   $data["categories"] = $this->category_model->read_categories($config["per_page"], $page,$id);
+	   $data['categories']   =  $this->category_model->allcategory_dropdown();
 	   $data['allkitchen']   =  $this->fooditem_model->allkitchen();
 	   $data['todaymenu']   =  $this->todaymenu_model->read_menulist();
 	   $data['module'] = "itemmanage";

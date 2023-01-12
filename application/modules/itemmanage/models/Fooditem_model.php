@@ -218,25 +218,7 @@ class Fooditem_model extends CI_Model {
 			return false; 
 		}
 	}
-	public function fooditem_dropdownUser($page,$id)
-	{
-		$data = $this->db->select("*")
-			->from($this->table)
-			->where('UserIDInserted',$id)
-			->get()
-			->result();
-		
-		$list[''] = 'Select '.display('item_name');
-		if (!empty($data)) {
-			foreach($data as $value)
-				$list[$value->ProductsID] = $value->ProductName;
 
-				//print_r($list);die();
-			return $list;
-		} else {
-			return false; 
-		}
-	}
 public function count_fooditem()
 	{
 		$this->db->select('item_foods.*,item_category.Name');

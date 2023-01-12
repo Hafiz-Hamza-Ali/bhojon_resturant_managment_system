@@ -1341,7 +1341,6 @@ class Order extends MX_Controller {
 		
 		}
 	public function orderlist(){
-		//print_r("giuiigi");die();
 		$this->permission->method('ordermanage','read')->redirect();
 		$data['title'] = display('order_list');	
 		$saveid=$this->session->userdata('id');
@@ -1375,7 +1374,6 @@ class Order extends MX_Controller {
         $this->pagination->initialize($config);
         $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
 		$data["iteminfo"] = $this->order_model->orderlist($config["per_page"], $page);
-	//	print_r($data["iteminfo"]);die();
         $data["links"] = $this->pagination->create_links();
 		$data['pagenum']=$page;
         #
@@ -1394,7 +1392,6 @@ class Order extends MX_Controller {
 	public function allorderlist(){
 		  
 		$list = $this->order_model->get_allorder();
-		
 		$data = array();
 		$no = $_POST['start'];
 		foreach ($list as $rowdata) {
@@ -1454,7 +1451,6 @@ class Order extends MX_Controller {
 			$row[] = $acptreject.$cancelbtn.$update.$details.$margeord.$posprint.$printmarge.$split;
 			$data[] = $row;
 		}
-		
 		$output = array(
 						"draw" => $_POST['draw'],
 						"recordsTotal" => $this->order_model->count_allorder(),

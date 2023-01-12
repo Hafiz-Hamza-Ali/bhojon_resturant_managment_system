@@ -1,3 +1,4 @@
+<?php error_reporting(1) ?>
 <div id="page-wrapper">
     <div class="main-page login-page ">
         <h2 class="title1">ADMIN</h2>

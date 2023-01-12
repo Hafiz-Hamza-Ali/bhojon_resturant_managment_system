@@ -79,7 +79,7 @@ class Websetting_model extends CI_Model {
  //menu section
  
  	public function allmenu_dropdown(){
-		//print_r('hsdfhsdhf');die();
+
         $this->db->select('*');
         $this->db->from('top_menu');
         $this->db->where('parentid', 0);
