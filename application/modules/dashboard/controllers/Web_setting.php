@@ -15,7 +15,7 @@ class Web_setting extends MX_Controller {
 		if (!$this->session->userdata('isAdmin')) 
 		redirect('login'); 
 	}
-	// Common Setting99
+	// Common Setting
 		public function index()
 	{
 		$data['title'] = display('web_setting');
@@ -294,11 +294,11 @@ class Web_setting extends MX_Controller {
 					#set exception message
 					$this->session->set_flashdata('exception',display('please_try_again'));
 				}
-				redirect('admin/login/web_view');
+			redirect('dashboard/web_setting/bannersetting');
 
 		} else { 
 			$this->session->set_flashdata('exception',display('please_try_again'));
-			redirect('admin/login/web_view');
+			redirect('dashboard/web_setting/bannersetting');
 		} 
 	}
 
@@ -333,13 +333,11 @@ public function menusetting()
 		$data['module'] 	= "dashboard";  
 		$data['menu_list'] = $this->db->select('*')->from('top_menu')->get()->result(); 
 		$data['allmenu']   =  $this->websetting_model->allmenu_dropdown();
-		// print_r($data['allmenu']);die();
 		$data['page']   = "web/menu_list";  
 		echo Modules::run('template/layout', $data); 
 	}
  
 	public function createmenu(){
-		// print_r($this->input->post());die();
 		$data['title'] = display('add_menu');
 		$this->form_validation->set_rules('menuname',display('menu_name'),'required');
 		$this->form_validation->set_rules('Menuurl',display('menu_url'),'required');
@@ -357,9 +355,8 @@ public function menusetting()
 			'entrydate' 	  => date('Y-m-d'),
 			'isactive' 	      => $this->input->post('status',true)
 		);
-	
-			//if ($this->form_validation->run() === true) {
-				//print_r($postData);die();
+		
+			if ($this->form_validation->run() === true) {
 					if ($this->websetting_model->createmenu($postData)) {
 						#set success message
 						$this->session->set_flashdata('message',display('save_successfully'));
@@ -370,16 +367,15 @@ public function menusetting()
 	 
 				redirect('dashboard/web_setting/menusetting');
 	
-			//} else { 
+			} else { 
 				$this->session->set_flashdata('exception',display('please_try_again'));
 				redirect('dashboard/web_setting/menusetting');
-			//}
+			}
 		}
 	public function editmenu($id){
-		//print_r('jhhg');die();
 		$data['title'] = display('add_menu');
 		$this->form_validation->set_rules('menuname',display('menu_name'),'required');
-		//$this->form_validation->set_rules('Menuurl',display('menu_url'),'required');
+		$this->form_validation->set_rules('Menuurl',display('menu_url'),'required');
 		$this->form_validation->set_rules('status',display('status'),'required');
 		if(empty($this->input->post('menuid',true))){
 			$parent=0;
@@ -395,8 +391,8 @@ public function menusetting()
 			'entrydate' 	  => date('Y-m-d'),
 			'isactive' 	      => $this->input->post('status',true)
 		);
-		// print_r($postData);die();
-		// 	if ($this->form_validation->run() === true) {
+		
+			if ($this->form_validation->run() === true) {
 					if ($this->websetting_model->updatemenu($postData)) {
 						#set success message
 						$this->session->set_flashdata('message',display('update_successfully'));
@@ -405,12 +401,12 @@ public function menusetting()
 						$this->session->set_flashdata('exception',display('please_try_again'));
 					}
 	 
-					redirect('admin/login/menusetting');
+				redirect('dashboard/web_setting/menusetting');
 	
-			// } else { 
-			// 	$this->session->set_flashdata('exception',display('please_try_again'));
-			// 	redirect('admin/login/menusetting');
-			// }
+			} else { 
+				$this->session->set_flashdata('exception',display('please_try_again'));
+				redirect('dashboard/web_setting/menusetting');
+			}
 		}
 		
 	public function deletemenu($menuid = null)

@@ -10,6 +10,7 @@ function printDiv(divName) {
 }
 
 function getreport(){
+	
 	var from_date=$('#from_date').val();
 	var to_date=$('#to_date').val();
 	var orderid = $('#orderid').val();

@@ -8,7 +8,6 @@ class Menu_addons extends MX_Controller {
         parent::__construct();
 		$this->db->query('SET SESSION sql_mode = ""');
 		$this->load->model(array(
-			'fooditem_model',
 			'addons_model',
 			'logs_model'
 		));	
@@ -213,8 +212,7 @@ class Menu_addons extends MX_Controller {
         $config['last_tagl_close'] = "</li>";
         /* ends of bootstrap */
         $this->pagination->initialize($config);
-      //  $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
-		 
+        $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
         $data["addonsmenulist"] = $this->addons_model->read_menuaddons($config["per_page"], $page);
 		$data["addonsmenulist2"] = $this->addons_model->read_menuaddons($config["per_page"], $page);
         $data["links"] = $this->pagination->create_links();
@@ -223,10 +221,7 @@ class Menu_addons extends MX_Controller {
 		$data['title'] = display('update_adons');
 		$data['addonsinfo']   = $this->addons_model->findById($id);
 	   }
-	   $page = ($this->uri->segment(4)) ? $this->uri->segment(4) : 0;
-		$id=$this->session->userdata('id');
-		$data['menudropdown']   =  $this->fooditem_model->fooditem_dropdownUser($page,$id);  
-	  //  $data['menudropdown']   =  $this->addons_model->menu_dropdown();
+	    $data['menudropdown']   =  $this->addons_model->menu_dropdown();
 		$data['addonsdropdown']   =  $this->addons_model->addons_dropdown();
         #
         #pagination ends

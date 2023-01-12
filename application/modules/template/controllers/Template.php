@@ -34,5 +34,17 @@ class Template extends MX_Controller {
 		$data['setting'] = $this->template_model->setting();
 		$this->load->view('register', $data);
 	}
+
+	public function subscribe($data)
+	{ 
+		$data['setting'] = $this->template_model->setting();
+		$this->load->view('subscribe', $data);
+	}
+
+	public function customer_trans($data)
+	{ 
+		$data['setting'] = $this->template_model->setting();
+		$this->load->view('customer_trans', $data);
+	}
  
 }

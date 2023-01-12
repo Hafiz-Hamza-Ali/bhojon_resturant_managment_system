@@ -4,6 +4,12 @@
             <div class="panel-heading">
                 <div class="panel-title">
                     <h4><?php echo (!empty($title)?$title:null) ?></h4>
+                   
+    <a href="https://buy.stripe.com/test_8wM7w1fbW9PragU7su">subscribe per month</a>
+    <br>
+    <br>
+
+    <a href="https://www.billplz-sandbox.com/ibycxgis7">Pay one time checkout</a>
                 </div>
             </div> 
             <div class="panel-body">
@@ -32,6 +38,7 @@
                                     <dt>IP Address </dt> <dd><?php echo $user->ip_address ?></dd>
                                     <dt>Last Login </dt> <dd><?php echo $user->last_login ?></dd>
                                     <dt>Last Logout </dt> <dd><?php echo $user->last_logout ?></dd>
+                                    <dt>Subscription </dt> <dd><?php echo $user->suscription_detail ?></dd>
                                 </dl> 
                             </div> 
                         </div>
