@@ -88,11 +88,11 @@ class Hungry extends CI_Controller
     }
 
 
-    public function stripe()
-    {
+    // public function stripe()
+    // {
         
-        redirect('dashboard/home');
-    }
+    //     redirect('dashboard/home');
+    // }
 
     private function taxchecking()
     {
